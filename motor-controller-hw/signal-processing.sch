@@ -17,7 +17,7 @@ $EndDescr
 $Sheet
 S 2550 2350 1850 2350
 U 5BAADA91
-F0 "Microcontroller" 50
+F0 "STM32" 50
 F1 "microcontroller.sch" 50
 $EndSheet
 $Sheet
@@ -86,4 +86,12 @@ Text HLabel 10350 2050 2    50   Input ~ 0
 Phase_B_Current
 Text HLabel 10350 2150 2    50   Input ~ 0
 Phase_C_Current
+Text HLabel 10350 2300 2    50   Input ~ 0
+Phase_A_HAL
+Text HLabel 10350 2400 2    50   Input ~ 0
+Phase_B_HAL
+Text HLabel 10350 2500 2    50   Input ~ 0
+Phase_C_HAL
+Text HLabel 1150 3250 0    50   UnSpc ~ 0
+D_GND
 $EndSCHEMATC
