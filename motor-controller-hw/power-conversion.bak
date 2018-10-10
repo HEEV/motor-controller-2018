@@ -76,4 +76,10 @@ Text Notes 2400 3000 2    50   ~ 0
 Seprate grounds for digital supply \nand power, joined in the system
 Text HLabel 1550 800  0    50   Input ~ 0
 vBat
+Text HLabel 8800 1850 2    50   Output ~ 0
+Phase_A
+Text HLabel 8800 1950 2    50   Output ~ 0
+Phase_B
+Text HLabel 8800 2050 2    50   Output ~ 0
+Phase_C
 $EndSCHEMATC

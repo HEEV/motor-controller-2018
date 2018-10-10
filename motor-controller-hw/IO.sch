@@ -50,8 +50,12 @@ Text HLabel 9750 3850 2    50   Input ~ 0
 D_Out2
 Text HLabel 9750 4050 2    50   UnSpc ~ 0
 D_GND
-Text HLabel 9750 1650 2    50   Input ~ 0
+Text HLabel 10100 1300 0    50   Input ~ 0
 3.6v
-Text HLabel 9750 1550 2    50   Input ~ 0
+Text HLabel 10100 1200 0    50   Input ~ 0
 5.0v
+Text HLabel 10100 1650 0    50   Input ~ 0
+TMC4671_RX
+Text HLabel 10100 1550 0    50   Output ~ 0
+TMC4671_TX
 $EndSCHEMATC

@@ -29,7 +29,7 @@ D_GND
 Text HLabel 9900 2400 2    50   UnSpc ~ 0
 P_GND
 $Comp
-L power:GNDPWR #PWR?
+L MotorControllerParts:GNDPWR #PWR?
 U 1 1 5BBC9D0F
 P 9650 2500
 AR Path="/5BAADA79/5BBC9D0F" Ref="#PWR?"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "" H 9650 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR?
 U 1 1 5BBC9D15
 P 9350 2500
 AR Path="/5BAADA79/5BBC9D15" Ref="#PWR?"  Part="1" 
@@ -76,7 +76,7 @@ F 3 "~" H 9550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR?
 U 1 1 5BBC9E50
 P 9400 3450
 AR Path="/5BAADA79/5BBC9E50" Ref="#PWR?"  Part="1" 
@@ -89,7 +89,7 @@ F 3 "" H 9400 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR?
+L MotorControllerParts:GNDPWR #PWR?
 U 1 1 5BBC9E5D
 P 9700 3450
 AR Path="/5BAADA79/5BBC9E5D" Ref="#PWR?"  Part="1" 
