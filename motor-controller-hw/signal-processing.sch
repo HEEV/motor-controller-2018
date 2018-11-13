@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -35,9 +35,9 @@ USB_D+
 Text HLabel 1150 1500 0    50   BiDi ~ 0
 USB_D-
 Text HLabel 1150 1650 0    50   BiDi ~ 0
-CAN_H
+CAN_Rx
 Text HLabel 1150 1750 0    50   BiDi ~ 0
-CAN_L
+CAN_Tx
 Text HLabel 1150 1900 0    50   Input ~ 0
 Throttle
 Text HLabel 1150 2000 0    50   Input ~ 0

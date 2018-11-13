@@ -43,7 +43,7 @@ D_GND
 Text HLabel 1550 2500 0    50   UnSpc ~ 0
 P_GND
 $Comp
-L power:GNDPWR #PWR?
+L MotorControllerParts:GNDPWR #PWR?
 U 1 1 5BBBD74A
 P 1800 2600
 F 0 "#PWR?" H 1800 2400 50  0001 C CNN
@@ -54,7 +54,7 @@ F 3 "" H 1800 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR?
 U 1 1 5BBBD7C0
 P 2100 2600
 F 0 "#PWR?" H 2100 2350 50  0001 C CNN

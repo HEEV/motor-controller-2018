@@ -1,7 +1,8 @@
 (sym_lib_table
-  (lib (name relays_switches)(type Legacy)(uri C:/Users/sellicott/Documents/kicad-parts/relays_switches.lib)(options "")(descr ""))
-  (lib (name supermileage)(type Legacy)(uri C:/Users/sellicott/Documents/kicad-parts/supermileage.lib)(options "")(descr "")(disabled))
-  (lib (name supermileage_computers)(type Legacy)(uri C:/Users/sellicott/Documents/kicad-parts/supermileage_computers.lib)(options "")(descr ""))
-  (lib (name supermileage_sensors)(type Legacy)(uri C:/Users/sellicott/Documents/kicad-parts/supermileage_sensors.lib)(options "")(descr ""))
-  (lib (name MotorControllerParts)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/motor-controller-2018/motor-controller-hw/MotorControllerParts.lib)(options "")(descr ""))
+  (lib (name relays_switches)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/motor-controller-2018/kicad-parts/relays_switches.lib)(options "")(descr ""))
+  (lib (name supermileage)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/motor-controller-2018/kicad-parts/supermileage.lib)(options "")(descr ""))
+  (lib (name supermileage_computers)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/motor-controller-2018/kicad-parts/supermileage_computers.lib)(options "")(descr ""))
+  (lib (name supermileage_sensors)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/motor-controller-2018/kicad-parts/supermileage_sensors.lib)(options "")(descr ""))
+  (lib (name motor-controller-hw-cache)(type Legacy)(uri ${KIPRJMOD}/motor-controller-hw-cache.lib)(options "")(descr ""))
+  (lib (name MotorControllerParts)(type Legacy)(uri ${KIPRJMOD}/MotorControllerParts.lib)(options "")(descr ""))
 )

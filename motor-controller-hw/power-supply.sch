@@ -4,22 +4,18 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "Cedarville University"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9900 1850 2    50   Input ~ 0
-BatVoltage
-Text HLabel 9900 1950 2    50   Input ~ 0
-BatCurrent
 Text HLabel 9900 1700 2    50   Output ~ 0
-3.6v
+3.3v
 Text HLabel 9900 1600 2    50   Output ~ 0
 5.0v
 Text HLabel 9900 1500 2    50   Output ~ 0
