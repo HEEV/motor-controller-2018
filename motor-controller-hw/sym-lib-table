@@ -5,4 +5,5 @@
   (lib (name supermileage_sensors)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/motor-controller-2018/kicad-parts/supermileage_sensors.lib)(options "")(descr ""))
   (lib (name motor-controller-hw-cache)(type Legacy)(uri ${KIPRJMOD}/motor-controller-hw-cache.lib)(options "")(descr ""))
   (lib (name MotorControllerParts)(type Legacy)(uri ${KIPRJMOD}/MotorControllerParts.lib)(options "")(descr ""))
+  (lib (name EllicottInterface)(type Legacy)(uri C:/Users/sellicott.CEDARFOREST/Documents/supermileageHW/EllicottSamuel/EllicottInterface.lib)(options "")(descr ""))
 )
