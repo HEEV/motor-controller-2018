@@ -14,39 +14,39 @@ Comment2 "Senior Design 2018-2019"
 Comment3 "Samuel Ellicott"
 Comment4 ""
 $EndDescr
-Text HLabel 15650 4200 2    50   BiDi ~ 0
+Text HLabel 15650 4150 2    50   BiDi ~ 0
 USB_D+
-Text HLabel 15650 4300 2    50   BiDi ~ 0
+Text HLabel 15650 4250 2    50   BiDi ~ 0
 USB_D-
-Text HLabel 15650 4450 2    50   BiDi ~ 0
+Text HLabel 15650 4400 2    50   BiDi ~ 0
 CAN_Rx
-Text HLabel 15650 4550 2    50   BiDi ~ 0
+Text HLabel 15650 4500 2    50   BiDi ~ 0
 CAN_Tx
-Text HLabel 15650 4700 2    50   Output ~ 0
+Text HLabel 15650 4650 2    50   Output ~ 0
 Throttle
-Text HLabel 15650 5000 2    50   Output ~ 0
+Text HLabel 15650 4750 2    50   Output ~ 0
 MotorTemp
-Text HLabel 15650 5100 2    50   Output ~ 0
+Text HLabel 15650 4850 2    50   Output ~ 0
 TransistorTemp
-Text HLabel 15650 5250 2    50   Output ~ 0
+Text HLabel 15650 5000 2    50   Output ~ 0
 A_In1
-Text HLabel 15650 5350 2    50   Output ~ 0
+Text HLabel 15650 5100 2    50   Output ~ 0
 A_In2
-Text HLabel 15650 5450 2    50   Output ~ 0
+Text HLabel 15650 5200 2    50   Output ~ 0
 D_In1
-Text HLabel 15650 5550 2    50   Output ~ 0
+Text HLabel 15650 5300 2    50   Output ~ 0
 D_In2
-Text HLabel 15650 5650 2    50   Output ~ 0
+Text HLabel 15650 5400 2    50   Output ~ 0
 D_In3
-Text HLabel 15650 5750 2    50   Output ~ 0
+Text HLabel 15650 5500 2    50   Output ~ 0
 D_In4
-Text HLabel 15650 5900 2    50   Input ~ 0
+Text HLabel 15650 5650 2    50   Input ~ 0
 A_Out1
-Text HLabel 15650 6000 2    50   Input ~ 0
+Text HLabel 15650 5750 2    50   Input ~ 0
 A_Out2
-Text HLabel 15650 6100 2    50   Input ~ 0
+Text HLabel 15650 5850 2    50   Input ~ 0
 D_Out1
-Text HLabel 15650 6200 2    50   Input ~ 0
+Text HLabel 15650 5950 2    50   Input ~ 0
 D_Out2
 Text HLabel 1650 7100 0    50   UnSpc ~ 0
 D_GND
@@ -93,20 +93,20 @@ D_Out1_i
 Text HLabel 1650 6250 0    50   Output ~ 0
 D_Out2_i
 Text HLabel 1650 4050 0    50   Output ~ 0
-TMC4671_RX
+TMC4671_Rx_i
 Text HLabel 1650 3950 0    50   Input ~ 0
-TMC4671_TX
+TMC4671_Tx_i
 Text HLabel 1650 6400 0    50   Input ~ 0
 Phase_A_HAL_i
 Text HLabel 1650 6500 0    50   Input ~ 0
 Phase_B_HAL_i
 Text HLabel 1650 6600 0    50   Input ~ 0
 Phase_C_HAL_i
-Text HLabel 15650 6400 2    50   Output ~ 0
+Text HLabel 15650 6100 2    50   Output ~ 0
 Phase_A_HAL
-Text HLabel 15650 6500 2    50   Output ~ 0
+Text HLabel 15650 6200 2    50   Output ~ 0
 Phase_B_HAL
-Text HLabel 15650 6600 2    50   Output ~ 0
+Text HLabel 15650 6300 2    50   Output ~ 0
 Phase_C_HAL
 Wire Wire Line
 	5000 6700 4750 6700
@@ -137,12 +137,12 @@ A_out2
 Wire Wire Line
 	8250 6600 8900 6600
 Wire Wire Line
-	15650 5900 15350 5900
+	15650 5650 15350 5650
 Wire Wire Line
-	15650 6000 15350 6000
-Text Label 15350 5900 0    50   ~ 0
+	15650 5750 15350 5750
+Text Label 15350 5650 0    50   ~ 0
 A_out1
-Text Label 15350 6000 0    50   ~ 0
+Text Label 15350 5750 0    50   ~ 0
 A_out2
 Text Label 4400 6700 0    50   ~ 0
 A_out1_i
@@ -210,10 +210,10 @@ Text Label 4400 1400 0    50   ~ 0
 Throttle_i
 Text Label 8900 1600 2    50   ~ 0
 Throttle
-Text Label 15200 4700 0    50   ~ 0
+Text Label 15200 4650 0    50   ~ 0
 Throttle
 Wire Wire Line
-	15200 4700 15650 4700
+	15200 4650 15650 4650
 $Comp
 L Device:R R501
 U 1 1 5BEB310C
@@ -950,46 +950,46 @@ Wire Wire Line
 	9500 1950 9900 1950
 Wire Wire Line
 	11150 1950 11500 1950
-Text Label 14950 5000 0    50   ~ 0
+Text Label 14950 4750 0    50   ~ 0
 Motor_Temp
-Text Label 14950 5100 0    50   ~ 0
+Text Label 14950 4850 0    50   ~ 0
 Transistor_Temp
-Text Label 15350 5250 0    50   ~ 0
+Text Label 15350 5000 0    50   ~ 0
 A_in1
-Text Label 15350 5350 0    50   ~ 0
+Text Label 15350 5100 0    50   ~ 0
 A_in2
-Text Label 15350 5450 0    50   ~ 0
+Text Label 15350 5200 0    50   ~ 0
 D_in1
-Text Label 15350 5550 0    50   ~ 0
+Text Label 15350 5300 0    50   ~ 0
 D_in2
-Text Label 15350 5650 0    50   ~ 0
+Text Label 15350 5400 0    50   ~ 0
 D_in3
-Text Label 15350 5750 0    50   ~ 0
+Text Label 15350 5500 0    50   ~ 0
 D_in4
 Wire Wire Line
-	15350 5750 15650 5750
+	15350 5500 15650 5500
 Wire Wire Line
-	15350 5650 15650 5650
+	15350 5400 15650 5400
 Wire Wire Line
-	15350 5550 15650 5550
+	15350 5300 15650 5300
 Wire Wire Line
-	15350 5450 15650 5450
+	15350 5200 15650 5200
 Wire Wire Line
-	15350 5350 15650 5350
+	15350 5100 15650 5100
 Wire Wire Line
-	15350 5250 15650 5250
+	15350 5000 15650 5000
 Wire Wire Line
-	14950 5000 15650 5000
+	14950 4750 15650 4750
 Wire Wire Line
-	14950 5100 15650 5100
-Text Label 15350 6100 0    50   ~ 0
+	14950 4850 15650 4850
+Text Label 15350 5850 0    50   ~ 0
 D_out1
-Text Label 15350 6200 0    50   ~ 0
+Text Label 15350 5950 0    50   ~ 0
 D_out2
 Wire Wire Line
-	15350 6100 15650 6100
+	15350 5850 15650 5850
 Wire Wire Line
-	15350 6200 15650 6200
+	15350 5950 15650 5950
 Text Label 10850 2650 2    50   ~ 0
 D_out1
 Text Label 12500 2650 2    50   ~ 0
@@ -1123,18 +1123,18 @@ Wire Wire Line
 	2450 6500 1650 6500
 Wire Wire Line
 	2450 6600 1650 6600
-Text Label 15050 6400 0    50   ~ 0
+Text Label 15050 6100 0    50   ~ 0
 Phase_A_HALL
-Text Label 15050 6500 0    50   ~ 0
+Text Label 15050 6200 0    50   ~ 0
 Phase_B_HALL
-Text Label 15050 6600 0    50   ~ 0
+Text Label 15050 6300 0    50   ~ 0
 Phase_C_HALL
 Wire Wire Line
-	15650 6400 15050 6400
+	15650 6100 15050 6100
 Wire Wire Line
-	15050 6500 15650 6500
+	15050 6200 15650 6200
 Wire Wire Line
-	15050 6600 15650 6600
+	15050 6300 15650 6300
 Text Label 12600 4100 2    50   ~ 0
 Phase_A_HALL
 Text Label 12600 4200 2    50   ~ 0
@@ -1680,14 +1680,14 @@ Wire Wire Line
 	9900 7300 10650 7300
 Wire Wire Line
 	10200 7650 10250 7650
-Text Label 15200 4450 0    50   ~ 0
+Text Label 15200 4400 0    50   ~ 0
 CAN_Rx
-Text Label 15200 4550 0    50   ~ 0
+Text Label 15200 4500 0    50   ~ 0
 CAN_Tx
 Wire Wire Line
-	15200 4450 15650 4450
+	15200 4400 15650 4400
 Wire Wire Line
-	15200 4550 15650 4550
+	15200 4500 15650 4500
 Text Label 12350 7200 2    50   ~ 0
 CAN_Rx
 Text Label 12350 7100 2    50   ~ 0
@@ -1736,9 +1736,9 @@ Wire Notes Line
 	9300 8100 9300 6100
 Text Notes 10650 6200 0    50   ~ 0
 CAN Tranciever PHY
-Text Label 15200 4200 0    50   ~ 0
+Text Label 15200 4150 0    50   ~ 0
 USB_D+
-Text Label 15200 4300 0    50   ~ 0
+Text Label 15200 4250 0    50   ~ 0
 USB_D-
 Text Label 2100 4250 2    50   ~ 0
 USB_D+
@@ -1749,9 +1749,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 4250 1650 4250
 Wire Wire Line
-	15200 4300 15650 4300
+	15200 4250 15650 4250
 Wire Wire Line
-	15200 4200 15650 4200
+	15200 4150 15650 4150
 Text Label 15200 4000 0    50   ~ 0
 Serial_Rx
 Text Label 15200 3900 0    50   ~ 0
