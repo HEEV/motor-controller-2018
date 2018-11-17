@@ -6,7 +6,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 5 5
 Title "Input Protection and Filtering"
-Date "2018-11-13"
+Date "2018-11-17"
 Rev "1.0"
 Comp "Cedarville University"
 Comment1 "Supermileage Motor Controller"
@@ -109,15 +109,15 @@ Phase_B_HAL
 Text HLabel 15650 6300 2    50   Output ~ 0
 Phase_C_HAL
 Wire Wire Line
-	5000 6700 4750 6700
+	5100 6700 4850 6700
 Wire Wire Line
-	4750 6700 4750 6950
+	4850 6700 4850 6950
 Wire Wire Line
-	4750 6950 5700 6950
+	4850 6950 5800 6950
 Wire Wire Line
-	5700 6950 5700 6800
+	5800 6950 5800 6800
 Wire Wire Line
-	5700 6800 5600 6800
+	5800 6800 5700 6800
 Wire Wire Line
 	7650 6700 7400 6700
 Wire Wire Line
@@ -129,8 +129,8 @@ Wire Wire Line
 Wire Wire Line
 	8350 6800 8250 6800
 Wire Wire Line
-	6150 6600 5600 6600
-Text Label 6150 6600 2    50   ~ 0
+	6250 6600 5700 6600
+Text Label 6250 6600 2    50   ~ 0
 A_out1
 Text Label 8900 6600 2    50   ~ 0
 A_out2
@@ -152,8 +152,8 @@ Wire Wire Line
 	7050 6700 7400 6700
 Connection ~ 7400 6700
 Wire Wire Line
-	4400 6700 4750 6700
-Connection ~ 4750 6700
+	4400 6700 4850 6700
+Connection ~ 4850 6700
 Text Label 2050 5950 2    50   ~ 0
 A_out1_i
 Text Label 2050 6050 2    50   ~ 0
@@ -192,20 +192,20 @@ Wire Wire Line
 	6200 2500 5950 2500
 Connection ~ 5950 2500
 Wire Wire Line
-	5800 1500 6050 1500
+	5700 1500 5950 1500
 Wire Wire Line
-	6050 1500 6050 1750
+	5950 1500 5950 1750
 Wire Wire Line
-	6050 1750 5100 1750
+	5950 1750 5000 1750
 Wire Wire Line
-	5100 1750 5100 1600
+	5000 1750 5000 1600
 Wire Wire Line
-	5100 1600 5200 1600
+	5000 1600 5100 1600
 Wire Wire Line
-	5200 1400 4400 1400
+	5100 1400 4400 1400
 Wire Wire Line
-	6200 1500 6050 1500
-Connection ~ 6050 1500
+	6200 1500 5950 1500
+Connection ~ 5950 1500
 Text Label 4400 1400 0    50   ~ 0
 Throttle_i
 Text Label 8900 1600 2    50   ~ 0
@@ -215,7 +215,7 @@ Throttle
 Wire Wire Line
 	15200 4650 15650 4650
 $Comp
-L Device:R R501
+L MotorControllerParts:R R501
 U 1 1 5BEB310C
 P 6350 1500
 F 0 "R501" V 6250 1500 50  0000 C CNN
@@ -245,7 +245,7 @@ Wire Wire Line
 	8900 1600 8200 1600
 Connection ~ 8200 1600
 $Comp
-L Device:R R506
+L MotorControllerParts:R R506
 U 1 1 5BEB434E
 P 6550 1750
 F 0 "R506" V 6450 1750 50  0000 C CNN
@@ -273,7 +273,7 @@ Wire Wire Line
 Text Notes 7450 1150 0    50   ~ 0
 Buffer output stage
 $Comp
-L Device:C C503
+L MotorControllerParts:C C503
 U 1 1 5BECDC16
 P 6850 1750
 F 0 "C503" H 6965 1796 50  0000 L CNN
@@ -305,18 +305,18 @@ Wire Wire Line
 	6850 1500 7350 1500
 Connection ~ 6850 1500
 $Comp
-L Amplifier_Operational:MCP6004 U501
+L MotorControllerParts:MCP6004 U501
 U 1 1 5BED5738
-P 5500 1500
-F 0 "U501" H 5600 1650 50  0000 C CNN
-F 1 "MCP6004" H 5500 1750 50  0000 C CNN
-F 2 "" H 5450 1600 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5550 1700 50  0001 C CNN
-	1    5500 1500
+P 5400 1500
+F 0 "U501" H 5500 1650 50  0000 C CNN
+F 1 "MCP6004" H 5400 1750 50  0000 C CNN
+F 2 "" H 5350 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 1700 50  0001 C CNN
+	1    5400 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U501
+L MotorControllerParts:MCP6004 U501
 U 2 1 5BED71ED
 P 7650 1600
 F 0 "U501" H 7800 1750 50  0000 C CNN
@@ -327,7 +327,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7700 1800 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U502
+L MotorControllerParts:MCP6004 U502
 U 3 1 5BED725E
 P 5400 3450
 F 0 "U502" H 5550 3600 50  0000 C CNN
@@ -338,7 +338,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 3650 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U501
+L MotorControllerParts:MCP6004 U501
 U 4 1 5BED72C3
 P 7950 6700
 F 0 "U501" H 8050 6850 50  0000 C CNN
@@ -349,7 +349,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8000 6900 50 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U501
+L MotorControllerParts:MCP6004 U501
 U 5 1 5BED7320
 P 5200 8900
 F 0 "U501" V 4950 9150 50  0000 L CNN
@@ -360,18 +360,18 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5250 9100 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U501
+L MotorControllerParts:MCP6004 U501
 U 3 1 5BED8D00
-P 5300 6700
-F 0 "U501" H 5400 6850 50  0000 C CNN
-F 1 "MCP6004" H 5300 6976 50  0000 C CNN
-F 2 "" H 5250 6800 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5350 6900 50  0001 C CNN
-	3    5300 6700
+P 5400 6700
+F 0 "U501" H 5500 6850 50  0000 C CNN
+F 1 "MCP6004" H 5400 6976 50  0000 C CNN
+F 2 "" H 5350 6800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 6900 50  0001 C CNN
+	3    5400 6700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U502
+L MotorControllerParts:MCP6004 U502
 U 4 1 5BED8D07
 P 7650 3550
 F 0 "U502" H 7800 3700 50  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7700 3750 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U502
+L MotorControllerParts:MCP6004 U502
 U 5 1 5BED8D0E
 P 6200 8900
 F 0 "U502" V 5950 9150 50  0000 L CNN
@@ -393,7 +393,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6250 9100 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R502
+L MotorControllerParts:R R502
 U 1 1 5BEE94C0
 P 6350 2500
 F 0 "R502" V 6250 2500 50  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "~" H 6350 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C504
+L MotorControllerParts:C C504
 U 1 1 5BEEC687
 P 6850 2700
 F 0 "C504" H 6965 2746 50  0000 L CNN
@@ -460,7 +460,7 @@ Wire Wire Line
 	6200 3450 5950 3450
 Connection ~ 5950 3450
 $Comp
-L Device:R R503
+L MotorControllerParts:R R503
 U 1 1 5BEF95C4
 P 6350 3450
 F 0 "R503" V 6250 3450 50  0000 C CNN
@@ -471,7 +471,7 @@ F 3 "~" H 6350 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C505
+L MotorControllerParts:C C505
 U 1 1 5BEF95CB
 P 6850 3650
 F 0 "C505" H 6965 3696 50  0000 L CNN
@@ -502,7 +502,7 @@ $EndComp
 Wire Wire Line
 	6850 3900 6850 3800
 $Comp
-L Amplifier_Operational:MCP6004 U503
+L MotorControllerParts:MCP6004 U503
 U 1 1 5BEFBAFA
 P 5400 4400
 F 0 "U503" H 5500 4550 50  0000 C CNN
@@ -513,7 +513,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 4600 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U502
+L MotorControllerParts:MCP6004 U502
 U 2 1 5BEFBB3E
 P 7650 2600
 F 0 "U502" H 7750 2750 50  0000 C CNN
@@ -549,7 +549,7 @@ Wire Wire Line
 	6200 4400 5950 4400
 Connection ~ 5950 4400
 $Comp
-L Amplifier_Operational:MCP6004 U503
+L MotorControllerParts:MCP6004 U503
 U 3 1 5BF04551
 P 5400 5350
 F 0 "U503" H 5550 5500 50  0000 C CNN
@@ -560,7 +560,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 5550 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U503
+L MotorControllerParts:MCP6004 U503
 U 4 1 5BF04558
 P 7650 5450
 F 0 "U503" H 7650 5817 50  0000 C CNN
@@ -571,7 +571,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7700 5650 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R504
+L MotorControllerParts:R R504
 U 1 1 5BF0455F
 P 6350 4400
 F 0 "R504" V 6250 4400 50  0000 C CNN
@@ -582,7 +582,7 @@ F 3 "~" H 6350 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C506
+L MotorControllerParts:C C506
 U 1 1 5BF04566
 P 6850 4600
 F 0 "C506" H 6965 4646 50  0000 L CNN
@@ -640,7 +640,7 @@ Wire Wire Line
 	6200 5350 5950 5350
 Connection ~ 5950 5350
 $Comp
-L Device:R R505
+L MotorControllerParts:R R505
 U 1 1 5BF098F5
 P 6350 5350
 F 0 "R505" V 6250 5350 50  0000 C CNN
@@ -651,7 +651,7 @@ F 3 "~" H 6350 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C507
+L MotorControllerParts:C C507
 U 1 1 5BF098FC
 P 6850 5550
 F 0 "C507" H 6965 5596 50  0000 L CNN
@@ -682,7 +682,7 @@ $EndComp
 Wire Wire Line
 	6850 5800 6850 5700
 $Comp
-L Amplifier_Operational:MCP6004 U502
+L MotorControllerParts:MCP6004 U502
 U 1 1 5BF0990E
 P 5400 2500
 F 0 "U502" H 5500 2650 50  0000 C CNN
@@ -693,7 +693,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 2700 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U503
+L MotorControllerParts:MCP6004 U503
 U 2 1 5BF09915
 P 7650 4500
 F 0 "U503" H 7750 4650 50  0000 C CNN
@@ -704,7 +704,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7700 4700 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U503
+L MotorControllerParts:MCP6004 U503
 U 5 1 5BF10780
 P 6550 8900
 F 0 "U503" V 6300 9150 50  0000 L CNN
@@ -1168,7 +1168,7 @@ Wire Wire Line
 NoConn ~ 11800 4400
 NoConn ~ 11800 4800
 $Comp
-L Device:R R509
+L MotorControllerParts:R R509
 U 1 1 5C476EC3
 P 10650 3750
 F 0 "R509" H 10720 3796 50  0000 L CNN
@@ -1179,11 +1179,11 @@ F 3 "~" H 10650 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R507
+L MotorControllerParts:R R507
 U 1 1 5C476F3D
 P 10350 3750
-F 0 "R507" H 10420 3796 50  0000 L CNN
-F 1 "10K" H 10420 3705 50  0000 L CNN
+F 0 "R507" H 10100 3800 50  0000 L CNN
+F 1 "10K" H 10100 3700 50  0000 L CNN
 F 2 "" V 10280 3750 50  0001 C CNN
 F 3 "~" H 10350 3750 50  0001 C CNN
 	1    10350 3750
@@ -1211,7 +1211,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 3550 10500 3500
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even JP501
+L MotorControllerParts:Conn_02x02_Odd_Even JP501
 U 1 1 5C513B4C
 P 9900 5000
 F 0 "JP501" H 9950 5217 50  0000 C CNN
@@ -1283,7 +1283,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 4700 10800 4700
 $Comp
-L Device:C C513
+L MotorControllerParts:C C513
 U 1 1 5C7D11F9
 P 11850 5250
 F 0 "C513" H 11965 5296 50  0000 L CNN
@@ -1294,7 +1294,7 @@ F 3 "~" H 11850 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C514
+L MotorControllerParts:C C514
 U 1 1 5C7D1369
 P 12250 5250
 F 0 "C514" H 12365 5296 50  0000 L CNN
@@ -1377,7 +1377,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 6950 1650 6950
 $Comp
-L Device:C C501
+L MotorControllerParts:C C501
 U 1 1 5C8A7105
 P 5300 8800
 F 0 "C501" H 5350 8900 50  0000 L CNN
@@ -1388,40 +1388,40 @@ F 3 "~" H 5300 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C508
+L MotorControllerParts:C C508
 U 1 1 5C904653
 P 7300 8800
-F 0 "C508" H 7350 8900 50  0000 L CNN
-F 1 "100n" H 7300 8700 50  0000 L CNN
+F 0 "C508" H 7325 8900 50  0000 L CNN
+F 1 "100n" H 7325 8700 50  0000 L CNN
 F 2 "" H 7338 8650 50  0001 C CNN
 F 3 "~" H 7300 8800 50  0001 C CNN
 	1    7300 8800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C509
+L MotorControllerParts:C C509
 U 1 1 5C9C10CF
 P 7550 9150
-F 0 "C509" H 7600 9250 50  0000 L CNN
-F 1 "100n" H 7550 9050 50  0000 L CNN
+F 0 "C509" H 7575 9250 50  0000 L CNN
+F 1 "100n" H 7575 9050 50  0000 L CNN
 F 2 "" H 7588 9000 50  0001 C CNN
 F 3 "~" H 7550 9150 50  0001 C CNN
 	1    7550 9150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C510
+L MotorControllerParts:C C510
 U 1 1 5CADB269
 P 7800 8800
-F 0 "C510" H 7850 8900 50  0000 L CNN
-F 1 "100n" H 7800 8700 50  0000 L CNN
+F 0 "C510" H 7825 8900 50  0000 L CNN
+F 1 "100n" H 7825 8700 50  0000 L CNN
 F 2 "" H 7838 8650 50  0001 C CNN
 F 3 "~" H 7800 8800 50  0001 C CNN
 	1    7800 8800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C502
+L MotorControllerParts:C C502
 U 1 1 5CB306AC
 P 5550 9100
 F 0 "C502" H 5665 9146 50  0000 L CNN
@@ -1432,7 +1432,7 @@ F 3 "~" H 5550 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C511
+L MotorControllerParts:C C511
 U 1 1 5CB7836F
 P 8050 9150
 F 0 "C511" H 8100 9250 50  0000 L CNN
@@ -1454,10 +1454,10 @@ F 3 "" H 7300 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C512
+L MotorControllerParts:C C512
 U 1 1 5CBE52F8
 P 8300 8800
-F 0 "C512" H 8350 8900 50  0000 L CNN
+F 0 "C512" H 8325 8900 50  0000 L CNN
 F 1 "10u" H 8350 8700 50  0000 L CNN
 F 2 "" H 8338 8650 50  0001 C CNN
 F 3 "~" H 8300 8800 50  0001 C CNN
@@ -1577,7 +1577,7 @@ Wire Notes Line
 Text Notes 6200 7500 0    50   ~ 0
 Power and Bypass Capacitors
 $Comp
-L EllicottInterface:mcp2562 U506
+L MotorControllerParts:mcp2562 U506
 U 1 1 5D207DBB
 P 11300 7200
 F 0 "U506" H 10900 7600 60  0000 C CNN
@@ -1627,11 +1627,11 @@ Wire Wire Line
 Wire Wire Line
 	11300 7800 11300 7700
 $Comp
-L Device:R R508
+L MotorControllerParts:R R508
 U 1 1 5D250263
 P 10400 7650
 F 0 "R508" V 10300 7650 50  0000 C CNN
-F 1 "120R" V 10400 7650 50  0000 C CNN
+F 1 "120R" V 10500 7650 50  0000 C CNN
 F 2 "" V 10330 7650 50  0001 C CNN
 F 3 "~" H 10400 7650 50  0001 C CNN
 	1    10400 7650
@@ -1659,11 +1659,11 @@ Connection ~ 10600 7200
 Wire Wire Line
 	10600 7200 10650 7200
 $Comp
-L Device:Jumper_NC_Small JP502
+L MotorControllerParts:Jumper_NC_Small JP502
 U 1 1 5D2D30AB
 P 10100 7650
 F 0 "JP502" H 10100 7750 50  0000 C CNN
-F 1 "CAN Termination" H 10300 7500 50  0000 C CNN
+F 1 "CAN Termination" H 10200 7450 50  0000 C CNN
 F 2 "" H 10100 7650 50  0001 C CNN
 F 3 "~" H 10100 7650 50  0001 C CNN
 	1    10100 7650
@@ -1697,7 +1697,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 7200 11950 7200
 $Comp
-L Device:R R510
+L MotorControllerParts:R R510
 U 1 1 5D397C8F
 P 12050 7550
 F 0 "R510" H 11980 7504 50  0000 R CNN
@@ -1768,4 +1768,6 @@ Wire Wire Line
 	15200 4000 15650 4000
 Wire Wire Line
 	15200 3900 15650 3900
+Text Notes 650  1050 0    59   ~ 0
+This sheet contains input/output proteciton and conditioning circuitry. \nNote that the TMC4671 and stm32 USB lines pass through this sheet\nwithout modification.
 $EndSCHEMATC

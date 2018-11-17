@@ -11,7 +11,7 @@ Rev ""
 Comp "Cedarville University"
 Comment1 "Supermileage Motor Controller"
 Comment2 "Senior Design 2018-2019"
-Comment3 ""
+Comment3 "Samuel Ellicott"
 Comment4 ""
 $EndDescr
 Text HLabel 9900 1700 2    50   Output ~ 0
@@ -61,7 +61,7 @@ Wire Wire Line
 Text Notes 9000 3100 0    50   ~ 0
 Seprate grounds for digital supply \nand power, joined with a tie so seprate \nnets are generated on the PCB.
 $Comp
-L Device:Jumper_NC_Small JP401
+L MotorControllerParts:Jumper_NC_Small JP401
 U 1 1 5BBC9DC6
 P 9550 3400
 F 0 "JP401" H 9550 3612 50  0000 C CNN
