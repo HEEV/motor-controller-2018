@@ -1050,13 +1050,55 @@ Wire Wire Line
 Wire Wire Line
 	9000 1350 9700 1350
 Wire Notes Line
-	8900 3400 10400 3400
+	8900 2650 10400 2650
 Wire Notes Line
-	10400 3400 10400 6700
+	10400 2650 10400 6700
 Wire Notes Line
 	10400 6700 8900 6700
 Wire Notes Line
-	8900 6700 8900 3400
-Text Notes 9200 3550 0    50   ~ 0
+	8900 6700 8900 2650
+Text Notes 9150 2750 0    50   ~ 0
 User Inputs and Outputs
+Text Label 6400 1550 2    50   ~ 0
+USART_Tx
+Text Label 6400 1650 2    50   ~ 0
+USART_Rx
+Wire Wire Line
+	6400 1550 5700 1550
+Wire Wire Line
+	6400 1650 5700 1650
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5BF48BC7
+P 9950 3100
+F 0 "J?" H 9900 3300 50  0000 L CNN
+F 1 "User USART" H 9750 2900 50  0000 L CNN
+F 2 "" H 9950 3100 50  0001 C CNN
+F 3 "~" H 9950 3100 50  0001 C CNN
+	1    9950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5BF68017
+P 9650 3400
+F 0 "#PWR?" H 9650 3150 50  0001 C CNN
+F 1 "GNDD" H 9654 3245 50  0000 C CNN
+F 2 "" H 9650 3400 50  0001 C CNN
+F 3 "" H 9650 3400 50  0001 C CNN
+	1    9650 3400
+	1    0    0    -1  
+$EndComp
+Text Label 9000 3100 0    50   ~ 0
+USART_Tx
+Text Label 9000 3200 0    50   ~ 0
+USART_Rx
+Wire Wire Line
+	9650 3400 9650 3000
+Wire Wire Line
+	9650 3000 9750 3000
+Wire Wire Line
+	9000 3100 9750 3100
+Wire Wire Line
+	9000 3200 9750 3200
 $EndSCHEMATC
