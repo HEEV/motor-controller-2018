@@ -20,6 +20,18 @@ D power-flag symbol (positive battery voltage)
 K Power Flag Symbol battery
 $ENDCMP
 #
+$CMP AP7361C
+D LDO Voltage Regulator, 0.36v dropout, 1A output current, 70uA quiecent current
+K Voltage Regulator, 3.3v
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP D36V6Fx
+D Pololu D36V6Fx Voltage regulator. Max input voltage 50v, 600mA output current.
+K Voltage Regulator, Pololu, D36V6Fx
+F https://www.pololu.com/category/247/d36v6x-step-down-voltage-regulators
+$ENDCMP
+#
 $CMP GNDD
 D (digital) ground power-flag symbol
 K Power Flag Symbol
@@ -40,6 +52,11 @@ $CMP STM32F303RETx
 D ARM Cortex-M4 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M4 STM32F3 STM32F303
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf
+$ENDCMP
+#
+$CMP TMC4671
+D FOC PWM Generation chip
+K Motor Controller, Trinamic, TMC4671
 $ENDCMP
 #
 #End Doc Library
