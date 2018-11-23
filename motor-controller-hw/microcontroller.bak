@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 5
+Sheet 2 4
 Title "STM32 Microcontroller"
 Date "2018-11-17"
 Rev "1.0"
@@ -776,11 +776,6 @@ Wire Wire Line
 	2850 5850 2850 5400
 Wire Wire Line
 	2850 5400 3250 5400
-Wire Wire Line
-	3250 5200 2850 5200
-Wire Wire Line
-	2850 5200 2850 5400
-Connection ~ 2850 5400
 Text Label 6400 3350 2    50   ~ 0
 SWO
 Text Label 6400 2750 2    50   ~ 0
@@ -1026,25 +1021,25 @@ User_SW
 Wire Wire Line
 	9000 4250 9650 4250
 Text HLabel 9700 1350 2    50   Output ~ 0
-TMC4671_SS
+~TMC4671_SS
 Text HLabel 9700 1450 2    50   Output ~ 0
 TMC4671_SCK
-Text HLabel 9700 1550 2    50   Input ~ 0
-TMC4671_MISO
 Text HLabel 9700 1650 2    50   Input ~ 0
-TMC4671_MOSI
-Text Label 9000 1650 0    50   ~ 0
+TMC4671_MISO
+Text HLabel 9700 1550 2    50   Output ~ 0
 TMC4671_MOSI
 Text Label 9000 1550 0    50   ~ 0
+TMC4671_MOSI
+Text Label 9000 1650 0    50   ~ 0
 TMC4671_MISO
 Text Label 9000 1450 0    50   ~ 0
 TMC4671_SCK
 Text Label 9000 1350 0    50   ~ 0
 TMC4671_SS
 Wire Wire Line
-	9000 1650 9700 1650
-Wire Wire Line
 	9000 1550 9700 1550
+Wire Wire Line
+	9000 1650 9700 1650
 Wire Wire Line
 	9000 1450 9700 1450
 Wire Wire Line
@@ -1068,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 1650 5700 1650
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L MotorControllerParts:Conn_01x03 J?
 U 1 1 5BF48BC7
 P 9950 3100
 F 0 "J?" H 9900 3300 50  0000 L CNN
@@ -1101,4 +1096,19 @@ Wire Wire Line
 	9000 3100 9750 3100
 Wire Wire Line
 	9000 3200 9750 3200
+$Comp
+L MotorControllerParts:+3.3V #PWR?
+U 1 1 5BFBCA2F
+P 2850 5050
+F 0 "#PWR?" H 2850 4900 50  0001 C CNN
+F 1 "+3.3V" H 2865 5223 50  0000 C CNN
+F 2 "" H 2850 5050 50  0001 C CNN
+F 3 "" H 2850 5050 50  0001 C CNN
+	1    2850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5050 2850 5200
+Wire Wire Line
+	2850 5200 3250 5200
 $EndSCHEMATC
