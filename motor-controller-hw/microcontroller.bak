@@ -79,12 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4850 4900 4850
 Wire Wire Line
-	5200 4850 5200 4750
-Wire Wire Line
 	5100 4750 5100 4850
-Connection ~ 5100 4850
-Wire Wire Line
-	5100 4850 5200 4850
 Wire Wire Line
 	5000 4750 5000 4850
 Connection ~ 5000 4850
@@ -284,17 +279,6 @@ F 3 "~" H 2900 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:GNDD #PWR?
-U 1 1 5BF507B6
-P 3050 7600
-F 0 "#PWR?" H 3050 7350 50  0001 C CNN
-F 1 "GNDD" H 3054 7445 50  0000 C CNN
-F 2 "" H 3050 7600 50  0001 C CNN
-F 3 "" H 3050 7600 50  0001 C CNN
-	1    3050 7600
-	1    0    0    -1  
-$EndComp
-$Comp
 L motor-controller-hw-cache:+3.3V #PWR?
 U 1 1 5BF50827
 P 3050 6900
@@ -330,18 +314,18 @@ Wire Wire Line
 $Comp
 L MotorControllerParts:GNDD #PWR?
 U 1 1 5BF58438
-P 1250 3050
-F 0 "#PWR?" H 1250 2800 50  0001 C CNN
-F 1 "GNDD" H 1254 2895 50  0000 C CNN
-F 2 "" H 1250 3050 50  0001 C CNN
-F 3 "" H 1250 3050 50  0001 C CNN
-	1    1250 3050
+P 1550 3200
+F 0 "#PWR?" H 1550 2950 50  0001 C CNN
+F 1 "GNDD" H 1554 3045 50  0000 C CNN
+F 2 "" H 1550 3200 50  0001 C CNN
+F 3 "" H 1550 3200 50  0001 C CNN
+	1    1550 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 3050 1250 2950
+	1550 3200 1550 2950
 Wire Wire Line
-	1250 2950 1150 2950
+	1550 2950 1150 2950
 $Comp
 L MotorControllerParts:+3.3V #PWR?
 U 1 1 5BF59316
@@ -1111,4 +1095,37 @@ Wire Wire Line
 	2850 5050 2850 5200
 Wire Wire Line
 	2850 5200 3250 5200
+Text HLabel 1150 3050 0    50   Input ~ 0
+AGND
+$Comp
+L MotorControllerParts:GNDA #PWR?
+U 1 1 5C4A865C
+P 1300 3200
+F 0 "#PWR?" H 1300 2950 50  0001 C CNN
+F 1 "GNDA" H 1305 3027 50  0000 C CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 "" H 1300 3200 50  0001 C CNN
+	1    1300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3200 1300 3050
+Wire Wire Line
+	1300 3050 1150 3050
+Wire Wire Line
+	5200 4850 5200 4750
+Wire Wire Line
+	5200 4850 5100 4850
+Connection ~ 5100 4850
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C8CD47C
+P 3050 7600
+F 0 "#PWR?" H 3050 7350 50  0001 C CNN
+F 1 "GNDD" H 3054 7445 50  0000 C CNN
+F 2 "" H 3050 7600 50  0001 C CNN
+F 3 "" H 3050 7600 50  0001 C CNN
+	1    3050 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

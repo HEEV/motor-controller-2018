@@ -28,37 +28,37 @@ $EndComp
 $Comp
 L MotorControllerParts:Conn_01x03 J?
 U 1 1 5C027C01
-P 3500 2550
-F 0 "J?" H 3450 2750 50  0000 L CNN
-F 1 "User USART" H 3300 2350 50  0000 L CNN
-F 2 "" H 3500 2550 50  0001 C CNN
-F 3 "~" H 3500 2550 50  0001 C CNN
-	1    3500 2550
+P 2750 1600
+F 0 "J?" H 2700 1800 50  0000 L CNN
+F 1 "User USART" H 2550 1400 50  0000 L CNN
+F 2 "" H 2750 1600 50  0001 C CNN
+F 3 "~" H 2750 1600 50  0001 C CNN
+	1    2750 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:GNDD #PWR?
 U 1 1 5C027C08
-P 3800 2850
-F 0 "#PWR?" H 3800 2600 50  0001 C CNN
-F 1 "GNDD" H 3804 2695 50  0000 C CNN
-F 2 "" H 3800 2850 50  0001 C CNN
-F 3 "" H 3800 2850 50  0001 C CNN
-	1    3800 2850
+P 3050 1900
+F 0 "#PWR?" H 3050 1650 50  0001 C CNN
+F 1 "GNDD" H 3054 1745 50  0000 C CNN
+F 2 "" H 3050 1900 50  0001 C CNN
+F 3 "" H 3050 1900 50  0001 C CNN
+	1    3050 1900
 	-1   0    0    -1  
 $EndComp
-Text Label 4450 2550 2    50   ~ 0
+Text Label 3700 1600 2    50   ~ 0
 USART_Tx
-Text Label 4450 2650 2    50   ~ 0
+Text Label 3700 1700 2    50   ~ 0
 USART_Rx
 Wire Wire Line
-	3800 2850 3800 2450
+	3050 1900 3050 1500
 Wire Wire Line
-	3800 2450 3700 2450
+	3050 1500 2950 1500
 Wire Wire Line
-	4450 2550 3700 2550
+	3700 1600 2950 1600
 Wire Wire Line
-	4450 2650 3700 2650
+	3700 1700 2950 1700
 $Comp
 L MotorControllerParts:C C?
 U 1 1 5C1A8310
@@ -499,17 +499,6 @@ Wire Wire Line
 Connection ~ 7650 6950
 Wire Wire Line
 	7650 6950 7700 6950
-$Comp
-L MotorControllerParts:GNDD #PWR?
-U 1 1 5C1EC867
-P 8150 7000
-F 0 "#PWR?" H 8150 6750 50  0001 C CNN
-F 1 "GNDD" H 8154 6845 50  0000 C CNN
-F 2 "" H 8150 7000 50  0001 C CNN
-F 3 "" H 8150 7000 50  0001 C CNN
-	1    8150 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 7000 8150 6900
 $Comp
@@ -643,9 +632,6 @@ Wire Wire Line
 NoConn ~ 6600 6250
 NoConn ~ 6600 6150
 NoConn ~ 6600 6050
-NoConn ~ 6600 5750
-NoConn ~ 6600 5850
-NoConn ~ 6600 5950
 Text HLabel 3100 4550 0    50   Input ~ 0
 HALL_A
 Text HLabel 3100 4650 0    50   Input ~ 0
@@ -676,21 +662,13 @@ Wire Wire Line
 	3550 4650 3100 4650
 Wire Wire Line
 	3550 4750 3100 4750
-NoConn ~ 9400 4050
-NoConn ~ 9400 3950
 NoConn ~ 9400 3250
-Text HLabel 14900 3900 2    50   Input ~ 0
+Text HLabel 14050 5550 2    50   Input ~ 0
 Phase_A_Current
-Text HLabel 14900 4000 2    50   Input ~ 0
+Text HLabel 14050 6350 2    50   Input ~ 0
 Phase_B_Current
-Text Label 14500 3900 0    50   ~ 0
-A_Current
-Text Label 14500 4000 0    50   ~ 0
+Text Label 12650 6350 0    50   ~ 0
 B_Current
-Wire Wire Line
-	14500 4000 14900 4000
-Wire Wire Line
-	14500 3900 14900 3900
 Text Label 9800 4250 2    50   ~ 0
 A_Current
 Text Label 9800 4450 2    50   ~ 0
@@ -713,23 +691,23 @@ $EndComp
 $Comp
 L MotorControllerParts:R R?
 U 1 1 5C3A09E6
-P 10700 4750
-F 0 "R?" H 10770 4796 50  0000 L CNN
-F 1 "10K" H 10770 4705 50  0000 L CNN
-F 2 "" V 10630 4750 50  0001 C CNN
-F 3 "" H 10700 4750 50  0001 C CNN
-	1    10700 4750
+P 10700 4850
+F 0 "R?" H 10770 4896 50  0000 L CNN
+F 1 "10K" H 10770 4805 50  0000 L CNN
+F 2 "" V 10630 4850 50  0001 C CNN
+F 3 "" H 10700 4850 50  0001 C CNN
+	1    10700 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:R R?
 U 1 1 5C3A0ADF
-P 10400 4750
-F 0 "R?" H 10470 4796 50  0000 L CNN
-F 1 "10K" H 10470 4705 50  0000 L CNN
-F 2 "" V 10330 4750 50  0001 C CNN
-F 3 "" H 10400 4750 50  0001 C CNN
-	1    10400 4750
+P 10400 4850
+F 0 "R?" H 10470 4896 50  0000 L CNN
+F 1 "10K" H 10470 4805 50  0000 L CNN
+F 2 "" V 10330 4850 50  0001 C CNN
+F 3 "" H 10400 4850 50  0001 C CNN
+	1    10400 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -743,29 +721,15 @@ F 3 "" H 10400 4150 50  0001 C CNN
 	1    10400 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9400 4550 10400 4550
-Wire Wire Line
-	10400 4550 10400 4600
-Wire Wire Line
-	10400 4300 10400 4550
-Connection ~ 10400 4550
-Wire Wire Line
-	9400 4350 10700 4350
-Wire Wire Line
-	10700 4350 10700 4300
-Wire Wire Line
-	10700 4600 10700 4350
-Connection ~ 10700 4350
 $Comp
 L MotorControllerParts:GNDD #PWR?
 U 1 1 5C3BEBAE
-P 10550 5000
-F 0 "#PWR?" H 10550 4750 50  0001 C CNN
-F 1 "GNDD" H 10554 4845 50  0000 C CNN
-F 2 "" H 10550 5000 50  0001 C CNN
-F 3 "" H 10550 5000 50  0001 C CNN
-	1    10550 5000
+P 10550 5100
+F 0 "#PWR?" H 10550 4850 50  0001 C CNN
+F 1 "GNDD" H 10554 4945 50  0000 C CNN
+F 2 "" H 10550 5100 50  0001 C CNN
+F 3 "" H 10550 5100 50  0001 C CNN
+	1    10550 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -791,14 +755,489 @@ Connection ~ 10550 3950
 Wire Wire Line
 	10550 3950 10700 3950
 Wire Wire Line
-	10400 4900 10400 4950
+	10400 5000 10400 5050
 Wire Wire Line
-	10400 4950 10550 4950
+	10400 5050 10550 5050
 Wire Wire Line
-	10700 4950 10700 4900
+	10700 5050 10700 5000
 Wire Wire Line
-	10550 5000 10550 4950
-Connection ~ 10550 4950
+	10550 5100 10550 5050
+Connection ~ 10550 5050
 Wire Wire Line
-	10550 4950 10700 4950
+	10550 5050 10700 5050
+$Comp
+L MotorControllerParts:IQXO-50 X?
+U 1 1 5C3F9FBE
+P 3450 2850
+F 0 "X?" H 3000 2650 50  0000 L CNN
+F 1 "IQXO-50" H 2850 2750 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm" H 4125 2525 50  0001 C CNN
+F 3 "https://www.foxonline.com/pdfs/fox924.pdf" H 3350 2850 50  0001 C CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+Text Label 3950 2850 2    50   ~ 0
+CLK
+Wire Wire Line
+	3950 2850 3750 2850
+Text Label 6300 2700 0    50   ~ 0
+CLK
+Wire Wire Line
+	6300 2700 6600 2700
+$Comp
+L MotorControllerParts:+3.3V #PWR?
+U 1 1 5C412AFB
+P 3450 2500
+F 0 "#PWR?" H 3450 2350 50  0001 C CNN
+F 1 "+3.3V" H 3465 2673 50  0000 C CNN
+F 2 "" H 3450 2500 50  0001 C CNN
+F 3 "" H 3450 2500 50  0001 C CNN
+	1    3450 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2500 3450 2550
+$Comp
+L MotorControllerParts:C C?
+U 1 1 5C418FA1
+P 2500 2950
+F 0 "C?" H 2615 2996 50  0000 L CNN
+F 1 "100n" H 2615 2905 50  0000 L CNN
+F 2 "" H 2538 2800 50  0001 C CNN
+F 3 "" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C41910A
+P 3450 3200
+F 0 "#PWR?" H 3450 2950 50  0001 C CNN
+F 1 "GNDD" H 3454 3045 50  0000 C CNN
+F 2 "" H 3450 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0001 C CNN
+	1    3450 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3200 3450 3150
+$Comp
+L MotorControllerParts:+3.3V #PWR?
+U 1 1 5C41F53E
+P 2500 2500
+F 0 "#PWR?" H 2500 2350 50  0001 C CNN
+F 1 "+3.3V" H 2515 2673 50  0000 C CNN
+F 2 "" H 2500 2500 50  0001 C CNN
+F 3 "" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C41F573
+P 2500 3200
+F 0 "#PWR?" H 2500 2950 50  0001 C CNN
+F 1 "GNDD" H 2504 3045 50  0000 C CNN
+F 2 "" H 2500 3200 50  0001 C CNN
+F 3 "" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3200 2500 3100
+Wire Wire Line
+	2500 2800 2500 2500
+Text HLabel 3100 4900 0    50   Input ~ 0
+DGND
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C5A1489
+P 3500 5150
+F 0 "#PWR?" H 3500 4900 50  0001 C CNN
+F 1 "GNDD" H 3504 4995 50  0000 C CNN
+F 2 "" H 3500 5150 50  0001 C CNN
+F 3 "" H 3500 5150 50  0001 C CNN
+	1    3500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5150 3500 4900
+Wire Wire Line
+	3500 4900 3100 4900
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5C71FD5A
+P 13450 8100
+F 0 "R?" H 13520 8146 50  0000 L CNN
+F 1 "10K" H 13520 8055 50  0000 L CNN
+F 2 "" V 13380 8100 50  0001 C CNN
+F 3 "" H 13450 8100 50  0001 C CNN
+	1    13450 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5C71FDAA
+P 13750 7900
+F 0 "R?" V 13850 7850 50  0000 L CNN
+F 1 "110K" V 13650 7800 50  0000 L CNN
+F 2 "" V 13680 7900 50  0001 C CNN
+F 3 "" H 13750 7900 50  0001 C CNN
+	1    13750 7900
+	0    1    1    0   
+$EndComp
+Text HLabel 14050 7900 2    50   Input ~ 0
+VBatt
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C735CEC
+P 13250 8350
+F 0 "#PWR?" H 13250 8100 50  0001 C CNN
+F 1 "GNDD" H 13254 8195 50  0000 C CNN
+F 2 "" H 13250 8350 50  0001 C CNN
+F 3 "" H 13250 8350 50  0001 C CNN
+	1    13250 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:+BATT #PWR?
+U 1 1 5C73D7C8
+P 14750 2700
+F 0 "#PWR?" H 14750 2550 50  0001 C CNN
+F 1 "+BATT" H 14765 2873 50  0000 C CNN
+F 2 "" H 14750 2700 50  0001 C CNN
+F 3 "" H 14750 2700 50  0001 C CNN
+	1    14750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 2700 14750 2800
+Wire Wire Line
+	14750 2800 14900 2800
+Text Label 9900 3050 2    50   ~ 0
+PWM_Idle_L
+Text Label 9900 2950 2    50   ~ 0
+PWM_Idle_H
+Text HLabel 14900 3000 2    50   Input ~ 0
+PWM_Idle_H
+Text HLabel 14900 3100 2    50   Input ~ 0
+PWM_Idle_L
+Wire Wire Line
+	9900 2950 9400 2950
+Wire Wire Line
+	9900 3050 9400 3050
+Text Label 14400 3100 0    50   ~ 0
+PWM_Idle_L
+Text Label 14400 3000 0    50   ~ 0
+PWM_Idle_H
+Wire Wire Line
+	14400 3000 14900 3000
+Wire Wire Line
+	14400 3100 14900 3100
+Text Label 9950 5550 2    50   ~ 0
+Batt_Current
+Wire Wire Line
+	9950 5550 9400 5550
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C8B4358
+P 8150 7000
+F 0 "#PWR?" H 8150 6750 50  0001 C CNN
+F 1 "GNDD" H 8154 6845 50  0000 C CNN
+F 2 "" H 8150 7000 50  0001 C CNN
+F 3 "" H 8150 7000 50  0001 C CNN
+	1    8150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:C C?
+U 1 1 5C8F51EE
+P 13250 5750
+F 0 "C?" H 13365 5796 50  0000 L CNN
+F 1 "100p" H 13365 5705 50  0000 L CNN
+F 2 "" H 13288 5600 50  0001 C CNN
+F 3 "" H 13250 5750 50  0001 C CNN
+	1    13250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:C C?
+U 1 1 5C913806
+P 13250 6550
+F 0 "C?" H 13365 6596 50  0000 L CNN
+F 1 "100p" H 13365 6505 50  0000 L CNN
+F 2 "" H 13288 6400 50  0001 C CNN
+F 3 "" H 13250 6550 50  0001 C CNN
+	1    13250 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 4300 10700 4550
+Wire Wire Line
+	10400 4300 10400 4350
+Wire Wire Line
+	9400 4650 9800 4650
+Wire Wire Line
+	13450 7900 13450 7950
+Wire Wire Line
+	12650 7900 13050 7900
+Wire Wire Line
+	9400 4550 10700 4550
+Connection ~ 10700 4550
+Wire Wire Line
+	10700 4550 10700 4700
+Wire Wire Line
+	9400 4350 10400 4350
+Connection ~ 10400 4350
+Wire Wire Line
+	10400 4350 10400 4700
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5C949802
+P 13750 5550
+F 0 "R?" V 13850 5500 50  0000 L CNN
+F 1 "100R" V 13650 5450 50  0000 L CNN
+F 2 "" V 13680 5550 50  0001 C CNN
+F 3 "" H 13750 5550 50  0001 C CNN
+	1    13750 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5C949C40
+P 13750 6350
+F 0 "R?" V 13850 6300 50  0000 L CNN
+F 1 "100R" V 13650 6250 50  0000 L CNN
+F 2 "" V 13680 6350 50  0001 C CNN
+F 3 "" H 13750 6350 50  0001 C CNN
+	1    13750 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13600 5550 13250 5550
+Wire Wire Line
+	13250 5550 13250 5600
+Wire Wire Line
+	13250 6350 13250 6400
+Text Label 12650 5550 0    50   ~ 0
+A_Current
+Wire Wire Line
+	12650 5550 13250 5550
+Connection ~ 13250 5550
+Wire Wire Line
+	12650 6350 13250 6350
+Connection ~ 13250 6350
+Wire Wire Line
+	14050 5550 13900 5550
+Wire Wire Line
+	14050 6350 13900 6350
+Wire Wire Line
+	13250 6350 13600 6350
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C98D20B
+P 13250 5950
+F 0 "#PWR?" H 13250 5700 50  0001 C CNN
+F 1 "GNDD" H 13254 5795 50  0000 C CNN
+F 2 "" H 13250 5950 50  0001 C CNN
+F 3 "" H 13250 5950 50  0001 C CNN
+	1    13250 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 5950 13250 5900
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5C99E1E2
+P 13250 6750
+F 0 "#PWR?" H 13250 6500 50  0001 C CNN
+F 1 "GNDD" H 13254 6595 50  0000 C CNN
+F 2 "" H 13250 6750 50  0001 C CNN
+F 3 "" H 13250 6750 50  0001 C CNN
+	1    13250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 6750 13250 6700
+Wire Wire Line
+	13600 7900 13450 7900
+Connection ~ 13450 7900
+Wire Wire Line
+	14050 7900 13900 7900
+$Comp
+L MotorControllerParts:C C?
+U 1 1 5C9D9FC5
+P 13050 8100
+F 0 "C?" H 13165 8146 50  0000 L CNN
+F 1 "10n" H 13165 8055 50  0000 L CNN
+F 2 "" H 13088 7950 50  0001 C CNN
+F 3 "" H 13050 8100 50  0001 C CNN
+	1    13050 8100
+	1    0    0    -1  
+$EndComp
+Connection ~ 13050 7900
+Wire Wire Line
+	13050 7900 13050 7950
+Wire Wire Line
+	13050 7900 13450 7900
+Wire Wire Line
+	13050 8250 13050 8300
+Wire Wire Line
+	13050 8300 13250 8300
+Wire Wire Line
+	13450 8300 13450 8250
+Wire Wire Line
+	13250 8350 13250 8300
+Connection ~ 13250 8300
+Wire Wire Line
+	13250 8300 13450 8300
+Text Label 9800 4650 2    50   ~ 0
+Batt_V
+$Comp
+L MotorControllerParts:C C?
+U 1 1 5CA92A27
+P 13250 7350
+F 0 "C?" H 13365 7396 50  0000 L CNN
+F 1 "100n" H 13365 7305 50  0000 L CNN
+F 2 "" H 13288 7200 50  0001 C CNN
+F 3 "" H 13250 7350 50  0001 C CNN
+	1    13250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5CA92A2E
+P 13750 7150
+F 0 "R?" V 13850 7100 50  0000 L CNN
+F 1 "10K" V 13650 7050 50  0000 L CNN
+F 2 "" V 13680 7150 50  0001 C CNN
+F 3 "" H 13750 7150 50  0001 C CNN
+	1    13750 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13250 7150 13250 7200
+Wire Wire Line
+	12650 7150 13250 7150
+Connection ~ 13250 7150
+Wire Wire Line
+	14050 7150 13900 7150
+Wire Wire Line
+	13250 7150 13600 7150
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5CA92A3A
+P 13250 7550
+F 0 "#PWR?" H 13250 7300 50  0001 C CNN
+F 1 "GNDD" H 13254 7395 50  0000 C CNN
+F 2 "" H 13250 7550 50  0001 C CNN
+F 3 "" H 13250 7550 50  0001 C CNN
+	1    13250 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 7550 13250 7500
+Text Label 12650 7150 0    50   ~ 0
+Batt_Current
+Text Label 12650 7900 0    50   ~ 0
+Batt_V
+Text HLabel 14050 7150 2    50   Input ~ 0
+Batt_Current
+$Comp
+L MotorControllerParts:GNDD #PWR?
+U 1 1 5CAF12F9
+P 5950 2900
+F 0 "#PWR?" H 5950 2650 50  0001 C CNN
+F 1 "GNDD" H 5954 2745 50  0000 C CNN
+F 2 "" H 5950 2900 50  0001 C CNN
+F 3 "" H 5950 2900 50  0001 C CNN
+	1    5950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2900 5950 2800
+Wire Wire Line
+	5950 2800 6600 2800
+Text Label 6150 5750 0    50   ~ 0
+ENC_A
+Text Label 6150 5850 0    50   ~ 0
+ENC_B
+Text Label 6150 5950 0    50   ~ 0
+ENC_N
+Wire Wire Line
+	6150 5950 6600 5950
+Wire Wire Line
+	6150 5850 6600 5850
+Wire Wire Line
+	6150 5750 6600 5750
+NoConn ~ 9400 5950
+NoConn ~ 9400 5850
+NoConn ~ 9400 5750
+NoConn ~ 9400 5650
+NoConn ~ 9400 5350
+NoConn ~ 9400 5250
+NoConn ~ 9400 5150
+NoConn ~ 9400 5050
+NoConn ~ 9400 4950
+NoConn ~ 9400 4850
+Text Label 6300 3100 0    50   ~ 0
+Status
+Wire Wire Line
+	6300 3100 6600 3100
+Text Label 6300 3000 0    50   ~ 0
+En_Out
+Wire Wire Line
+	6300 3000 6600 3000
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5CBDC0FE
+P 5950 2250
+F 0 "R?" H 6020 2296 50  0000 L CNN
+F 1 "10K" H 6020 2205 50  0000 L CNN
+F 2 "" V 5880 2250 50  0001 C CNN
+F 3 "" H 5950 2250 50  0001 C CNN
+	1    5950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2400 5950 2600
+Wire Wire Line
+	5950 2600 6600 2600
+$Comp
+L MotorControllerParts:+3.3V #PWR?
+U 1 1 5CBE66D9
+P 5950 2000
+F 0 "#PWR?" H 5950 1850 50  0001 C CNN
+F 1 "+3.3V" H 5965 2173 50  0000 C CNN
+F 2 "" H 5950 2000 50  0001 C CNN
+F 3 "" H 5950 2000 50  0001 C CNN
+	1    5950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2100 5950 2000
+Text Label 6300 2900 0    50   ~ 0
+En_In
+Wire Wire Line
+	6300 2900 6600 2900
+Text Label 9800 3950 2    50   ~ 0
+PWM_DH
+Text Label 9800 4050 2    50   ~ 0
+PWM_DL
+Wire Wire Line
+	9400 3950 9800 3950
+Wire Wire Line
+	9400 4050 9800 4050
+Text HLabel 14900 3850 2    50   Output ~ 0
+PWM_Phase_DH
+Text HLabel 14900 3950 2    50   Output ~ 0
+PWM_Phase_DL
+Text Label 14500 3850 0    50   ~ 0
+PWM_DH
+Text Label 14500 3950 0    50   ~ 0
+PWM_DL
+Wire Wire Line
+	14500 3950 14900 3950
+Wire Wire Line
+	14500 3850 14900 3850
 $EndSCHEMATC
