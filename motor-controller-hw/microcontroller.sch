@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 4
+Sheet 3 4
 Title "STM32 Microcontroller"
 Date "2018-11-17"
 Rev "1.0"
@@ -15,10 +15,10 @@ Comment3 "Samuel Ellicott"
 Comment4 ""
 $EndDescr
 $Comp
-L MotorControllerParts:STM32F303RETx U201
+L MotorControllerParts:STM32F303RETx U301
 U 1 1 5BC0BBCA
 P 5400 2900
-F 0 "U201" H 5400 2900 50  0000 C CNN
+F 0 "U301" H 5400 2900 50  0000 C CNN
 F 1 "STM32F303RETx" H 5400 2800 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4800 1200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf" H 5400 2900 50  0001 C CNN
@@ -64,10 +64,10 @@ D_Out2
 Text HLabel 1150 2950 0    50   Input ~ 0
 DGND
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0312
 U 1 1 5BF4AF14
 P 5400 4900
-F 0 "#PWR?" H 5400 4650 50  0001 C CNN
+F 0 "#PWR0312" H 5400 4650 50  0001 C CNN
 F 1 "GNDD" H 5404 4745 50  0000 C CNN
 F 2 "" H 5400 4900 50  0001 C CNN
 F 3 "" H 5400 4900 50  0001 C CNN
@@ -93,10 +93,10 @@ Wire Wire Line
 Wire Wire Line
 	5400 4900 5400 4800
 $Comp
-L motor-controller-hw-cache:+3.3V #PWR?
+L motor-controller-hw-cache:+3.3V #PWR0313
 U 1 1 5BF4B19B
 P 5500 900
-F 0 "#PWR?" H 5500 750 50  0001 C CNN
+F 0 "#PWR0313" H 5500 750 50  0001 C CNN
 F 1 "+3.3V" H 5515 1073 50  0000 C CNN
 F 2 "" H 5500 900 50  0001 C CNN
 F 3 "" H 5500 900 50  0001 C CNN
@@ -132,10 +132,10 @@ Wire Wire Line
 	5200 1000 5300 1000
 Connection ~ 5300 1000
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C301
 U 1 1 5BF4BBB3
 P 900 7250
-F 0 "C?" H 950 7350 50  0000 L CNN
+F 0 "C301" H 950 7350 50  0000 L CNN
 F 1 "100n" H 950 7150 50  0000 L CNN
 F 2 "" H 938 7100 50  0001 C CNN
 F 3 "~" H 900 7250 50  0001 C CNN
@@ -143,10 +143,10 @@ F 3 "~" H 900 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C302
 U 1 1 5BF4BCEB
 P 1250 7250
-F 0 "C?" H 1300 7350 50  0000 L CNN
+F 0 "C302" H 1300 7350 50  0000 L CNN
 F 1 "100n" H 1300 7150 50  0000 L CNN
 F 2 "" H 1288 7100 50  0001 C CNN
 F 3 "~" H 1250 7250 50  0001 C CNN
@@ -154,10 +154,10 @@ F 3 "~" H 1250 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C304
 U 1 1 5BF4BD0F
 P 1600 7250
-F 0 "C?" H 1650 7350 50  0000 L CNN
+F 0 "C304" H 1650 7350 50  0000 L CNN
 F 1 "100n" H 1650 7150 50  0000 L CNN
 F 2 "" H 1638 7100 50  0001 C CNN
 F 3 "~" H 1600 7250 50  0001 C CNN
@@ -165,10 +165,10 @@ F 3 "~" H 1600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C305
 U 1 1 5BF4BD41
 P 1950 7250
-F 0 "C?" H 2000 7350 50  0000 L CNN
+F 0 "C305" H 2000 7350 50  0000 L CNN
 F 1 "100n" H 2000 7150 50  0000 L CNN
 F 2 "" H 1988 7100 50  0001 C CNN
 F 3 "~" H 1950 7250 50  0001 C CNN
@@ -176,10 +176,10 @@ F 3 "~" H 1950 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C306
 U 1 1 5BF4BD90
 P 2300 7250
-F 0 "C?" H 2350 7350 50  0000 L CNN
+F 0 "C306" H 2350 7350 50  0000 L CNN
 F 1 "4u7" H 2350 7150 50  0000 L CNN
 F 2 "" H 2338 7100 50  0001 C CNN
 F 3 "~" H 2300 7250 50  0001 C CNN
@@ -187,10 +187,10 @@ F 3 "~" H 2300 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor-controller-hw-cache:+3.3V #PWR?
+L motor-controller-hw-cache:+3.3V #PWR0304
 U 1 1 5BF4BF52
 P 1600 6900
-F 0 "#PWR?" H 1600 6750 50  0001 C CNN
+F 0 "#PWR0304" H 1600 6750 50  0001 C CNN
 F 1 "+3.3V" H 1615 7073 50  0000 C CNN
 F 2 "" H 1600 6900 50  0001 C CNN
 F 3 "" H 1600 6900 50  0001 C CNN
@@ -221,10 +221,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 6900 1600 7000
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0305
 U 1 1 5BF4D459
 P 1600 7600
-F 0 "#PWR?" H 1600 7350 50  0001 C CNN
+F 0 "#PWR0305" H 1600 7350 50  0001 C CNN
 F 1 "GNDD" H 1604 7445 50  0000 C CNN
 F 2 "" H 1600 7600 50  0001 C CNN
 F 3 "" H 1600 7600 50  0001 C CNN
@@ -257,10 +257,10 @@ Wire Wire Line
 Text Notes 700  6550 0    50   ~ 0
 Bypass Capacitors, one for each Vdd pin, and a 4.7uf cap for good measure.\nAlso two bypass capacitors (1uf and 10nf) for the ADC and DAC.
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C308
 U 1 1 5BF505C8
 P 3200 7250
-F 0 "C?" H 3250 7350 50  0000 L CNN
+F 0 "C308" H 3250 7350 50  0000 L CNN
 F 1 "10n" H 3250 7150 50  0000 L CNN
 F 2 "" H 3238 7100 50  0001 C CNN
 F 3 "~" H 3200 7250 50  0001 C CNN
@@ -268,10 +268,10 @@ F 3 "~" H 3200 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C307
 U 1 1 5BF506E8
 P 2900 7250
-F 0 "C?" H 2950 7350 50  0000 L CNN
+F 0 "C307" H 2950 7350 50  0000 L CNN
 F 1 "1u" H 2950 7150 50  0000 L CNN
 F 2 "" H 2938 7100 50  0001 C CNN
 F 3 "~" H 2900 7250 50  0001 C CNN
@@ -279,10 +279,10 @@ F 3 "~" H 2900 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor-controller-hw-cache:+3.3V #PWR?
+L motor-controller-hw-cache:+3.3V #PWR0310
 U 1 1 5BF50827
 P 3050 6900
-F 0 "#PWR?" H 3050 6750 50  0001 C CNN
+F 0 "#PWR0310" H 3050 6750 50  0001 C CNN
 F 1 "+3.3V" H 3065 7073 50  0000 C CNN
 F 2 "" H 3050 6900 50  0001 C CNN
 F 3 "" H 3050 6900 50  0001 C CNN
@@ -312,10 +312,10 @@ Connection ~ 3050 7000
 Wire Wire Line
 	3050 7000 3200 7000
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0303
 U 1 1 5BF58438
 P 1550 3200
-F 0 "#PWR?" H 1550 2950 50  0001 C CNN
+F 0 "#PWR0303" H 1550 2950 50  0001 C CNN
 F 1 "GNDD" H 1554 3045 50  0000 C CNN
 F 2 "" H 1550 3200 50  0001 C CNN
 F 3 "" H 1550 3200 50  0001 C CNN
@@ -327,10 +327,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 2950 1150 2950
 $Comp
-L MotorControllerParts:+3.3V #PWR?
+L MotorControllerParts:+3.3V #PWR0302
 U 1 1 5BF59316
 P 1250 800
-F 0 "#PWR?" H 1250 650 50  0001 C CNN
+F 0 "#PWR0302" H 1250 650 50  0001 C CNN
 F 1 "+3.3V" H 1265 973 50  0000 C CNN
 F 2 "" H 1250 800 50  0001 C CNN
 F 3 "" H 1250 800 50  0001 C CNN
@@ -390,10 +390,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 2600 1150 2600
 $Comp
-L MotorControllerParts:Crystal Y?
+L MotorControllerParts:Crystal Y301
 U 1 1 5BF6BC78
 P 7450 6000
-F 0 "Y?" V 7450 5800 50  0000 C CNN
+F 0 "Y301" V 7450 5800 50  0000 C CNN
 F 1 "8Mhz" V 7600 5850 50  0000 C CNN
 F 2 "" H 7450 6000 50  0001 C CNN
 F 3 "~" H 7450 6000 50  0001 C CNN
@@ -401,10 +401,10 @@ F 3 "~" H 7450 6000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MotorControllerParts:C_Small C?
+L MotorControllerParts:C_Small C309
 U 1 1 5BF6BDAE
 P 7250 5750
-F 0 "C?" V 7200 5550 50  0000 L CNN
+F 0 "C309" V 7200 5550 50  0000 L CNN
 F 1 "26pf" V 7350 5650 50  0000 L CNN
 F 2 "" H 7250 5750 50  0001 C CNN
 F 3 "~" H 7250 5750 50  0001 C CNN
@@ -412,10 +412,10 @@ F 3 "~" H 7250 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MotorControllerParts:C_Small C?
+L MotorControllerParts:C_Small C310
 U 1 1 5BF6BDEC
 P 7250 6250
-F 0 "C?" V 7200 6050 50  0000 L CNN
+F 0 "C310" V 7200 6050 50  0000 L CNN
 F 1 "26pf" V 7350 6150 50  0000 L CNN
 F 2 "" H 7250 6250 50  0001 C CNN
 F 3 "~" H 7250 6250 50  0001 C CNN
@@ -423,10 +423,10 @@ F 3 "~" H 7250 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0314
 U 1 1 5BF6BE4A
 P 7050 6450
-F 0 "#PWR?" H 7050 6200 50  0001 C CNN
+F 0 "#PWR0314" H 7050 6200 50  0001 C CNN
 F 1 "GNDD" H 7054 6295 50  0000 C CNN
 F 2 "" H 7050 6450 50  0001 C CNN
 F 3 "" H 7050 6450 50  0001 C CNN
@@ -446,10 +446,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 6250 7350 6250
 $Comp
-L MotorControllerParts:R_Small R?
+L MotorControllerParts:R_Small R302
 U 1 1 5BF74546
 P 7750 6250
-F 0 "R?" V 7650 6250 50  0000 C CNN
+F 0 "R302" V 7650 6250 50  0000 C CNN
 F 1 "390R" V 7850 6250 50  0000 C CNN
 F 2 "" H 7750 6250 50  0001 C CNN
 F 3 "~" H 7750 6250 50  0001 C CNN
@@ -588,10 +588,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 1250 1550 1250
 $Comp
-L MotorControllerParts:SW_Push_45deg SW?
+L MotorControllerParts:SW_Push_45deg SW301
 U 1 1 5BFC7C0E
 P 900 5550
-F 0 "SW?" V 850 5550 50  0000 R CNN
+F 0 "SW301" V 850 5550 50  0000 R CNN
 F 1 "Reset" V 1050 5750 50  0000 R CNN
 F 2 "" H 900 5550 50  0001 C CNN
 F 3 "" H 900 5550 50  0001 C CNN
@@ -599,10 +599,10 @@ F 3 "" H 900 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MotorControllerParts:SW_Push_45deg SW?
+L MotorControllerParts:SW_Push_45deg SW302
 U 1 1 5BFC7CC8
 P 2100 5250
-F 0 "SW?" V 2050 5250 50  0000 R CNN
+F 0 "SW302" V 2050 5250 50  0000 R CNN
 F 1 "Boot" V 2250 5450 50  0000 R CNN
 F 2 "" H 2100 5250 50  0001 C CNN
 F 3 "" H 2100 5250 50  0001 C CNN
@@ -610,10 +610,10 @@ F 3 "" H 2100 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C303
 U 1 1 5BFC7DD0
 P 1300 5600
-F 0 "C?" H 1350 5700 50  0000 L CNN
+F 0 "C303" H 1350 5700 50  0000 L CNN
 F 1 "100n" H 1350 5500 50  0000 L CNN
 F 2 "" H 1338 5450 50  0001 C CNN
 F 3 "~" H 1300 5600 50  0001 C CNN
@@ -621,10 +621,10 @@ F 3 "~" H 1300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:+3.3V #PWR?
+L MotorControllerParts:+3.3V #PWR0307
 U 1 1 5BFC8083
 P 2200 5050
-F 0 "#PWR?" H 2200 4900 50  0001 C CNN
+F 0 "#PWR0307" H 2200 4900 50  0001 C CNN
 F 1 "+3.3V" H 2215 5223 50  0000 C CNN
 F 2 "" H 2200 5050 50  0001 C CNN
 F 3 "" H 2200 5050 50  0001 C CNN
@@ -632,10 +632,10 @@ F 3 "" H 2200 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:R R?
+L MotorControllerParts:R R301
 U 1 1 5BFC81C5
 P 2000 5650
-F 0 "R?" H 2070 5696 50  0000 L CNN
+F 0 "R301" H 2070 5696 50  0000 L CNN
 F 1 "10K" H 2070 5605 50  0000 L CNN
 F 2 "" V 1930 5650 50  0001 C CNN
 F 3 "~" H 2000 5650 50  0001 C CNN
@@ -662,10 +662,10 @@ Wire Wire Line
 Wire Wire Line
 	2200 5150 2200 5050
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0306
 U 1 1 5BFDEC1C
 P 2000 5850
-F 0 "#PWR?" H 2000 5600 50  0001 C CNN
+F 0 "#PWR0306" H 2000 5600 50  0001 C CNN
 F 1 "GNDD" H 2004 5695 50  0000 C CNN
 F 2 "" H 2000 5850 50  0001 C CNN
 F 3 "" H 2000 5850 50  0001 C CNN
@@ -684,10 +684,10 @@ Wire Wire Line
 Text Label 2500 5400 2    50   ~ 0
 Boot
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0301
 U 1 1 5C0018BC
 P 1050 5850
-F 0 "#PWR?" H 1050 5600 50  0001 C CNN
+F 0 "#PWR0301" H 1050 5600 50  0001 C CNN
 F 1 "GNDD" H 1054 5695 50  0000 C CNN
 F 2 "" H 1050 5850 50  0001 C CNN
 F 3 "" H 1050 5850 50  0001 C CNN
@@ -708,10 +708,10 @@ Reset
 Wire Wire Line
 	4350 1300 4700 1300
 $Comp
-L MotorControllerParts:LED_ALT D?
+L MotorControllerParts:LED_ALT D301
 U 1 1 5C025F17
 P 9550 5500
-F 0 "D?" H 9500 5600 50  0000 C CNN
+F 0 "D301" H 9500 5600 50  0000 C CNN
 F 1 "CAN_Status" H 9542 5336 50  0000 C CNN
 F 2 "" H 9550 5500 50  0001 C CNN
 F 3 "~" H 9550 5500 50  0001 C CNN
@@ -719,10 +719,10 @@ F 3 "~" H 9550 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MotorControllerParts:Conn_01x06 J?
+L MotorControllerParts:Conn_01x06 J301
 U 1 1 5C026393
 P 3450 5400
-F 0 "J?" H 3530 5392 50  0000 L CNN
+F 0 "J301" H 3530 5392 50  0000 L CNN
 F 1 "SWD" H 3530 5301 50  0000 L CNN
 F 2 "" H 3450 5400 50  0001 C CNN
 F 3 "~" H 3450 5400 50  0001 C CNN
@@ -746,10 +746,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 5300 3250 5300
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0309
 U 1 1 5C039856
 P 2850 5850
-F 0 "#PWR?" H 2850 5600 50  0001 C CNN
+F 0 "#PWR0309" H 2850 5600 50  0001 C CNN
 F 1 "GNDD" H 2854 5695 50  0000 C CNN
 F 2 "" H 2850 5850 50  0001 C CNN
 F 3 "" H 2850 5850 50  0001 C CNN
@@ -773,10 +773,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 3300 6100 3300
 $Comp
-L MotorControllerParts:LED_ALT D?
+L MotorControllerParts:LED_ALT D302
 U 1 1 5C0637FB
 P 9550 5900
-F 0 "D?" H 9500 6000 50  0000 C CNN
+F 0 "D302" H 9500 6000 50  0000 C CNN
 F 1 "Heartbeat" H 9542 5736 50  0000 C CNN
 F 2 "" H 9550 5900 50  0001 C CNN
 F 3 "~" H 9550 5900 50  0001 C CNN
@@ -784,10 +784,10 @@ F 3 "~" H 9550 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MotorControllerParts:LED_ALT D?
+L MotorControllerParts:LED_ALT D303
 U 1 1 5C063839
 P 9550 6300
-F 0 "D?" H 9500 6400 50  0000 C CNN
+F 0 "D303" H 9500 6400 50  0000 C CNN
 F 1 "User_LED" H 9542 6136 50  0000 C CNN
 F 2 "" H 9550 6300 50  0001 C CNN
 F 3 "~" H 9550 6300 50  0001 C CNN
@@ -821,10 +821,10 @@ Wire Notes Line
 Wire Notes Line
 	600  6200 600  4600
 $Comp
-L MotorControllerParts:R R?
+L MotorControllerParts:R R307
 U 1 1 5C0E197C
 P 9950 6300
-F 0 "R?" V 10050 6300 50  0000 C CNN
+F 0 "R307" V 10050 6300 50  0000 C CNN
 F 1 "510R" V 9834 6300 50  0000 C CNN
 F 2 "" V 9880 6300 50  0001 C CNN
 F 3 "~" H 9950 6300 50  0001 C CNN
@@ -832,10 +832,10 @@ F 3 "~" H 9950 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MotorControllerParts:R R?
+L MotorControllerParts:R R306
 U 1 1 5C0E1B65
 P 9950 5900
-F 0 "R?" V 10050 5900 50  0000 C CNN
+F 0 "R306" V 10050 5900 50  0000 C CNN
 F 1 "510R" V 9834 5900 50  0000 C CNN
 F 2 "" V 9880 5900 50  0001 C CNN
 F 3 "~" H 9950 5900 50  0001 C CNN
@@ -843,10 +843,10 @@ F 3 "~" H 9950 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MotorControllerParts:R R?
+L MotorControllerParts:R R305
 U 1 1 5C0E1BAD
 P 9950 5500
-F 0 "R?" V 10050 5500 50  0000 C CNN
+F 0 "R305" V 10050 5500 50  0000 C CNN
 F 1 "510R" V 9834 5500 50  0000 C CNN
 F 2 "" V 9880 5500 50  0001 C CNN
 F 3 "~" H 9950 5500 50  0001 C CNN
@@ -854,10 +854,10 @@ F 3 "~" H 9950 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0318
 U 1 1 5C0E1E7D
 P 10200 6450
-F 0 "#PWR?" H 10200 6200 50  0001 C CNN
+F 0 "#PWR0318" H 10200 6200 50  0001 C CNN
 F 1 "GNDD" H 10204 6295 50  0000 C CNN
 F 2 "" H 10200 6450 50  0001 C CNN
 F 3 "" H 10200 6450 50  0001 C CNN
@@ -909,10 +909,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 6300 9400 6300
 $Comp
-L MotorControllerParts:SW_Push_45deg SW?
+L MotorControllerParts:SW_Push_45deg SW303
 U 1 1 5C12B80C
 P 10100 4350
-F 0 "SW?" V 10050 4350 50  0000 R CNN
+F 0 "SW303" V 10050 4350 50  0000 R CNN
 F 1 "User_SW" V 10250 4550 50  0000 R CNN
 F 2 "" H 10100 4350 50  0001 C CNN
 F 3 "" H 10100 4350 50  0001 C CNN
@@ -920,10 +920,10 @@ F 3 "" H 10100 4350 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L MotorControllerParts:C C?
+L MotorControllerParts:C C311
 U 1 1 5C12B945
 P 9650 4450
-F 0 "C?" H 9765 4496 50  0000 L CNN
+F 0 "C311" H 9765 4496 50  0000 L CNN
 F 1 "100n" H 9765 4405 50  0000 L CNN
 F 2 "" H 9688 4300 50  0001 C CNN
 F 3 "~" H 9650 4450 50  0001 C CNN
@@ -931,10 +931,10 @@ F 3 "~" H 9650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:R R?
+L MotorControllerParts:R R303
 U 1 1 5C12BAE3
 P 9650 4050
-F 0 "R?" H 9720 4096 50  0000 L CNN
+F 0 "R303" H 9720 4096 50  0000 L CNN
 F 1 "4K7" H 9720 4005 50  0000 L CNN
 F 2 "" V 9580 4050 50  0001 C CNN
 F 3 "~" H 9650 4050 50  0001 C CNN
@@ -942,10 +942,10 @@ F 3 "~" H 9650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:R R?
+L MotorControllerParts:R R304
 U 1 1 5C12BBAB
 P 9650 4800
-F 0 "R?" H 9720 4846 50  0000 L CNN
+F 0 "R304" H 9720 4846 50  0000 L CNN
 F 1 "100R" H 9720 4755 50  0000 L CNN
 F 2 "" V 9580 4800 50  0001 C CNN
 F 3 "~" H 9650 4800 50  0001 C CNN
@@ -962,10 +962,10 @@ Connection ~ 9650 4250
 Wire Wire Line
 	9650 4650 9650 4600
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0317
 U 1 1 5C146710
 P 9950 5050
-F 0 "#PWR?" H 9950 4800 50  0001 C CNN
+F 0 "#PWR0317" H 9950 4800 50  0001 C CNN
 F 1 "GNDD" H 9954 4895 50  0000 C CNN
 F 2 "" H 9950 5050 50  0001 C CNN
 F 3 "" H 9950 5050 50  0001 C CNN
@@ -984,10 +984,10 @@ Connection ~ 9950 5000
 Wire Wire Line
 	9950 5000 10200 5000
 $Comp
-L motor-controller-hw-cache:+3.3V #PWR?
+L motor-controller-hw-cache:+3.3V #PWR0316
 U 1 1 5C175CBF
 P 9650 3850
-F 0 "#PWR?" H 9650 3700 50  0001 C CNN
+F 0 "#PWR0316" H 9650 3700 50  0001 C CNN
 F 1 "+3.3V" H 9665 4023 50  0000 C CNN
 F 2 "" H 9650 3850 50  0001 C CNN
 F 3 "" H 9650 3850 50  0001 C CNN
@@ -1047,10 +1047,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 1600 6100 1600
 $Comp
-L MotorControllerParts:Conn_01x03 J?
+L MotorControllerParts:Conn_01x03 J302
 U 1 1 5BF48BC7
 P 9950 3100
-F 0 "J?" H 9900 3300 50  0000 L CNN
+F 0 "J302" H 9900 3300 50  0000 L CNN
 F 1 "User USART" H 9750 2900 50  0000 L CNN
 F 2 "" H 9950 3100 50  0001 C CNN
 F 3 "~" H 9950 3100 50  0001 C CNN
@@ -1058,10 +1058,10 @@ F 3 "~" H 9950 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0315
 U 1 1 5BF68017
 P 9650 3400
-F 0 "#PWR?" H 9650 3150 50  0001 C CNN
+F 0 "#PWR0315" H 9650 3150 50  0001 C CNN
 F 1 "GNDD" H 9654 3245 50  0000 C CNN
 F 2 "" H 9650 3400 50  0001 C CNN
 F 3 "" H 9650 3400 50  0001 C CNN
@@ -1081,10 +1081,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 3200 9750 3200
 $Comp
-L MotorControllerParts:+3.3V #PWR?
+L MotorControllerParts:+3.3V #PWR0308
 U 1 1 5BFBCA2F
 P 2850 5050
-F 0 "#PWR?" H 2850 4900 50  0001 C CNN
+F 0 "#PWR0308" H 2850 4900 50  0001 C CNN
 F 1 "+3.3V" H 2865 5223 50  0000 C CNN
 F 2 "" H 2850 5050 50  0001 C CNN
 F 3 "" H 2850 5050 50  0001 C CNN
@@ -1101,10 +1101,10 @@ Wire Wire Line
 	5600 4800 5500 4800
 Connection ~ 5500 4800
 $Comp
-L MotorControllerParts:GNDD #PWR?
+L MotorControllerParts:GNDD #PWR0311
 U 1 1 5C8CD47C
 P 3050 7600
-F 0 "#PWR?" H 3050 7350 50  0001 C CNN
+F 0 "#PWR0311" H 3050 7350 50  0001 C CNN
 F 1 "GNDD" H 3054 7445 50  0000 C CNN
 F 2 "" H 3050 7600 50  0001 C CNN
 F 3 "" H 3050 7600 50  0001 C CNN
