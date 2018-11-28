@@ -1429,7 +1429,7 @@ Phase_B_HALL
 Text Label 10800 3900 2    50   ~ 0
 Phase_A_HALL
 $Comp
-L 74xx:74HC7014 U205
+L MotorControllerParts:74HC7014 U205
 U 1 1 5CCC1B5B
 P 9950 3900
 F 0 "U205" H 9950 4217 50  0000 C CNN
@@ -1495,7 +1495,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 4650 8950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U204
+L MotorControllerParts:74HC7014 U204
 U 1 1 5CCE6839
 P 8500 1250
 F 0 "U204" H 8500 1567 50  0000 C CNN

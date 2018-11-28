@@ -159,6 +159,10 @@ F23 "TMC4671_MISO" I R 7650 4750 50
 F24 "TMC4671_MOSI" O R 7650 4650 50 
 F25 "TMC4671_EN" O R 7650 4150 50 
 F26 "TMC4671_Status" I R 7650 4250 50 
+F27 "~SPI_SS" O R 7650 5250 50 
+F28 "SPI_SCK" O R 7650 5150 50 
+F29 "SPI_MISO" I R 7650 5050 50 
+F30 "SPI_MOSI" O R 7650 4950 50 
 $EndSheet
 Wire Wire Line
 	5100 5150 5750 5150
@@ -306,8 +310,8 @@ $Comp
 L MotorControllerParts:C C102
 U 1 1 5BFA3D9B
 P 5650 1550
-F 0 "C102" H 5765 1596 50  0000 L CNN
-F 1 "100n" H 5765 1505 50  0000 L CNN
+F 0 "C102" H 5700 1650 50  0000 L CNN
+F 1 "100n" H 5700 1450 50  0000 L CNN
 F 2 "" H 5688 1400 50  0001 C CNN
 F 3 "" H 5650 1550 50  0001 C CNN
 	1    5650 1550
@@ -328,7 +332,7 @@ $Comp
 L MotorControllerParts:C C105
 U 1 1 5BFA3DA9
 P 7600 1550
-F 0 "C105" H 7715 1596 50  0000 L CNN
+F 0 "C105" H 7650 1650 50  0000 L CNN
 F 1 "10u" H 7650 1450 50  0000 L CNN
 F 2 "" H 7638 1400 50  0001 C CNN
 F 3 "" H 7600 1550 50  0001 C CNN
@@ -339,8 +343,8 @@ $Comp
 L MotorControllerParts:C C101
 U 1 1 5BFA3DB0
 P 5250 1550
-F 0 "C101" H 5365 1596 50  0000 L CNN
-F 1 "4u7" H 5365 1505 50  0000 L CNN
+F 0 "C101" H 5300 1650 50  0000 L CNN
+F 1 "4u7" H 5300 1450 50  0000 L CNN
 F 2 "" H 5288 1400 50  0001 C CNN
 F 3 "" H 5250 1550 50  0001 C CNN
 	1    5250 1550
@@ -482,7 +486,7 @@ Wire Notes Line
 Wire Notes Line
 	5000 550  8000 550 
 $Comp
-L Connector:USB_B_Micro J105
+L MotorControllerParts:USB_B_Micro J105
 U 1 1 5BFDD119
 P 900 1200
 F 0 "J105" H 1050 800 50  0000 C CNN
@@ -515,7 +519,7 @@ Connection ~ 850  1650
 Wire Wire Line
 	850  1650 900  1650
 $Comp
-L Connector_Generic:Conn_01x04 J101
+L MotorControllerParts:Conn_01x04 J101
 U 1 1 5BFE5442
 P 800 2350
 F 0 "J101" H 800 2600 50  0000 C CNN
@@ -549,7 +553,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2450 1000 2450
 $Comp
-L Connector_Generic:Conn_01x02 J103
+L MotorControllerParts:Conn_01x02 J103
 U 1 1 5BFEEFEC
 P 800 4300
 F 0 "J103" H 800 4450 50  0000 C CNN
@@ -560,7 +564,7 @@ F 3 "~" H 800 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J104
+L MotorControllerParts:Conn_01x02 J104
 U 1 1 5BFF0D92
 P 800 5150
 F 0 "J104" H 800 5300 50  0000 C CNN
@@ -611,7 +615,7 @@ MotorTemp
 Text Label 3050 5000 0    50   ~ 0
 TransistorTemp
 $Comp
-L Connector_Generic:Conn_01x04 J102
+L MotorControllerParts:Conn_01x04 J102
 U 1 1 5C001BC1
 P 800 3550
 F 0 "J102" H 800 3800 50  0000 C CNN
@@ -650,7 +654,7 @@ F 3 "" H 1550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x07_Top_Bottom J106
+L MotorControllerParts:Conn_02x07_Top_Bottom J106
 U 1 1 5C00DFF5
 P 1400 6200
 F 0 "J106" H 1450 5750 50  0000 C CNN
@@ -790,7 +794,7 @@ Wire Wire Line
 	1600 1300 1200 1300
 NoConn ~ 1000 2150
 $Comp
-L Device:Polyfuse_Small F101
+L MotorControllerParts:Polyfuse_Small F101
 U 1 1 5C1CAD40
 P 1350 3350
 F 0 "F101" V 1250 3300 50  0000 C CNN
@@ -808,7 +812,7 @@ Wire Wire Line
 	1150 3350 1250 3350
 Connection ~ 1150 3350
 $Comp
-L Connector_Generic:Conn_01x06 J107
+L MotorControllerParts:Conn_01x06 J107
 U 1 1 5BF7BB3E
 P 2000 4950
 F 0 "J107" H 2000 5300 50  0000 C CNN
@@ -1145,7 +1149,7 @@ $EndComp
 Wire Wire Line
 	3100 1450 3800 1450
 $Comp
-L Device:D_Schottky_ALT D102
+L MotorControllerParts:D_Schottky_ALT D102
 U 1 1 5DE9991E
 P 2950 1450
 F 0 "D102" H 2950 1550 50  0000 C CNN
@@ -1159,7 +1163,7 @@ $Comp
 L MotorControllerParts:R R102
 U 1 1 5BFA3DF0
 P 2450 2350
-F 0 "R102" H 2250 2400 50  0000 L CNN
+F 0 "R102" H 2150 2400 50  0000 L CNN
 F 1 "10K" H 2200 2300 50  0000 L CNN
 F 2 "" V 2380 2350 50  0001 C CNN
 F 3 "~" H 2450 2350 50  0001 C CNN
@@ -1216,7 +1220,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 6600 5100 6600
 $Comp
-L Device:Polyfuse_Small F103
+L MotorControllerParts:Polyfuse_Small F103
 U 1 1 5E1B011D
 P 1850 6000
 F 0 "F103" V 1900 5800 50  0000 C CNN
@@ -1227,7 +1231,7 @@ F 3 "~" H 1850 6000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Polyfuse_Small F102
+L MotorControllerParts:Polyfuse_Small F102
 U 1 1 5E1C927F
 P 1850 5900
 F 0 "F102" V 1900 5700 50  0000 C CNN
@@ -1272,7 +1276,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 4000 8050 4750
 $Comp
-L Connector_Generic:Conn_01x02 J108
+L MotorControllerParts:Conn_01x02 J108
 U 1 1 5E6A4ACF
 P 5200 3800
 F 0 "J108" V 5200 3550 50  0000 C CNN
@@ -1283,7 +1287,7 @@ F 3 "~" H 5200 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J110
+L MotorControllerParts:Conn_01x04 J110
 U 1 1 5E6B408E
 P 7850 3800
 F 0 "J110" V 7850 3450 50  0000 C CNN
@@ -1300,7 +1304,7 @@ ENC_B_in
 Text Label 3300 6600 0    50   ~ 0
 ENC_A_in
 $Comp
-L Connector_Generic:Conn_01x05 J109
+L MotorControllerParts:Conn_01x05 J109
 U 1 1 5E777130
 P 2100 3550
 F 0 "J109" H 2100 3900 50  0000 C CNN
@@ -1675,4 +1679,49 @@ Wire Notes Line
 	2800 6750 550  6750
 Wire Notes Line
 	550  6750 550  5600
+Wire Wire Line
+	1700 5900 1750 5900
+Wire Wire Line
+	8050 5050 7650 5050
+Wire Wire Line
+	8050 4950 7650 4950
+Wire Wire Line
+	8050 5150 7650 5150
+Wire Wire Line
+	8050 5250 7650 5250
+Text Label 8050 4950 2    50   ~ 0
+SPI_MISO
+Text Label 8050 5050 2    50   ~ 0
+SPI_MOSI
+Text Label 8050 5150 2    50   ~ 0
+SPI_SCK
+Text Label 8050 5250 2    50   ~ 0
+SPI_SS
+Text Label 10450 1850 2    50   ~ 0
+SPI_MISO
+Text Label 10450 1650 2    50   ~ 0
+SPI_MOSI
+Text Label 10450 2050 2    50   ~ 0
+SPI_SS
+Text Label 8150 1850 0    50   ~ 0
+SPI_SCK
+Wire Wire Line
+	10450 2050 9900 2050
+Wire Wire Line
+	8150 1850 8650 1850
+Wire Wire Line
+	10450 1650 9900 1650
+Wire Wire Line
+	10450 1850 9900 1850
+NoConn ~ 9900 3050
+NoConn ~ 9900 2950
+NoConn ~ 9900 2850
+NoConn ~ 9900 2750
+NoConn ~ 9900 2650
+NoConn ~ 9900 1350
+NoConn ~ 8650 2950
+NoConn ~ 8650 2850
+NoConn ~ 8650 2750
+NoConn ~ 8650 2650
+NoConn ~ 8650 2550
 $EndSCHEMATC

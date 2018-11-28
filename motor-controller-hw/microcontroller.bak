@@ -473,14 +473,14 @@ Connection ~ 7450 6250
 Wire Wire Line
 	8100 5750 7450 5750
 Connection ~ 7450 5750
-Text Label 4350 2600 0    50   ~ 0
+Text Label 4300 2600 0    50   ~ 0
 OSC-
-Text Label 4350 2500 0    50   ~ 0
+Text Label 4300 2500 0    50   ~ 0
 OSC+
 Wire Wire Line
-	4350 2500 4700 2500
+	4300 2500 4700 2500
 Wire Wire Line
-	4350 2600 4700 2600
+	4300 2600 4700 2600
 Text Notes 6450 5550 0    50   ~ 0
 Crystal Oscilator with 18pf load capacitor rating.\nAssumed stray capacitance of 5pf.\nSee: https://www.allaboutcircuits.com/technical-articles/\nchoosing-the-right-oscillator-for-your-microcontroller/
 Text Label 1550 1850 2    50   ~ 0
@@ -493,12 +493,12 @@ Wire Wire Line
 	1150 1850 1550 1850
 Text Label 6800 2000 2    50   ~ 0
 A_In1
-Text Label 4350 3400 0    50   ~ 0
+Text Label 4300 3400 0    50   ~ 0
 A_In2
 Wire Wire Line
 	6800 2000 6100 2000
 Wire Wire Line
-	4350 3400 4700 3400
+	4300 3400 4700 3400
 Text Label 6800 1900 2    50   ~ 0
 Throttle
 Wire Wire Line
@@ -531,22 +531,22 @@ Text Label 1550 2250 2    50   ~ 0
 D_In3
 Text Label 1550 2350 2    50   ~ 0
 D_In4
-Text Label 4350 3600 0    50   ~ 0
+Text Label 4300 3600 0    50   ~ 0
 D_In1
-Text Label 4350 3700 0    50   ~ 0
+Text Label 4300 3700 0    50   ~ 0
 D_In2
-Text Label 4350 3800 0    50   ~ 0
+Text Label 4300 3800 0    50   ~ 0
 D_In3
-Text Label 4350 3900 0    50   ~ 0
+Text Label 4300 3900 0    50   ~ 0
 D_In4
 Wire Wire Line
-	4350 3600 4700 3600
+	4300 3600 4700 3600
 Wire Wire Line
-	4350 3700 4700 3700
+	4300 3700 4700 3700
 Wire Wire Line
-	4350 3800 4700 3800
+	4300 3800 4700 3800
 Wire Wire Line
-	4350 3900 4700 3900
+	4300 3900 4700 3900
 Wire Wire Line
 	1550 2050 1150 2050
 Wire Wire Line
@@ -699,14 +699,14 @@ Wire Wire Line
 Connection ~ 1050 5800
 Wire Wire Line
 	1050 5800 1300 5800
-Text Label 4350 1500 0    50   ~ 0
+Text Label 4300 1500 0    50   ~ 0
 Boot
 Wire Wire Line
-	4350 1500 4700 1500
-Text Label 4350 1300 0    50   ~ 0
+	4300 1500 4700 1500
+Text Label 4300 1300 0    50   ~ 0
 Reset
 Wire Wire Line
-	4350 1300 4700 1300
+	4300 1300 4700 1300
 $Comp
 L MotorControllerParts:LED_ALT D301
 U 1 1 5C025F17
@@ -912,8 +912,8 @@ $Comp
 L MotorControllerParts:SW_Push_45deg SW303
 U 1 1 5C12B80C
 P 10100 4350
-F 0 "SW303" V 10050 4350 50  0000 R CNN
-F 1 "User_SW" V 10250 4550 50  0000 R CNN
+F 0 "SW303" V 10250 4500 50  0000 R CNN
+F 1 "User_SW" V 10350 4550 50  0000 R CNN
 F 2 "" H 10100 4350 50  0001 C CNN
 F 3 "" H 10100 4350 50  0001 C CNN
 	1    10100 4350
@@ -996,38 +996,38 @@ F 3 "" H 9650 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9650 3850 9650 3900
-Text Label 4350 4300 0    50   ~ 0
+Text Label 4300 4300 0    50   ~ 0
 User_SW
 Wire Wire Line
-	4350 4300 4700 4300
+	4300 4300 4700 4300
 Text Label 9000 4250 0    50   ~ 0
 User_SW
 Wire Wire Line
 	9000 4250 9650 4250
-Text HLabel 9700 1350 2    50   Output ~ 0
+Text HLabel 9700 1650 2    50   Output ~ 0
 ~TMC4671_SS
-Text HLabel 9700 1450 2    50   Output ~ 0
-TMC4671_SCK
-Text HLabel 9700 1650 2    50   Input ~ 0
-TMC4671_MISO
 Text HLabel 9700 1550 2    50   Output ~ 0
-TMC4671_MOSI
-Text Label 9000 1550 0    50   ~ 0
-TMC4671_MOSI
-Text Label 9000 1650 0    50   ~ 0
-TMC4671_MISO
-Text Label 9000 1450 0    50   ~ 0
 TMC4671_SCK
+Text HLabel 9700 1350 2    50   Input ~ 0
+TMC4671_MISO
+Text HLabel 9700 1450 2    50   Output ~ 0
+TMC4671_MOSI
+Text Label 9000 1450 0    50   ~ 0
+TMC4671_MOSI
 Text Label 9000 1350 0    50   ~ 0
+TMC4671_MISO
+Text Label 9000 1550 0    50   ~ 0
+TMC4671_SCK
+Text Label 9000 1650 0    50   ~ 0
 TMC4671_SS
-Wire Wire Line
-	9000 1550 9700 1550
-Wire Wire Line
-	9000 1650 9700 1650
 Wire Wire Line
 	9000 1450 9700 1450
 Wire Wire Line
 	9000 1350 9700 1350
+Wire Wire Line
+	9000 1550 9700 1550
+Wire Wire Line
+	9000 1650 9700 1650
 Wire Notes Line
 	8900 2650 10400 2650
 Wire Notes Line
@@ -1131,4 +1131,56 @@ Wire Wire Line
 	6800 4000 6100 4000
 Wire Wire Line
 	6800 4100 6100 4100
+Text Label 4300 4200 0    50   ~ 0
+SPI_MOSI
+Text Label 4300 4100 0    50   ~ 0
+SPI_MISO
+Text Label 4300 4000 0    50   ~ 0
+SPI_SCK
+Text Label 6800 2800 2    50   ~ 0
+SPI_SS
+Wire Wire Line
+	6800 2800 6100 2800
+Wire Wire Line
+	4300 4200 4700 4200
+Wire Wire Line
+	4300 4100 4700 4100
+Wire Wire Line
+	4300 4000 4700 4000
+Text HLabel 9700 2200 2    50   Output ~ 0
+~SPI_SS
+Text HLabel 9700 2100 2    50   Output ~ 0
+SPI_SCK
+Text HLabel 9700 1900 2    50   Input ~ 0
+SPI_MISO
+Text HLabel 9700 2000 2    50   Output ~ 0
+SPI_MOSI
+Wire Wire Line
+	9000 2000 9700 2000
+Wire Wire Line
+	9000 1900 9700 1900
+Wire Wire Line
+	9000 2100 9700 2100
+Wire Wire Line
+	9000 2200 9700 2200
+Text Label 9000 1900 0    50   ~ 0
+SPI_MISO
+Text Label 9000 2000 0    50   ~ 0
+SPI_MOSI
+Text Label 9000 2100 0    50   ~ 0
+SPI_SCK
+Text Label 9000 2200 0    50   ~ 0
+SPI_SS
+NoConn ~ 6100 3700
+NoConn ~ 6100 3600
+NoConn ~ 6100 3500
+NoConn ~ 6100 3400
+NoConn ~ 4700 4500
+NoConn ~ 4700 3500
+NoConn ~ 4700 3300
+NoConn ~ 4700 3200
+NoConn ~ 4700 3100
+NoConn ~ 4700 3000
+NoConn ~ 4700 2800
+NoConn ~ 4700 4400
 $EndSCHEMATC

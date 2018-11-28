@@ -32,10 +32,40 @@ K Voltage Regulator, 3.3v
 F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
 $ENDCMP
 #
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x05
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x07_Top_Bottom
+D Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP D36V6Fx
 D Pololu D36V6Fx Voltage regulator. Max input voltage 50v, 600mA output current.
 K Voltage Regulator, Pololu, D36V6Fx
 F https://www.pololu.com/category/247/d36v6x-step-down-voltage-regulators
+$ENDCMP
+#
+$CMP D_Schottky_ALT
+D Schottky diode, alternativ symbol
+K diode schotty
+F ~
 $ENDCMP
 #
 $CMP GNDA
@@ -57,6 +87,12 @@ $CMP IQXO-50
 D Crystal Clock Oscillator, SMD package 5.0mmx3.2mm²
 K Crystal Clock Oscillator
 F https://www.foxonline.com/pdfs/fox924.pdf
+$ENDCMP
+#
+$CMP Polyfuse_Small
+D resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
 $ENDCMP
 #
 $CMP STM32F303RDTx
@@ -91,6 +127,18 @@ $ENDCMP
 $CMP Trinamic_TRMI
 D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
+F ~
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
 F ~
 $ENDCMP
 #
