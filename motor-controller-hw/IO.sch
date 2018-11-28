@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title "Input Protection and Filtering"
 Date "2018-11-17"
 Rev "1.0"
@@ -1035,17 +1035,11 @@ Wire Notes Line
 Text Notes 9100 3200 0    50   ~ 0
 Hall Input Filtering
 Text HLabel 1350 7050 0    50   Input ~ 0
-A_ABN_i
+ENC_A_i
 Text HLabel 1350 7150 0    50   Input ~ 0
-B_ABN_i
+ENC_B_i
 Text HLabel 1350 7250 0    50   Input ~ 0
-N_ABN_i
-Text Label 1750 7050 2    50   ~ 0
-A_ABN_i
-Text Label 1750 7150 2    50   ~ 0
-B_ABN_i
-Text Label 1750 7250 2    50   ~ 0
-N_ABN_i
+ENC_N_i
 Wire Wire Line
 	1350 7050 1750 7050
 Wire Wire Line
@@ -1426,7 +1420,7 @@ Wire Wire Line
 	15200 4150 15650 4150
 Wire Wire Line
 	15200 4050 15650 4050
-Text Notes 19400 1050 0    59   ~ 0
+Text Notes 13000 8850 0    59   ~ 0
 This sheet contains input/output proteciton and conditioning circuitry. \nNote that the TMC4671 and stm32 USB lines pass through this sheet\nwithout modification.
 Text Label 10800 6400 2    50   ~ 0
 Phase_C_HALL
@@ -1448,34 +1442,34 @@ $EndComp
 $Comp
 L 74xx:74HC7014 U?
 U 4 1 5CCC2417
-P 20800 4150
-F 0 "U?" H 20800 4467 50  0000 C CNN
-F 1 "74HC7014" H 20800 4376 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 20800 4150 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 20800 4150 50  0001 C CNN
-	4    20800 4150
+P 13550 3900
+F 0 "U?" H 13550 4217 50  0000 C CNN
+F 1 "74HC7014" H 13550 4126 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 3900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 3900 50  0001 C CNN
+	4    13550 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC7014 U?
 U 5 1 5CCC25DA
-P 20800 4650
-F 0 "U?" H 20800 4967 50  0000 C CNN
-F 1 "74HC7014" H 20800 4876 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 20800 4650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 20800 4650 50  0001 C CNN
-	5    20800 4650
+P 13550 5150
+F 0 "U?" H 13550 5467 50  0000 C CNN
+F 1 "74HC7014" H 13550 5376 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 5150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 5150 50  0001 C CNN
+	5    13550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC7014 U?
 U 6 1 5CCC272E
-P 20800 5250
-F 0 "U?" H 20800 5567 50  0000 C CNN
-F 1 "74HC7014" H 20800 5476 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 20800 5250 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 20800 5250 50  0001 C CNN
-	6    20800 5250
+P 13550 6400
+F 0 "U?" H 13550 6717 50  0000 C CNN
+F 1 "74HC7014" H 13550 6626 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 6400 50  0001 C CNN
+	6    13550 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1568,17 +1562,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 8500 2650 
 $EndComp
 $Comp
 L MotorControllerParts:R R?
-U 1 1 5CD97073
-P 8600 3900
-F 0 "R?" V 8500 3850 50  0000 L CNN
-F 1 "22R" V 8700 3850 50  0000 L CNN
-F 2 "" V 8530 3900 50  0001 C CNN
-F 3 "~" H 8600 3900 50  0001 C CNN
-	1    8600 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L MotorControllerParts:R R?
 U 1 1 5CE69E61
 P 9000 3700
 F 0 "R?" H 9050 3750 50  0000 L CNN
@@ -1593,7 +1576,7 @@ L MotorControllerParts:C C?
 U 1 1 5CE6A38E
 P 9000 4100
 F 0 "C?" H 9115 4146 50  0000 L CNN
-F 1 "100p" H 9115 4055 50  0000 L CNN
+F 1 "100n" H 9115 4055 50  0000 L CNN
 F 2 "" H 9038 3950 50  0001 C CNN
 F 3 "~" H 9000 4100 50  0001 C CNN
 	1    9000 4100
@@ -1640,17 +1623,6 @@ F 3 "" H 9000 5550 50  0001 C CNN
 $EndComp
 $Comp
 L MotorControllerParts:R R?
-U 1 1 5CF745B8
-P 8600 5150
-F 0 "R?" V 8500 5100 50  0000 L CNN
-F 1 "22R" V 8700 5100 50  0000 L CNN
-F 2 "" V 8530 5150 50  0001 C CNN
-F 3 "~" H 8600 5150 50  0001 C CNN
-	1    8600 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L MotorControllerParts:R R?
 U 1 1 5CF745BF
 P 9000 4950
 F 0 "R?" H 9050 5000 50  0000 L CNN
@@ -1665,7 +1637,7 @@ L MotorControllerParts:C C?
 U 1 1 5CF745C6
 P 9000 5350
 F 0 "C?" H 9115 5396 50  0000 L CNN
-F 1 "100p" H 9115 5305 50  0000 L CNN
+F 1 "100n" H 9115 5305 50  0000 L CNN
 F 2 "" H 9038 5200 50  0001 C CNN
 F 3 "~" H 9000 5350 50  0001 C CNN
 	1    9000 5350
@@ -1712,17 +1684,6 @@ F 3 "" H 9000 6800 50  0001 C CNN
 $EndComp
 $Comp
 L MotorControllerParts:R R?
-U 1 1 5D0817B7
-P 8600 6400
-F 0 "R?" V 8500 6350 50  0000 L CNN
-F 1 "22R" V 8700 6350 50  0000 L CNN
-F 2 "" V 8530 6400 50  0001 C CNN
-F 3 "~" H 8600 6400 50  0001 C CNN
-	1    8600 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L MotorControllerParts:R R?
 U 1 1 5D0817BE
 P 9000 6200
 F 0 "R?" H 9050 6250 50  0000 L CNN
@@ -1737,7 +1698,7 @@ L MotorControllerParts:C C?
 U 1 1 5D0817C5
 P 9000 6600
 F 0 "C?" H 9115 6646 50  0000 L CNN
-F 1 "100p" H 9115 6555 50  0000 L CNN
+F 1 "100n" H 9115 6555 50  0000 L CNN
 F 2 "" H 9038 6450 50  0001 C CNN
 F 3 "~" H 9000 6600 50  0001 C CNN
 	1    9000 6600
@@ -1861,31 +1822,14 @@ Wire Notes Line
 	14600 7200 11200 7200
 Wire Notes Line
 	11200 7200 11200 3100
-Text Notes 12700 3200 0    50   ~ 0
-Hall Input Filtering
-Text Label 14400 6400 2    50   ~ 0
-Phase_C_HALL
-Text Label 14400 5150 2    50   ~ 0
-Phase_B_HALL
-Text Label 14400 3900 2    50   ~ 0
-Phase_A_HALL
-$Comp
-L 74xx:74HC7014 U?
-U 1 1 5C097299
-P 13550 3900
-F 0 "U?" H 13550 4217 50  0000 C CNN
-F 1 "74HC7014" H 13550 4126 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 3900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 3900 50  0001 C CNN
-	1    13550 3900
-	1    0    0    -1  
-$EndComp
+Text Notes 12400 3200 0    50   ~ 0
+ABN Encoder Input Filtering
 $Comp
 L MotorControllerParts:R R?
 U 1 1 5C0972A0
 P 12200 3900
 F 0 "R?" V 12100 3850 50  0000 L CNN
-F 1 "22R" V 12300 3850 50  0000 L CNN
+F 1 "100R" V 12300 3800 50  0000 L CNN
 F 2 "" V 12130 3900 50  0001 C CNN
 F 3 "~" H 12200 3900 50  0001 C CNN
 	1    12200 3900
@@ -1907,7 +1851,7 @@ L MotorControllerParts:C C?
 U 1 1 5C0972AE
 P 12600 4100
 F 0 "C?" H 12715 4146 50  0000 L CNN
-F 1 "100p" H 12715 4055 50  0000 L CNN
+F 1 "100n" H 12715 4055 50  0000 L CNN
 F 2 "" H 12638 3950 50  0001 C CNN
 F 3 "~" H 12600 4100 50  0001 C CNN
 	1    12600 4100
@@ -1936,7 +1880,7 @@ Connection ~ 12600 3900
 Wire Wire Line
 	12600 3900 13250 3900
 Wire Wire Line
-	13850 3900 14400 3900
+	13850 3900 14200 3900
 Wire Wire Line
 	12600 4300 12600 4250
 Text Label 12800 3900 0    50   ~ 0
@@ -1957,7 +1901,7 @@ L MotorControllerParts:R R?
 U 1 1 5C0972CA
 P 12200 5150
 F 0 "R?" V 12100 5100 50  0000 L CNN
-F 1 "22R" V 12300 5100 50  0000 L CNN
+F 1 "100R" V 12300 5050 50  0000 L CNN
 F 2 "" V 12130 5150 50  0001 C CNN
 F 3 "~" H 12200 5150 50  0001 C CNN
 	1    12200 5150
@@ -1979,7 +1923,7 @@ L MotorControllerParts:C C?
 U 1 1 5C0972D8
 P 12600 5350
 F 0 "C?" H 12715 5396 50  0000 L CNN
-F 1 "100p" H 12715 5305 50  0000 L CNN
+F 1 "100n" H 12715 5305 50  0000 L CNN
 F 2 "" H 12638 5200 50  0001 C CNN
 F 3 "~" H 12600 5350 50  0001 C CNN
 	1    12600 5350
@@ -2010,7 +1954,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 5550 12600 5500
 Wire Wire Line
-	14400 5150 13850 5150
+	14200 5150 13850 5150
 $Comp
 L MotorControllerParts:GNDD #PWR?
 U 1 1 5C0972EE
@@ -2021,17 +1965,6 @@ F 2 "" H 12600 6800 50  0001 C CNN
 F 3 "" H 12600 6800 50  0001 C CNN
 	1    12600 6800
 	1    0    0    -1  
-$EndComp
-$Comp
-L MotorControllerParts:R R?
-U 1 1 5C0972F4
-P 12200 6400
-F 0 "R?" V 12100 6350 50  0000 L CNN
-F 1 "22R" V 12300 6350 50  0000 L CNN
-F 2 "" V 12130 6400 50  0001 C CNN
-F 3 "~" H 12200 6400 50  0001 C CNN
-	1    12200 6400
-	0    1    1    0   
 $EndComp
 $Comp
 L MotorControllerParts:R R?
@@ -2049,7 +1982,7 @@ L MotorControllerParts:C C?
 U 1 1 5C097302
 P 12600 6600
 F 0 "C?" H 12715 6646 50  0000 L CNN
-F 1 "100p" H 12715 6555 50  0000 L CNN
+F 1 "100n" H 12715 6555 50  0000 L CNN
 F 2 "" H 12638 6450 50  0001 C CNN
 F 3 "~" H 12600 6600 50  0001 C CNN
 	1    12600 6600
@@ -2080,51 +2013,95 @@ Wire Wire Line
 Wire Wire Line
 	12600 6800 12600 6750
 Wire Wire Line
-	14400 6400 13850 6400
+	14200 6400 13850 6400
 Wire Wire Line
 	11400 6400 12050 6400
-$Comp
-L 74xx:74HC7014 U?
-U 2 1 5C097319
-P 13550 5150
-F 0 "U?" H 13550 5467 50  0000 C CNN
-F 1 "74HC7014" H 13550 5376 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 5150 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 5150 50  0001 C CNN
-	2    13550 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC7014 U?
-U 3 1 5C097320
-P 13550 6400
-F 0 "U?" H 13550 6717 50  0000 C CNN
-F 1 "74HC7014" H 13550 6626 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 6400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 6400 50  0001 C CNN
-	3    13550 6400
-	1    0    0    -1  
-$EndComp
 Text Label 12800 5150 0    50   ~ 0
 B_ABN_TVS
 Text Label 12800 6400 0    50   ~ 0
 N_ABN_TVS
 Text HLabel 15650 6650 2    50   Output ~ 0
-A_ABN
+ENC_A
 Text HLabel 15650 6750 2    50   Output ~ 0
-B_ABN
+ENC_B
 Text HLabel 15650 6850 2    50   Output ~ 0
-N_ABN
+ENC_N
 Wire Wire Line
-	15650 6650 15050 6650
+	15650 6650 15350 6650
 Wire Wire Line
-	15050 6750 15650 6750
+	15350 6750 15650 6750
 Wire Wire Line
-	15050 6850 15650 6850
+	15350 6850 15650 6850
 Text Label 11400 3900 0    50   ~ 0
-A_ABN_i
+ENC_A_i
 Text Label 11400 5150 0    50   ~ 0
-B_ABN_i
+ENC_B_i
 Text Label 11400 6400 0    50   ~ 0
-N_ABN_i
+ENC_N_i
+Text Notes 9250 3450 0    50   ~ 0
+Lowpass filters set for about 72Khz\nSchmitt trigger inputs for taking out noise
+Text Notes 12900 3450 0    50   ~ 0
+Lowpass filters set for about 1.59Khz\nSchmitt trigger inputs for taking out noise
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5D302326
+P 12200 6400
+F 0 "R?" V 12100 6350 50  0000 L CNN
+F 1 "100R" V 12300 6300 50  0000 L CNN
+F 2 "" V 12130 6400 50  0001 C CNN
+F 3 "~" H 12200 6400 50  0001 C CNN
+	1    12200 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5D3026B7
+P 8600 6400
+F 0 "R?" V 8500 6350 50  0000 L CNN
+F 1 "100R" V 8700 6300 50  0000 L CNN
+F 2 "" V 8530 6400 50  0001 C CNN
+F 3 "~" H 8600 6400 50  0001 C CNN
+	1    8600 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5D3027D9
+P 8600 5150
+F 0 "R?" V 8500 5100 50  0000 L CNN
+F 1 "100R" V 8700 5050 50  0000 L CNN
+F 2 "" V 8530 5150 50  0001 C CNN
+F 3 "~" H 8600 5150 50  0001 C CNN
+	1    8600 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:R R?
+U 1 1 5D3028AB
+P 8600 3900
+F 0 "R?" V 8500 3850 50  0000 L CNN
+F 1 "100R" V 8700 3800 50  0000 L CNN
+F 2 "" V 8530 3900 50  0001 C CNN
+F 3 "~" H 8600 3900 50  0001 C CNN
+	1    8600 3900
+	0    1    1    0   
+$EndComp
+Text Label 15350 6650 0    50   ~ 0
+ENC_A
+Text Label 15350 6750 0    50   ~ 0
+ENC_B
+Text Label 15350 6850 0    50   ~ 0
+ENC_N
+Text Label 14200 3900 2    50   ~ 0
+ENC_A
+Text Label 14200 5150 2    50   ~ 0
+ENC_B
+Text Label 14200 6400 2    50   ~ 0
+ENC_N
+Text Label 1750 7250 2    50   ~ 0
+ENC_N_i
+Text Label 1750 7150 2    50   ~ 0
+ENC_B_i
+Text Label 1750 7050 2    50   ~ 0
+ENC_A_i
 $EndSCHEMATC

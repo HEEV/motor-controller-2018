@@ -126,6 +126,31 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic:Conn_01x05
+#
+DEF Connector_Generic:Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic:Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic:Conn_01x06
 #
 DEF Connector_Generic:Conn_01x06 J 0 40 Y N 1 F N
@@ -193,6 +218,28 @@ X Pin_6 6 -200 -200 150 R 50 50 1 1 P
 X Pin_7 7 -200 -300 150 R 50 50 1 1 P
 X Pin_8 8 300 300 150 L 50 50 1 1 P
 X Pin_9 9 300 200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device:D_Schottky_ALT
+#
+DEF Device:D_Schottky_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device:D_Schottky_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -451,19 +498,6 @@ X Vout 1 -150 -450 200 U 50 50 1 1 W
 X GND 2 -50 -450 200 U 50 50 1 1 W
 X Vin 3 50 -450 200 U 50 50 1 1 w
 X ~SHDN 4 150 -450 200 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MotorControllerParts:GNDA
-#
-DEF MotorControllerParts:GNDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "MotorControllerParts:GNDA" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -795,6 +829,42 @@ X SPI_MISO 9 -1400 150 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# MotorControllerParts:TestPoint
+#
+DEF MotorControllerParts:TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "MotorControllerParts:TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MotorControllerParts:TestPoint_2Pole
+#
+DEF MotorControllerParts:TestPoint_2Pole TP 0 30 Y N 1 F N
+F0 "TP" 0 60 50 H V C CNN
+F1 "MotorControllerParts:TestPoint_2Pole" 0 -70 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C -70 0 30 0 1 0 N
+C 70 0 30 0 1 0 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # MotorControllerParts:Trinamic-Conntector
 #
 DEF MotorControllerParts:Trinamic-Conntector J 0 40 Y Y 1 F N
@@ -895,6 +965,41 @@ X CS_CH0 6 650 800 150 L 50 50 1 1 P
 X ID_CH1 7 -600 700 150 R 50 50 1 1 P
 X DIO0 8 650 700 150 L 50 50 1 1 P
 X DIO1 9 -600 600 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MotorControllerParts:Trinamic_TRMI
+#
+DEF MotorControllerParts:Trinamic_TRMI J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "MotorControllerParts:Trinamic_TRMI" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X 3.3V 1 -200 200 150 R 50 50 1 1 P
+X GND 10 300 -200 150 L 50 50 1 1 P
+X NC 2 300 200 150 L 50 50 1 1 N
+X ~CS 3 -200 100 150 R 50 50 1 1 P
+X TRG 4 300 100 150 L 50 50 1 1 P
+X SCK 5 -200 0 150 R 50 50 1 1 P
+X GND 6 300 0 150 L 50 50 1 1 P
+X MOSI 7 -200 -100 150 R 50 50 1 1 P
+X GND 8 300 -100 150 L 50 50 1 1 P
+X MISO 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

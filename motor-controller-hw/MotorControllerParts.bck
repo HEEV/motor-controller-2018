@@ -70,4 +70,16 @@ D FOC PWM Generation chip
 K Motor Controller, Trinamic, TMC4671
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_2Pole
+D 2-polar test point
+K point tp
+F ~
+$ENDCMP
+#
 #End Doc Library

@@ -1095,23 +1095,6 @@ Wire Wire Line
 	2850 5050 2850 5200
 Wire Wire Line
 	2850 5200 3250 5200
-Text HLabel 1150 3050 0    50   Input ~ 0
-AGND
-$Comp
-L MotorControllerParts:GNDA #PWR?
-U 1 1 5C4A865C
-P 1300 3200
-F 0 "#PWR?" H 1300 2950 50  0001 C CNN
-F 1 "GNDA" H 1305 3027 50  0000 C CNN
-F 2 "" H 1300 3200 50  0001 C CNN
-F 3 "" H 1300 3200 50  0001 C CNN
-	1    1300 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 3200 1300 3050
-Wire Wire Line
-	1300 3050 1150 3050
 Wire Wire Line
 	5200 4850 5200 4750
 Wire Wire Line
@@ -1128,4 +1111,24 @@ F 3 "" H 3050 7600 50  0001 C CNN
 	1    3050 7600
 	1    0    0    -1  
 $EndComp
+Text HLabel 9700 1000 2    50   Output ~ 0
+TMC4671_EN
+Text Label 9000 1000 0    50   ~ 0
+TMC_4671_En_In
+Wire Wire Line
+	9700 1000 9000 1000
+Text HLabel 9700 1100 2    50   Input ~ 0
+TMC4671_Status
+Text Label 9000 1100 0    50   ~ 0
+TMC4671_Status
+Wire Wire Line
+	9700 1100 9000 1100
+Text Label 6400 4150 2    50   ~ 0
+TMC4671_Status
+Text Label 6400 4050 2    50   ~ 0
+TMC_4671_En_In
+Wire Wire Line
+	6400 4050 5700 4050
+Wire Wire Line
+	6400 4150 5700 4150
 $EndSCHEMATC

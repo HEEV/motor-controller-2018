@@ -70,4 +70,22 @@ D FOC PWM Generation chip
 K Motor Controller, Trinamic, TMC4671
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_2Pole
+D 2-polar test point
+K point tp
+F ~
+$ENDCMP
+#
+$CMP Trinamic_TRMI
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library
