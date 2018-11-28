@@ -20,6 +20,12 @@ D power-flag symbol (positive battery voltage)
 K Power Flag Symbol battery
 $ENDCMP
 #
+$CMP 74HC7014
+D Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14
+K Hex non-inverting Schmitt buffer
+F https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf
+$ENDCMP
+#
 $CMP AP7361C
 D LDO Voltage Regulator, 0.36v dropout, 1A output current, 70uA quiecent current
 K Voltage Regulator, 3.3v

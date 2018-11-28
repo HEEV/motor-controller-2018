@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L MotorControllerParts:STM32F303RETx U201
 U 1 1 5BC0BBCA
-P 5000 2950
-F 0 "U201" H 5000 2950 50  0000 C CNN
-F 1 "STM32F303RETx" H 5000 2850 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4400 1250 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf" H 5000 2950 50  0001 C CNN
-	1    5000 2950
+P 5400 2900
+F 0 "U201" H 5400 2900 50  0000 C CNN
+F 1 "STM32F303RETx" H 5400 2800 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4800 1200 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf" H 5400 2900 50  0001 C CNN
+	1    5400 2900
 	1    0    0    -1  
 $EndComp
 Text HLabel 1150 900  0    50   Input ~ 0
@@ -66,71 +66,71 @@ DGND
 $Comp
 L MotorControllerParts:GNDD #PWR?
 U 1 1 5BF4AF14
-P 5000 4950
-F 0 "#PWR?" H 5000 4700 50  0001 C CNN
-F 1 "GNDD" H 5004 4795 50  0000 C CNN
-F 2 "" H 5000 4950 50  0001 C CNN
-F 3 "" H 5000 4950 50  0001 C CNN
-	1    5000 4950
+P 5400 4900
+F 0 "#PWR?" H 5400 4650 50  0001 C CNN
+F 1 "GNDD" H 5404 4745 50  0000 C CNN
+F 2 "" H 5400 4900 50  0001 C CNN
+F 3 "" H 5400 4900 50  0001 C CNN
+	1    5400 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4750 4800 4850
+	5200 4700 5200 4800
 Wire Wire Line
-	4800 4850 4900 4850
+	5200 4800 5300 4800
 Wire Wire Line
-	5100 4750 5100 4850
+	5500 4700 5500 4800
 Wire Wire Line
-	5000 4750 5000 4850
-Connection ~ 5000 4850
+	5400 4700 5400 4800
+Connection ~ 5400 4800
 Wire Wire Line
-	5000 4850 5100 4850
+	5400 4800 5500 4800
 Wire Wire Line
-	4900 4750 4900 4850
-Connection ~ 4900 4850
+	5300 4700 5300 4800
+Connection ~ 5300 4800
 Wire Wire Line
-	4900 4850 5000 4850
+	5300 4800 5400 4800
 Wire Wire Line
-	5000 4950 5000 4850
+	5400 4900 5400 4800
 $Comp
 L motor-controller-hw-cache:+3.3V #PWR?
 U 1 1 5BF4B19B
-P 5100 950
-F 0 "#PWR?" H 5100 800 50  0001 C CNN
-F 1 "+3.3V" H 5115 1123 50  0000 C CNN
-F 2 "" H 5100 950 50  0001 C CNN
-F 3 "" H 5100 950 50  0001 C CNN
-	1    5100 950 
+P 5500 900
+F 0 "#PWR?" H 5500 750 50  0001 C CNN
+F 1 "+3.3V" H 5515 1073 50  0000 C CNN
+F 2 "" H 5500 900 50  0001 C CNN
+F 3 "" H 5500 900 50  0001 C CNN
+	1    5500 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 1150 4900 1050
+	5300 1100 5300 1000
 Wire Wire Line
-	4900 1050 5000 1050
+	5300 1000 5400 1000
 Wire Wire Line
-	5300 1050 5300 1150
+	5700 1000 5700 1100
 Wire Wire Line
-	5200 1150 5200 1050
-Connection ~ 5200 1050
+	5600 1100 5600 1000
+Connection ~ 5600 1000
 Wire Wire Line
-	5200 1050 5300 1050
+	5600 1000 5700 1000
 Wire Wire Line
-	5100 1150 5100 1050
-Connection ~ 5100 1050
+	5500 1100 5500 1000
+Connection ~ 5500 1000
 Wire Wire Line
-	5100 1050 5200 1050
+	5500 1000 5600 1000
 Wire Wire Line
-	5000 1150 5000 1050
-Connection ~ 5000 1050
+	5400 1100 5400 1000
+Connection ~ 5400 1000
 Wire Wire Line
-	5000 1050 5100 1050
+	5400 1000 5500 1000
 Wire Wire Line
-	5100 1050 5100 950 
+	5500 1000 5500 900 
 Wire Wire Line
-	4800 1150 4800 1050
+	5200 1100 5200 1000
 Wire Wire Line
-	4800 1050 4900 1050
-Connection ~ 4900 1050
+	5200 1000 5300 1000
+Connection ~ 5300 1000
 $Comp
 L MotorControllerParts:C C?
 U 1 1 5BF4BBB3
@@ -341,38 +341,38 @@ Wire Wire Line
 	1150 900  1250 900 
 Wire Wire Line
 	1250 900  1250 800 
-Text Label 6400 4550 2    50   ~ 0
+Text Label 6800 4500 2    50   ~ 0
 TMC4671_MOSI
-Text Label 6400 4450 2    50   ~ 0
+Text Label 6800 4400 2    50   ~ 0
 TMC4671_MISO
-Text Label 6400 4350 2    50   ~ 0
+Text Label 6800 4300 2    50   ~ 0
 TMC4671_SCK
-Text Label 6400 4250 2    50   ~ 0
+Text Label 6800 4200 2    50   ~ 0
 TMC4671_SS
 Wire Wire Line
-	6400 4550 5700 4550
+	6800 4500 6100 4500
 Wire Wire Line
-	6400 4450 5700 4450
+	6800 4400 6100 4400
 Wire Wire Line
-	6400 4350 5700 4350
+	6800 4300 6100 4300
 Wire Wire Line
-	6400 4250 5700 4250
-Text Label 6400 2550 2    50   ~ 0
+	6800 4200 6100 4200
+Text Label 6800 2500 2    50   ~ 0
 USB_D+
-Text Label 6400 2450 2    50   ~ 0
+Text Label 6800 2400 2    50   ~ 0
 USB_D-
 Wire Wire Line
-	6400 2550 5700 2550
+	6800 2500 6100 2500
 Wire Wire Line
-	6400 2450 5700 2450
-Text Label 6400 1750 2    50   ~ 0
+	6800 2400 6100 2400
+Text Label 6800 1700 2    50   ~ 0
 A_Out1
-Text Label 6400 1850 2    50   ~ 0
+Text Label 6800 1800 2    50   ~ 0
 A_Out2
 Wire Wire Line
-	6400 1750 5700 1750
+	6800 1700 6100 1700
 Wire Wire Line
-	6400 1850 5700 1850
+	6800 1800 6100 1800
 Text Label 1550 2500 2    50   ~ 0
 A_Out1
 Text Label 1550 2600 2    50   ~ 0
@@ -473,14 +473,14 @@ Connection ~ 7450 6250
 Wire Wire Line
 	8100 5750 7450 5750
 Connection ~ 7450 5750
-Text Label 3950 2650 0    50   ~ 0
+Text Label 4350 2600 0    50   ~ 0
 OSC-
-Text Label 3950 2550 0    50   ~ 0
+Text Label 4350 2500 0    50   ~ 0
 OSC+
 Wire Wire Line
-	3950 2550 4300 2550
+	4350 2500 4700 2500
 Wire Wire Line
-	3950 2650 4300 2650
+	4350 2600 4700 2600
 Text Notes 6450 5550 0    50   ~ 0
 Crystal Oscilator with 18pf load capacitor rating.\nAssumed stray capacitance of 5pf.\nSee: https://www.allaboutcircuits.com/technical-articles/\nchoosing-the-right-oscillator-for-your-microcontroller/
 Text Label 1550 1850 2    50   ~ 0
@@ -491,18 +491,18 @@ Wire Wire Line
 	1150 1950 1550 1950
 Wire Wire Line
 	1150 1850 1550 1850
-Text Label 6400 2050 2    50   ~ 0
+Text Label 6800 2000 2    50   ~ 0
 A_In1
-Text Label 3950 3450 0    50   ~ 0
+Text Label 4350 3400 0    50   ~ 0
 A_In2
 Wire Wire Line
-	6400 2050 5700 2050
+	6800 2000 6100 2000
 Wire Wire Line
-	3950 3450 4300 3450
-Text Label 6400 1950 2    50   ~ 0
+	4350 3400 4700 3400
+Text Label 6800 1900 2    50   ~ 0
 Throttle
 Wire Wire Line
-	6400 1950 5700 1950
+	6800 1900 6100 1900
 Text Label 1800 1500 2    50   ~ 0
 Throttle
 Wire Wire Line
@@ -515,14 +515,14 @@ Text Label 1800 1700 2    50   ~ 0
 Transistor_Temp
 Wire Wire Line
 	1800 1700 1150 1700
-Text Label 6400 1450 2    50   ~ 0
+Text Label 6800 1400 2    50   ~ 0
 Transistor_Temp
-Text Label 6400 1350 2    50   ~ 0
+Text Label 6800 1300 2    50   ~ 0
 Motor_Temp
 Wire Wire Line
-	6400 1350 5700 1350
+	6800 1300 6100 1300
 Wire Wire Line
-	6400 1450 5700 1450
+	6800 1400 6100 1400
 Text Label 1550 2050 2    50   ~ 0
 D_In1
 Text Label 1550 2150 2    50   ~ 0
@@ -531,22 +531,22 @@ Text Label 1550 2250 2    50   ~ 0
 D_In3
 Text Label 1550 2350 2    50   ~ 0
 D_In4
-Text Label 3950 3650 0    50   ~ 0
+Text Label 4350 3600 0    50   ~ 0
 D_In1
-Text Label 3950 3750 0    50   ~ 0
+Text Label 4350 3700 0    50   ~ 0
 D_In2
-Text Label 3950 3850 0    50   ~ 0
+Text Label 4350 3800 0    50   ~ 0
 D_In3
-Text Label 3950 3950 0    50   ~ 0
+Text Label 4350 3900 0    50   ~ 0
 D_In4
 Wire Wire Line
-	3950 3650 4300 3650
+	4350 3600 4700 3600
 Wire Wire Line
-	3950 3750 4300 3750
+	4350 3700 4700 3700
 Wire Wire Line
-	3950 3850 4300 3850
+	4350 3800 4700 3800
 Wire Wire Line
-	3950 3950 4300 3950
+	4350 3900 4700 3900
 Wire Wire Line
 	1550 2050 1150 2050
 Wire Wire Line
@@ -559,14 +559,14 @@ Text Label 1550 2700 2    50   ~ 0
 D_Out1
 Text Label 1550 2800 2    50   ~ 0
 D_Out2
-Text Label 6400 2150 2    50   ~ 0
+Text Label 6800 2100 2    50   ~ 0
 D_Out1
-Text Label 6400 2250 2    50   ~ 0
+Text Label 6800 2200 2    50   ~ 0
 D_Out2
 Wire Wire Line
-	6400 2250 5700 2250
+	6800 2200 6100 2200
 Wire Wire Line
-	6400 2150 5700 2150
+	6800 2100 6100 2100
 Wire Wire Line
 	1550 2800 1150 2800
 Wire Wire Line
@@ -575,14 +575,14 @@ Text Label 1550 1250 2    50   ~ 0
 CAN_Rx
 Text Label 1550 1350 2    50   ~ 0
 CAN_Tx
-Text Label 6400 3950 2    50   ~ 0
+Text Label 6800 3900 2    50   ~ 0
 CAN_Tx
-Text Label 6400 3850 2    50   ~ 0
+Text Label 6800 3800 2    50   ~ 0
 CAN_Rx
 Wire Wire Line
-	6400 3850 5700 3850
+	6800 3800 6100 3800
 Wire Wire Line
-	6400 3950 5700 3950
+	6800 3900 6100 3900
 Wire Wire Line
 	1550 1350 1150 1350
 Wire Wire Line
@@ -699,14 +699,14 @@ Wire Wire Line
 Connection ~ 1050 5800
 Wire Wire Line
 	1050 5800 1300 5800
-Text Label 3950 1550 0    50   ~ 0
+Text Label 4350 1500 0    50   ~ 0
 Boot
 Wire Wire Line
-	3950 1550 4300 1550
-Text Label 3950 1350 0    50   ~ 0
+	4350 1500 4700 1500
+Text Label 4350 1300 0    50   ~ 0
 Reset
 Wire Wire Line
-	3950 1350 4300 1350
+	4350 1300 4700 1300
 $Comp
 L MotorControllerParts:LED_ALT D?
 U 1 1 5C025F17
@@ -760,18 +760,18 @@ Wire Wire Line
 	2850 5850 2850 5400
 Wire Wire Line
 	2850 5400 3250 5400
-Text Label 6400 3350 2    50   ~ 0
+Text Label 6800 3300 2    50   ~ 0
 SWO
-Text Label 6400 2750 2    50   ~ 0
+Text Label 6800 2700 2    50   ~ 0
 JTCK
-Text Label 6400 2650 2    50   ~ 0
+Text Label 6800 2600 2    50   ~ 0
 JTMS
 Wire Wire Line
-	6400 2650 5700 2650
+	6800 2600 6100 2600
 Wire Wire Line
-	6400 2750 5700 2750
+	6800 2700 6100 2700
 Wire Wire Line
-	6400 3350 5700 3350
+	6800 3300 6100 3300
 $Comp
 L MotorControllerParts:LED_ALT D?
 U 1 1 5C0637FB
@@ -890,18 +890,18 @@ Text Label 9000 5900 0    50   ~ 0
 Heartbeat
 Text Label 9000 6300 0    50   ~ 0
 User_LED
-Text Label 6400 3050 2    50   ~ 0
+Text Label 6800 3000 2    50   ~ 0
 CAN_Status
-Text Label 6400 3150 2    50   ~ 0
+Text Label 6800 3100 2    50   ~ 0
 Heartbeat
-Text Label 6400 3250 2    50   ~ 0
+Text Label 6800 3200 2    50   ~ 0
 User_LED
 Wire Wire Line
-	6400 3250 5700 3250
+	6800 3200 6100 3200
 Wire Wire Line
-	6400 3150 5700 3150
+	6800 3100 6100 3100
 Wire Wire Line
-	6400 3050 5700 3050
+	6800 3000 6100 3000
 Wire Wire Line
 	9000 5500 9400 5500
 Wire Wire Line
@@ -996,10 +996,10 @@ F 3 "" H 9650 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9650 3850 9650 3900
-Text Label 3950 4350 0    50   ~ 0
+Text Label 4350 4300 0    50   ~ 0
 User_SW
 Wire Wire Line
-	3950 4350 4300 4350
+	4350 4300 4700 4300
 Text Label 9000 4250 0    50   ~ 0
 User_SW
 Wire Wire Line
@@ -1038,14 +1038,14 @@ Wire Notes Line
 	8900 6700 8900 2650
 Text Notes 9150 2750 0    50   ~ 0
 User Inputs and Outputs
-Text Label 6400 1550 2    50   ~ 0
+Text Label 6800 1500 2    50   ~ 0
 USART_Tx
-Text Label 6400 1650 2    50   ~ 0
+Text Label 6800 1600 2    50   ~ 0
 USART_Rx
 Wire Wire Line
-	6400 1550 5700 1550
+	6800 1500 6100 1500
 Wire Wire Line
-	6400 1650 5700 1650
+	6800 1600 6100 1600
 $Comp
 L MotorControllerParts:Conn_01x03 J?
 U 1 1 5BF48BC7
@@ -1096,10 +1096,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 5200 3250 5200
 Wire Wire Line
-	5200 4850 5200 4750
+	5600 4800 5600 4700
 Wire Wire Line
-	5200 4850 5100 4850
-Connection ~ 5100 4850
+	5600 4800 5500 4800
+Connection ~ 5500 4800
 $Comp
 L MotorControllerParts:GNDD #PWR?
 U 1 1 5C8CD47C
@@ -1123,12 +1123,12 @@ Text Label 9000 1100 0    50   ~ 0
 TMC4671_Status
 Wire Wire Line
 	9700 1100 9000 1100
-Text Label 6400 4150 2    50   ~ 0
+Text Label 6800 4100 2    50   ~ 0
 TMC4671_Status
-Text Label 6400 4050 2    50   ~ 0
+Text Label 6800 4000 2    50   ~ 0
 TMC_4671_En_In
 Wire Wire Line
-	6400 4050 5700 4050
+	6800 4000 6100 4000
 Wire Wire Line
-	6400 4150 5700 4150
+	6800 4100 6100 4100
 $EndSCHEMATC
