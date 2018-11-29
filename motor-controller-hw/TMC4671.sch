@@ -745,7 +745,7 @@ U 1 1 5C3F9FBE
 P 2800 2700
 F 0 "X401" H 2900 3000 50  0000 L CNN
 F 1 "IQXO-50" H 2900 3100 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm" H 3475 2375 50  0001 C CNN
+F 2 "supermileage_footprints:Clock-FOX924" H 3475 2375 50  0001 C CNN
 F 3 "https://www.foxonline.com/pdfs/fox924.pdf" H 2700 2700 50  0001 C CNN
 	1    2800 2700
 	1    0    0    -1  
@@ -1476,7 +1476,7 @@ U 1 1 5D7CF4D7
 P 1450 6050
 F 0 "J401" H 1500 6467 50  0000 C CNN
 F 1 "Trinamic_TRMI" H 1500 6376 50  0000 C CNN
-F 2 "" H 1450 6050 50  0001 C CNN
+F 2 "supermileage_footprints:DF20F-10DP-1V(56)" H 1450 6050 50  0001 C CNN
 F 3 "~" H 1450 6050 50  0001 C CNN
 	1    1450 6050
 	1    0    0    -1  

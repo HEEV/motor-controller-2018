@@ -403,7 +403,7 @@ U 1 1 5BFA3DD2
 P 3350 2050
 F 0 "C103" H 3400 2150 50  0000 L CNN
 F 1 "33u" H 3400 1950 50  0000 L CNN
-F 2 "" H 3388 1900 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3388 1900 50  0001 C CNN
 F 3 "" H 3350 2050 50  0001 C CNN
 	1    3350 2050
 	-1   0    0    -1  
@@ -424,14 +424,14 @@ Wire Wire Line
 Text Notes 5050 900  0    50   ~ 0
 3.3V linear voltage regulator for the low voltage electronics. The selected\nregulator can supply 1A of output current, which is more than what the 5V \nswitching regulator can supply. The 4.7uF output capacitor should have a \nfairly low ESR.
 Text Notes 1850 1050 0    50   ~ 0
-5V switching regulator, up to 50V input, maximum 600mA output current. \nThe regulator is short circuit protected.\nA P-Channel MOSFET is used as an ideal diode with a 18v zener diode to\nprotect the MOSFET gate. The 10K resistor limits the zener diode current\nto 3mA at 48V input. A Shocktty diode is used to protect the USB 5V line\nfrom reverse current. 
+5V switching regulator, up to 50V input, maximum 600mA output current. \nThe regulator is short circuit protected.\nA P-Channel MOSFET is used as an ideal diode with a 18v zener diode to\nprotect the MOSFET gate. The 10K resistor limits the zener diode current\nto 3mA at 48V input. A Schotty diode is used to protect the USB 5V line\nfrom reverse current. 
 $Comp
 L Device:Q_PMOS_GDS Q101
 U 1 1 5BFA3DE2
 P 2450 1850
 F 0 "Q101" V 2700 1850 50  0000 C CNN
 F 1 "Q_PMOS_GDS" V 2300 2150 50  0000 C CNN
-F 2 "" H 2650 1950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2650 1950 50  0001 C CNN
 F 3 "~" H 2450 1850 50  0001 C CNN
 	1    2450 1850
 	0    -1   -1   0   
@@ -442,7 +442,7 @@ U 1 1 5BFA3DE9
 P 2850 1950
 F 0 "D101" V 2950 2000 50  0000 L CNN
 F 1 "18V Zener" H 2700 1850 50  0000 L CNN
-F 2 "" H 2850 1950 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2850 1950 50  0001 C CNN
 F 3 "~" H 2850 1950 50  0001 C CNN
 	1    2850 1950
 	0    -1   1    0   
@@ -491,7 +491,7 @@ U 1 1 5BFDD119
 P 900 1200
 F 0 "J105" H 1050 800 50  0000 C CNN
 F 1 "USB_B_Micro" H 900 1550 50  0000 C CNN
-F 2 "" H 1050 1150 50  0001 C CNN
+F 2 "supermileage_footprints:USB_Micro-B" H 1050 1150 50  0001 C CNN
 F 3 "~" H 1050 1150 50  0001 C CNN
 	1    900  1200
 	1    0    0    -1  
@@ -558,7 +558,7 @@ U 1 1 5BFEEFEC
 P 800 4300
 F 0 "J103" H 800 4450 50  0000 C CNN
 F 1 "Motor Temp" H 800 4050 50  0000 C CNN
-F 2 "" H 800 4300 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-duraClick-2conn" H 800 4300 50  0001 C CNN
 F 3 "~" H 800 4300 50  0001 C CNN
 	1    800  4300
 	-1   0    0    1   
@@ -569,7 +569,7 @@ U 1 1 5BFF0D92
 P 800 5150
 F 0 "J104" H 800 5300 50  0000 C CNN
 F 1 "Transistor Temp" H 720 4916 50  0000 C CNN
-F 2 "" H 800 5150 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-duraClick-2conn" H 800 5150 50  0001 C CNN
 F 3 "~" H 800 5150 50  0001 C CNN
 	1    800  5150
 	-1   0    0    1   
@@ -659,7 +659,7 @@ U 1 1 5C00DFF5
 P 1400 6200
 F 0 "J106" H 1450 5750 50  0000 C CNN
 F 1 "Extra IO" H 1450 6626 50  0000 C CNN
-F 2 "" H 1400 6200 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-14p-vert" H 1400 6200 50  0001 C CNN
 F 3 "~" H 1400 6200 50  0001 C CNN
 	1    1400 6200
 	1    0    0    -1  
@@ -799,7 +799,7 @@ U 1 1 5C1CAD40
 P 1350 3350
 F 0 "F101" V 1250 3300 50  0000 C CNN
 F 1 "50mA PTC" V 1150 3300 50  0000 C CNN
-F 2 "" H 1400 3150 50  0001 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 3150 50  0001 L CNN
 F 3 "~" H 1350 3350 50  0001 C CNN
 	1    1350 3350
 	0    1    1    0   
@@ -817,7 +817,7 @@ U 1 1 5BF7BB3E
 P 2000 4950
 F 0 "J107" H 2000 5300 50  0000 C CNN
 F 1 "Hall Sensors" V 2100 4900 50  0000 C CNN
-F 2 "" H 2000 4950 50  0001 C CNN
+F 2 "supermileage_footprints:MICRO_JST_6" H 2000 4950 50  0001 C CNN
 F 3 "~" H 2000 4950 50  0001 C CNN
 	1    2000 4950
 	-1   0    0    1   
@@ -1154,7 +1154,7 @@ U 1 1 5DE9991E
 P 2950 1450
 F 0 "D102" H 2950 1550 50  0000 C CNN
 F 1 "D_USB" H 2950 1350 50  0000 C CNN
-F 2 "" H 2950 1450 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2950 1450 50  0001 C CNN
 F 3 "~" H 2950 1450 50  0001 C CNN
 	1    2950 1450
 	-1   0    0    1   
@@ -1225,7 +1225,7 @@ U 1 1 5E1B011D
 P 1850 6000
 F 0 "F103" V 1900 5800 50  0000 C CNN
 F 1 "50mA PTC" V 1800 5950 50  0001 C CNN
-F 2 "" H 1900 5800 50  0001 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 5800 50  0001 L CNN
 F 3 "~" H 1850 6000 50  0001 C CNN
 	1    1850 6000
 	0    -1   -1   0   
@@ -1236,7 +1236,7 @@ U 1 1 5E1C927F
 P 1850 5900
 F 0 "F102" V 1900 5700 50  0000 C CNN
 F 1 "50mA PTC" V 2000 5850 50  0000 C CNN
-F 2 "" H 1900 5700 50  0001 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 5700 50  0001 L CNN
 F 3 "~" H 1850 5900 50  0001 C CNN
 	1    1850 5900
 	0    -1   -1   0   
