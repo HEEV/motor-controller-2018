@@ -883,7 +883,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 1050 9750 1050
 Text Label 7750 4500 2    50   ~ 0
-Batt_Current
+Batt_I
 Wire Wire Line
 	7750 4500 7200 4500
 $Comp
@@ -979,7 +979,7 @@ Batt_V
 Wire Wire Line
 	9850 4950 9700 4950
 Text Label 8300 4950 0    50   ~ 0
-Batt_Current
+Batt_I
 Text Label 8300 5850 0    50   ~ 0
 Batt_V
 Text HLabel 9850 4950 2    50   Input ~ 0
