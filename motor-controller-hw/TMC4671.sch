@@ -1759,7 +1759,7 @@ U 1 1 5CC10EEE
 P 1150 4150
 F 0 "TP401" V 1150 4450 50  0000 C CNN
 F 1 "B_Ref" V 1050 4250 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1350 4150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1350 4150 50  0001 C CNN
 F 3 "~" H 1350 4150 50  0001 C CNN
 	1    1150 4150
 	1    0    0    -1  
@@ -1770,7 +1770,7 @@ U 1 1 5CC395A7
 P 2100 4150
 F 0 "TP402" V 2100 4450 50  0000 C CNN
 F 1 "A_Ref" V 2000 4250 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 4150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2300 4150 50  0001 C CNN
 F 3 "~" H 2300 4150 50  0001 C CNN
 	1    2100 4150
 	1    0    0    -1  

@@ -299,24 +299,24 @@ Connection ~ 5150 1500
 $Comp
 L MotorControllerParts:MCP6004 U201
 U 1 1 5BED5738
-P 3700 1500
-F 0 "U201" H 3800 1650 50  0000 C CNN
-F 1 "MCP6004" H 3700 1750 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 1600 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 1700 50  0001 C CNN
-	1    3700 1500
-	1    0    0    -1  
+P 6250 6700
+F 0 "U201" H 6350 6850 50  0000 C CNN
+F 1 "MCP6004" H 6250 6950 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6200 6800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6300 6900 50  0001 C CNN
+	1    6250 6700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:MCP6004 U201
 U 2 1 5BED71ED
-P 5950 1600
-F 0 "U201" H 6100 1750 50  0000 C CNN
-F 1 "MCP6004" H 5950 1876 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 1700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 1800 50  0001 C CNN
-	2    5950 1600
-	1    0    0    -1  
+P 3700 6700
+F 0 "U201" H 3850 6850 50  0000 C CNN
+F 1 "MCP6004" H 3700 6976 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 6800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 6900 50  0001 C CNN
+	2    3700 6700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:MCP6004 U202
@@ -332,13 +332,13 @@ $EndComp
 $Comp
 L MotorControllerParts:MCP6004 U201
 U 4 1 5BED72C3
-P 6250 6700
-F 0 "U201" H 6350 6850 50  0000 C CNN
-F 1 "MCP6004" H 6250 6976 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6200 6800 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6300 6900 50  0001 C CNN
-	4    6250 6700
-	-1   0    0    -1  
+P 5950 1600
+F 0 "U201" H 6050 1750 50  0000 C CNN
+F 1 "MCP6004" H 5950 1876 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 1700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 1800 50  0001 C CNN
+	4    5950 1600
+	1    0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:MCP6004 U201
@@ -354,13 +354,13 @@ $EndComp
 $Comp
 L MotorControllerParts:MCP6004 U201
 U 3 1 5BED8D00
-P 3700 6700
-F 0 "U201" H 3800 6850 50  0000 C CNN
-F 1 "MCP6004" H 3700 6976 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 6800 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 6900 50  0001 C CNN
-	3    3700 6700
-	-1   0    0    -1  
+P 3700 1500
+F 0 "U201" H 3800 1650 50  0000 C CNN
+F 1 "MCP6004" H 3700 1776 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 1700 50  0001 C CNN
+	3    3700 1500
+	1    0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:MCP6004 U202
