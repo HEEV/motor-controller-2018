@@ -212,7 +212,7 @@ U 1 1 5BEB310C
 P 4650 1500
 F 0 "R201" V 4550 1500 50  0000 C CNN
 F 1 "2K" V 4650 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 1500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 1500 50  0001 C CNN
 F 3 "~" H 4650 1500 50  0001 C CNN
 	1    4650 1500
 	0    1    1    0   
@@ -242,7 +242,7 @@ U 1 1 5BEB434E
 P 4850 1750
 F 0 "R206" V 4750 1750 50  0000 C CNN
 F 1 "3K9" V 4850 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 1750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4780 1750 50  0001 C CNN
 F 3 "~" H 4850 1750 50  0001 C CNN
 	1    4850 1750
 	-1   0    0    1   
@@ -269,9 +269,10 @@ L MotorControllerParts:C C203
 U 1 1 5BECDC16
 P 5150 1750
 F 0 "C203" H 5265 1796 50  0000 L CNN
-F 1 "160n" H 5265 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5188 1600 50  0001 C CNN
+F 1 "150n" H 5265 1705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 1600 50  0001 C CNN
 F 3 "~" H 5150 1750 50  0001 C CNN
+F 4 "732-7674-1-ND" H 5150 1750 50  0001 C CNN "Digi-key#"
 	1    5150 1750
 	1    0    0    -1  
 $EndComp
@@ -304,6 +305,7 @@ F 0 "U201" H 6350 6850 50  0000 C CNN
 F 1 "MCP6004" H 6250 6950 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6200 6800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6300 6900 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 6250 6700 50  0001 C CNN "Digi-key#"
 	1    6250 6700
 	-1   0    0    -1  
 $EndComp
@@ -315,6 +317,7 @@ F 0 "U201" H 3850 6850 50  0000 C CNN
 F 1 "MCP6004" H 3700 6976 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 6800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 6900 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3700 6700 50  0001 C CNN "Digi-key#"
 	2    3700 6700
 	-1   0    0    -1  
 $EndComp
@@ -326,6 +329,7 @@ F 0 "U202" H 3850 3600 50  0000 C CNN
 F 1 "MCP6004" H 3700 3726 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 3550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 3650 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3700 3450 50  0001 C CNN "Digi-key#"
 	3    3700 3450
 	1    0    0    -1  
 $EndComp
@@ -337,6 +341,7 @@ F 0 "U201" H 6050 1750 50  0000 C CNN
 F 1 "MCP6004" H 5950 1876 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 1800 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 5950 1600 50  0001 C CNN "Digi-key#"
 	4    5950 1600
 	1    0    0    -1  
 $EndComp
@@ -348,6 +353,7 @@ F 0 "U201" V 2700 9200 50  0000 L CNN
 F 1 "MCP6004" V 2700 8750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2900 9050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3000 9150 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 2950 8950 50  0001 C CNN "Digi-key#"
 	5    2950 8950
 	1    0    0    -1  
 $EndComp
@@ -359,6 +365,7 @@ F 0 "U201" H 3800 1650 50  0000 C CNN
 F 1 "MCP6004" H 3700 1776 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 1700 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3700 1500 50  0001 C CNN "Digi-key#"
 	3    3700 1500
 	1    0    0    -1  
 $EndComp
@@ -370,6 +377,7 @@ F 0 "U202" H 6100 3700 50  0000 C CNN
 F 1 "MCP6004" H 5950 3826 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 3650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 3750 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 5950 3550 50  0001 C CNN "Digi-key#"
 	4    5950 3550
 	1    0    0    -1  
 $EndComp
@@ -381,6 +389,7 @@ F 0 "U202" V 3700 9200 50  0000 L CNN
 F 1 "MCP6004" V 3700 8750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3900 9050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4000 9150 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3950 8950 50  0001 C CNN "Digi-key#"
 	5    3950 8950
 	1    0    0    -1  
 $EndComp
@@ -390,7 +399,7 @@ U 1 1 5BEE94C0
 P 4650 2500
 F 0 "R202" V 4550 2500 50  0000 C CNN
 F 1 "2K" V 4650 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 2500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 2500 50  0001 C CNN
 F 3 "~" H 4650 2500 50  0001 C CNN
 	1    4650 2500
 	0    1    1    0   
@@ -401,8 +410,9 @@ U 1 1 5BEEC687
 P 5150 2700
 F 0 "C204" H 5265 2746 50  0000 L CNN
 F 1 "100n" H 5265 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5188 2550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 2550 50  0001 C CNN
 F 3 "~" H 5150 2700 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5150 2700 50  0001 C CNN "Digi-key#"
 	1    5150 2700
 	1    0    0    -1  
 $EndComp
@@ -457,7 +467,7 @@ U 1 1 5BEF95C4
 P 4650 3450
 F 0 "R203" V 4550 3450 50  0000 C CNN
 F 1 "2K" V 4650 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 3450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 3450 50  0001 C CNN
 F 3 "~" H 4650 3450 50  0001 C CNN
 	1    4650 3450
 	0    1    1    0   
@@ -468,8 +478,9 @@ U 1 1 5BEF95CB
 P 5150 3650
 F 0 "C205" H 5265 3696 50  0000 L CNN
 F 1 "100n" H 5265 3605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5188 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 3500 50  0001 C CNN
 F 3 "~" H 5150 3650 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5150 3650 50  0001 C CNN "Digi-key#"
 	1    5150 3650
 	1    0    0    -1  
 $EndComp
@@ -501,6 +512,7 @@ F 0 "U203" H 3800 4550 50  0000 C CNN
 F 1 "MCP6004" H 3700 4676 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 4500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 4600 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3700 4400 50  0001 C CNN "Digi-key#"
 	1    3700 4400
 	1    0    0    -1  
 $EndComp
@@ -512,6 +524,7 @@ F 0 "U202" H 6050 2750 50  0000 C CNN
 F 1 "MCP6004" H 5950 2876 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 2700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 2800 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 5950 2600 50  0001 C CNN "Digi-key#"
 	2    5950 2600
 	1    0    0    -1  
 $EndComp
@@ -548,6 +561,7 @@ F 0 "U203" H 3850 5500 50  0000 C CNN
 F 1 "MCP6004" H 3700 5626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 5450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 5550 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3700 5350 50  0001 C CNN "Digi-key#"
 	3    3700 5350
 	1    0    0    -1  
 $EndComp
@@ -559,6 +573,7 @@ F 0 "U203" H 5950 5817 50  0000 C CNN
 F 1 "MCP6004" H 5950 5726 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 5550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 5650 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 5950 5450 50  0001 C CNN "Digi-key#"
 	4    5950 5450
 	1    0    0    -1  
 $EndComp
@@ -568,7 +583,7 @@ U 1 1 5BF0455F
 P 4650 4400
 F 0 "R204" V 4550 4400 50  0000 C CNN
 F 1 "2K" V 4650 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 4400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 4400 50  0001 C CNN
 F 3 "~" H 4650 4400 50  0001 C CNN
 	1    4650 4400
 	0    1    1    0   
@@ -579,8 +594,9 @@ U 1 1 5BF04566
 P 5150 4600
 F 0 "C206" H 5265 4646 50  0000 L CNN
 F 1 "100n" H 5265 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5188 4450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 4450 50  0001 C CNN
 F 3 "~" H 5150 4600 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5150 4600 50  0001 C CNN "Digi-key#"
 	1    5150 4600
 	1    0    0    -1  
 $EndComp
@@ -637,7 +653,7 @@ U 1 1 5BF098F5
 P 4650 5350
 F 0 "R205" V 4550 5350 50  0000 C CNN
 F 1 "2K" V 4650 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 5350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 5350 50  0001 C CNN
 F 3 "~" H 4650 5350 50  0001 C CNN
 	1    4650 5350
 	0    1    1    0   
@@ -648,8 +664,9 @@ U 1 1 5BF098FC
 P 5150 5550
 F 0 "C207" H 5265 5596 50  0000 L CNN
 F 1 "100n" H 5265 5505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5188 5400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 5400 50  0001 C CNN
 F 3 "~" H 5150 5550 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5150 5550 50  0001 C CNN "Digi-key#"
 	1    5150 5550
 	1    0    0    -1  
 $EndComp
@@ -681,6 +698,7 @@ F 0 "U202" H 3800 2650 50  0000 C CNN
 F 1 "MCP6004" H 3700 2776 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 2600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3750 2700 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 3700 2500 50  0001 C CNN "Digi-key#"
 	1    3700 2500
 	1    0    0    -1  
 $EndComp
@@ -692,6 +710,7 @@ F 0 "U203" H 6050 4650 50  0000 C CNN
 F 1 "MCP6004" H 5950 4776 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5900 4600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6000 4700 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 5950 4500 50  0001 C CNN "Digi-key#"
 	2    5950 4500
 	1    0    0    -1  
 $EndComp
@@ -703,6 +722,7 @@ F 0 "U203" V 4050 9200 50  0000 L CNN
 F 1 "MCP6004" V 4050 8750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4250 9050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4350 9150 50  0001 C CNN
+F 4 "MCP6004-I/SL-ND‎" H 4300 8950 50  0001 C CNN "Digi-key#"
 	5    4300 8950
 	1    0    0    -1  
 $EndComp
@@ -1019,8 +1039,9 @@ U 1 1 5C7D11F9
 P 6900 8850
 F 0 "C213" H 6900 8950 50  0000 L CNN
 F 1 "1u" H 6950 8750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 8700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6938 8700 50  0001 C CNN
 F 3 "~" H 6900 8850 50  0001 C CNN
+F 4 "732-7672-1-ND" H 6900 8850 50  0001 C CNN "Digi-key#"
 	1    6900 8850
 	1    0    0    -1  
 $EndComp
@@ -1052,8 +1073,9 @@ U 1 1 5C8A7105
 P 3050 8850
 F 0 "C201" H 3100 8950 50  0000 L CNN
 F 1 "100n" H 3050 8750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3088 8700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3088 8700 50  0001 C CNN
 F 3 "~" H 3050 8850 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 3050 8850 50  0001 C CNN "Digi-key#"
 	1    3050 8850
 	1    0    0    -1  
 $EndComp
@@ -1063,8 +1085,9 @@ U 1 1 5C904653
 P 5650 9200
 F 0 "C208" H 5675 9300 50  0000 L CNN
 F 1 "100n" H 5675 9100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 9050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5688 9050 50  0001 C CNN
 F 3 "~" H 5650 9200 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5650 9200 50  0001 C CNN "Digi-key#"
 	1    5650 9200
 	1    0    0    -1  
 $EndComp
@@ -1074,8 +1097,9 @@ U 1 1 5C9C10CF
 P 5900 8850
 F 0 "C209" H 5925 8950 50  0000 L CNN
 F 1 "100n" H 5925 8750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 8700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5938 8700 50  0001 C CNN
 F 3 "~" H 5900 8850 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5900 8850 50  0001 C CNN "Digi-key#"
 	1    5900 8850
 	1    0    0    -1  
 $EndComp
@@ -1085,8 +1109,9 @@ U 1 1 5CADB269
 P 6150 9200
 F 0 "C210" H 6175 9300 50  0000 L CNN
 F 1 "100n" H 6175 9100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6188 9050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6188 9050 50  0001 C CNN
 F 3 "~" H 6150 9200 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 6150 9200 50  0001 C CNN "Digi-key#"
 	1    6150 9200
 	1    0    0    -1  
 $EndComp
@@ -1096,8 +1121,9 @@ U 1 1 5CB306AC
 P 3300 9150
 F 0 "C202" H 3350 9250 50  0000 L CNN
 F 1 "1u" H 3350 9050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 9000 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3338 9000 50  0001 C CNN
 F 3 "~" H 3300 9150 50  0001 C CNN
+F 4 "732-7672-1-ND" H 3300 9150 50  0001 C CNN "Digi-key#"
 	1    3300 9150
 	1    0    0    -1  
 $EndComp
@@ -1107,8 +1133,9 @@ U 1 1 5CB7836F
 P 6650 9200
 F 0 "C212" H 6650 9300 50  0000 L CNN
 F 1 "1u" H 6700 9100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 9050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6688 9050 50  0001 C CNN
 F 3 "~" H 6650 9200 50  0001 C CNN
+F 4 "732-7672-1-ND" H 6650 9200 50  0001 C CNN "Digi-key#"
 	1    6650 9200
 	1    0    0    -1  
 $EndComp
@@ -1128,9 +1155,10 @@ L MotorControllerParts:C C214
 U 1 1 5CBE52F8
 P 7150 9200
 F 0 "C214" H 7175 9300 50  0000 L CNN
-F 1 "10u" H 7200 9100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 9050 50  0001 C CNN
+F 1 "4u7" H 7200 9100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7188 9050 50  0001 C CNN
 F 3 "~" H 7150 9200 50  0001 C CNN
+F 4 "732-7628-1-ND" H 7150 9200 50  0001 C CNN "Digi-key#"
 	1    7150 9200
 	1    0    0    -1  
 $EndComp
@@ -1251,7 +1279,8 @@ P 13200 1900
 F 0 "U206" H 12800 2300 60  0000 C CNN
 F 1 "mcp2562" H 12900 1500 60  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13200 1900 60  0001 C CNN
-F 3 "datasheets/mcp256x.pdf" H 13200 1094 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/TJF1051.pdf" H 13200 1094 60  0001 C CNN
+F 4 "568-11881-1-ND" H 13200 1900 50  0001 C CNN "Digi-key#"
 	1    13200 1900
 	-1   0    0    -1  
 $EndComp
@@ -1300,7 +1329,7 @@ U 1 1 5D250263
 P 12300 2350
 F 0 "R216" V 12200 2350 50  0000 C CNN
 F 1 "120R" V 12400 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12230 2350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12230 2350 50  0001 C CNN
 F 3 "~" H 12300 2350 50  0001 C CNN
 	1    12300 2350
 	0    1    1    0   
@@ -1331,7 +1360,7 @@ L MotorControllerParts:Jumper_NC_Small JP201
 U 1 1 5D2D30AB
 P 12000 2350
 F 0 "JP201" H 12000 2450 50  0000 C CNN
-F 1 "CAN Termination" H 12100 2150 50  0000 C CNN
+F 1 "CAN Term" H 12000 2250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12000 2350 50  0001 C CNN
 F 3 "~" H 12000 2350 50  0001 C CNN
 	1    12000 2350
@@ -1370,7 +1399,7 @@ U 1 1 5D397C8F
 P 13950 2250
 F 0 "R220" H 13880 2204 50  0000 R CNN
 F 1 "10K" H 13880 2295 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13880 2250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13880 2250 50  0001 C CNN
 F 3 "~" H 13950 2250 50  0001 C CNN
 	1    13950 2250
 	-1   0    0    1   
@@ -1436,39 +1465,43 @@ F 0 "U205" H 9950 4217 50  0000 C CNN
 F 1 "74HC7014" H 9950 4126 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9950 3900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 9950 3900 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 9950 3900 50  0001 C CNN "Digi-key#"
 	1    9950 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U205
+L MotorControllerParts:74HC7014 U205
 U 4 1 5CCC2417
 P 13550 3900
 F 0 "U205" H 13550 4217 50  0000 C CNN
 F 1 "74HC7014" H 13550 4126 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 3900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 3900 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 13550 3900 50  0001 C CNN "Digi-key#"
 	4    13550 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U205
+L MotorControllerParts:74HC7014 U205
 U 5 1 5CCC25DA
 P 13550 5150
 F 0 "U205" H 13550 5467 50  0000 C CNN
 F 1 "74HC7014" H 13550 5376 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 5150 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 5150 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 13550 5150 50  0001 C CNN "Digi-key#"
 	5    13550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U205
+L MotorControllerParts:74HC7014 U205
 U 6 1 5CCC272E
 P 13550 6400
 F 0 "U205" H 13550 6717 50  0000 C CNN
 F 1 "74HC7014" H 13550 6626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13550 6400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 13550 6400 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 13550 6400 50  0001 C CNN "Digi-key#"
 	6    13550 6400
 	1    0    0    -1  
 $EndComp
@@ -1480,17 +1513,19 @@ F 0 "U205" H 5150 9000 50  0000 L CNN
 F 1 "74HC7014" V 5000 8750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5250 8950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 5250 8950 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 5250 8950 50  0001 C CNN "Digi-key#"
 	7    5250 8950
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U204
+L MotorControllerParts:74HC7014 U204
 U 7 1 5CCC32B6
 P 4650 8950
 F 0 "U204" H 4550 9000 50  0000 L CNN
 F 1 "74HC7014" V 4400 8750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4650 8950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 4650 8950 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 4650 8950 50  0001 C CNN "Digi-key#"
 	7    4650 8950
 	1    0    0    -1  
 $EndComp
@@ -1517,46 +1552,50 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 10100 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U204
+L MotorControllerParts:74HC7014 U204
 U 3 1 5CCE6847
 P 8500 1950
 F 0 "U204" H 8500 2267 50  0000 C CNN
 F 1 "74HC7014" H 8500 2176 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8500 1950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 8500 1950 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 8500 1950 50  0001 C CNN "Digi-key#"
 	3    8500 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U204
+L MotorControllerParts:74HC7014 U204
 U 4 1 5CCE684E
 P 10100 1950
 F 0 "U204" H 10100 2267 50  0000 C CNN
 F 1 "74HC7014" H 10100 2176 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10100 1950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 10100 1950 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 10100 1950 50  0001 C CNN "Digi-key#"
 	4    10100 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U204
+L MotorControllerParts:74HC7014 U204
 U 6 1 5CCE685C
 P 10100 2650
 F 0 "U204" H 10100 2333 50  0000 C CNN
 F 1 "74HC7014" H 10100 2424 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10100 2650 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 10100 2650 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 10100 2650 50  0001 C CNN "Digi-key#"
 	6    10100 2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74HC7014 U204
+L MotorControllerParts:74HC7014 U204
 U 5 1 5CD0AEA4
 P 8500 2650
 F 0 "U204" H 8500 2333 50  0000 C CNN
 F 1 "74HC7014" H 8500 2424 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8500 2650 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 8500 2650 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 8500 2650 50  0001 C CNN "Digi-key#"
 	5    8500 2650
 	-1   0    0    1   
 $EndComp
@@ -1566,7 +1605,7 @@ U 1 1 5CE69E61
 P 9000 3700
 F 0 "R210" H 9050 3750 50  0000 L CNN
 F 1 "4K7" H 9050 3650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 3700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 3700 50  0001 C CNN
 F 3 "~" H 9000 3700 50  0001 C CNN
 	1    9000 3700
 	1    0    0    -1  
@@ -1576,9 +1615,10 @@ L MotorControllerParts:C C215
 U 1 1 5CE6A38E
 P 9000 4100
 F 0 "C215" H 9115 4146 50  0000 L CNN
-F 1 "100n" H 9115 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 3950 50  0001 C CNN
+F 1 "100p" H 9115 4055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9038 3950 50  0001 C CNN
 F 3 "~" H 9000 4100 50  0001 C CNN
+F 4 "1276-1014-1-ND" H 9000 4100 50  0001 C CNN "Digi-key#"
 	1    9000 4100
 	1    0    0    -1  
 $EndComp
@@ -1614,7 +1654,7 @@ U 1 1 5CF745BF
 P 9000 4950
 F 0 "R211" H 9050 5000 50  0000 L CNN
 F 1 "4K7" H 9050 4900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 4950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 4950 50  0001 C CNN
 F 3 "~" H 9000 4950 50  0001 C CNN
 	1    9000 4950
 	1    0    0    -1  
@@ -1624,9 +1664,10 @@ L MotorControllerParts:C C216
 U 1 1 5CF745C6
 P 9000 5350
 F 0 "C216" H 9115 5396 50  0000 L CNN
-F 1 "100n" H 9115 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 5200 50  0001 C CNN
+F 1 "100p" H 9115 5305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9038 5200 50  0001 C CNN
 F 3 "~" H 9000 5350 50  0001 C CNN
+F 4 "1276-1014-1-ND" H 9000 5350 50  0001 C CNN "Digi-key#"
 	1    9000 5350
 	1    0    0    -1  
 $EndComp
@@ -1662,7 +1703,7 @@ U 1 1 5D0817BE
 P 9000 6200
 F 0 "R212" H 9050 6250 50  0000 L CNN
 F 1 "4K7" H 9050 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 6200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 6200 50  0001 C CNN
 F 3 "~" H 9000 6200 50  0001 C CNN
 	1    9000 6200
 	1    0    0    -1  
@@ -1672,9 +1713,10 @@ L MotorControllerParts:C C217
 U 1 1 5D0817C5
 P 9000 6600
 F 0 "C217" H 9115 6646 50  0000 L CNN
-F 1 "100n" H 9115 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 6450 50  0001 C CNN
+F 1 "100p" H 9115 6555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9038 6450 50  0001 C CNN
 F 3 "~" H 9000 6600 50  0001 C CNN
+F 4 "1276-1014-1-ND" H 9000 6600 50  0001 C CNN "Digi-key#"
 	1    9000 6600
 	1    0    0    -1  
 $EndComp
@@ -1701,8 +1743,9 @@ U 1 1 5D1090C8
 P 6400 8850
 F 0 "C211" H 6425 8950 50  0000 L CNN
 F 1 "100n" H 6425 8750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 8700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6438 8700 50  0001 C CNN
 F 3 "~" H 6400 8850 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 6400 8850 50  0001 C CNN "Digi-key#"
 	1    6400 8850
 	1    0    0    -1  
 $EndComp
@@ -1739,24 +1782,26 @@ Wire Wire Line
 	7150 8400 6900 8400
 Connection ~ 6900 8400
 $Comp
-L 74xx:74HC7014 U205
+L MotorControllerParts:74HC7014 U205
 U 2 1 5C09683C
 P 9950 5150
 F 0 "U205" H 9950 5467 50  0000 C CNN
 F 1 "74HC7014" H 9950 5376 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9950 5150 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 9950 5150 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 9950 5150 50  0001 C CNN "Digi-key#"
 	2    9950 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC7014 U205
+L MotorControllerParts:74HC7014 U205
 U 3 1 5C096913
 P 9950 6400
 F 0 "U205" H 9950 6717 50  0000 C CNN
 F 1 "74HC7014" H 9950 6626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9950 6400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 9950 6400 50  0001 C CNN
+F 4 "1727-6342-1-ND" H 9950 6400 50  0001 C CNN "Digi-key#"
 	3    9950 6400
 	1    0    0    -1  
 $EndComp
@@ -1791,7 +1836,7 @@ U 1 1 5C0972A0
 P 12200 3900
 F 0 "R213" V 12100 3850 50  0000 L CNN
 F 1 "100R" V 12300 3800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12130 3900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 3900 50  0001 C CNN
 F 3 "~" H 12200 3900 50  0001 C CNN
 	1    12200 3900
 	0    1    1    0   
@@ -1802,7 +1847,7 @@ U 1 1 5C0972A7
 P 12600 3700
 F 0 "R217" H 12650 3750 50  0000 L CNN
 F 1 "4K7" H 12650 3650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12530 3700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12530 3700 50  0001 C CNN
 F 3 "~" H 12600 3700 50  0001 C CNN
 	1    12600 3700
 	1    0    0    -1  
@@ -1812,9 +1857,10 @@ L MotorControllerParts:C C218
 U 1 1 5C0972AE
 P 12600 4100
 F 0 "C218" H 12715 4146 50  0000 L CNN
-F 1 "100n" H 12715 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12638 3950 50  0001 C CNN
+F 1 "100p" H 12715 4055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12638 3950 50  0001 C CNN
 F 3 "~" H 12600 4100 50  0001 C CNN
+F 4 "1276-1014-1-ND" H 12600 4100 50  0001 C CNN "Digi-key#"
 	1    12600 4100
 	1    0    0    -1  
 $EndComp
@@ -1850,7 +1896,7 @@ U 1 1 5C0972CA
 P 12200 5150
 F 0 "R214" V 12100 5100 50  0000 L CNN
 F 1 "100R" V 12300 5050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12130 5150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 5150 50  0001 C CNN
 F 3 "~" H 12200 5150 50  0001 C CNN
 	1    12200 5150
 	0    1    1    0   
@@ -1861,7 +1907,7 @@ U 1 1 5C0972D1
 P 12600 4950
 F 0 "R218" H 12650 5000 50  0000 L CNN
 F 1 "4K7" H 12650 4900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12530 4950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12530 4950 50  0001 C CNN
 F 3 "~" H 12600 4950 50  0001 C CNN
 	1    12600 4950
 	1    0    0    -1  
@@ -1871,9 +1917,10 @@ L MotorControllerParts:C C219
 U 1 1 5C0972D8
 P 12600 5350
 F 0 "C219" H 12715 5396 50  0000 L CNN
-F 1 "100n" H 12715 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12638 5200 50  0001 C CNN
+F 1 "100p" H 12715 5305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12638 5200 50  0001 C CNN
 F 3 "~" H 12600 5350 50  0001 C CNN
+F 4 "1276-1014-1-ND" H 12600 5350 50  0001 C CNN "Digi-key#"
 	1    12600 5350
 	1    0    0    -1  
 $EndComp
@@ -1909,7 +1956,7 @@ U 1 1 5C0972FB
 P 12600 6200
 F 0 "R219" H 12650 6250 50  0000 L CNN
 F 1 "4K7" H 12650 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12530 6200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12530 6200 50  0001 C CNN
 F 3 "~" H 12600 6200 50  0001 C CNN
 	1    12600 6200
 	1    0    0    -1  
@@ -1919,9 +1966,10 @@ L MotorControllerParts:C C220
 U 1 1 5C097302
 P 12600 6600
 F 0 "C220" H 12715 6646 50  0000 L CNN
-F 1 "100n" H 12715 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12638 6450 50  0001 C CNN
+F 1 "100p" H 12715 6555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12638 6450 50  0001 C CNN
 F 3 "~" H 12600 6600 50  0001 C CNN
+F 4 "1276-1014-1-ND" H 12600 6600 50  0001 C CNN "Digi-key#"
 	1    12600 6600
 	1    0    0    -1  
 $EndComp
@@ -1961,16 +2009,16 @@ ENC_B_i
 Text Label 11400 6400 0    50   ~ 0
 ENC_N_i
 Text Notes 9250 3450 0    50   ~ 0
-Lowpass filters set for about 1.59Khz\nSchmitt trigger inputs for taking out noise
+Schmitt trigger inputs for taking out noise
 Text Notes 12900 3450 0    50   ~ 0
-Lowpass filters set for about 1.59Khz\nSchmitt trigger inputs for taking out noise
+Schmitt trigger inputs for taking out noise
 $Comp
 L MotorControllerParts:R R215
 U 1 1 5D302326
 P 12200 6400
 F 0 "R215" V 12100 6350 50  0000 L CNN
 F 1 "100R" V 12300 6300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12130 6400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 6400 50  0001 C CNN
 F 3 "~" H 12200 6400 50  0001 C CNN
 	1    12200 6400
 	0    1    1    0   
@@ -1981,7 +2029,7 @@ U 1 1 5D3026B7
 P 8600 6400
 F 0 "R209" V 8500 6350 50  0000 L CNN
 F 1 "100R" V 8700 6300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 6400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 6400 50  0001 C CNN
 F 3 "~" H 8600 6400 50  0001 C CNN
 	1    8600 6400
 	0    1    1    0   
@@ -1992,7 +2040,7 @@ U 1 1 5D3027D9
 P 8600 5150
 F 0 "R208" V 8500 5100 50  0000 L CNN
 F 1 "100R" V 8700 5050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 5150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 5150 50  0001 C CNN
 F 3 "~" H 8600 5150 50  0001 C CNN
 	1    8600 5150
 	0    1    1    0   
@@ -2003,7 +2051,7 @@ U 1 1 5D3028AB
 P 8600 3900
 F 0 "R207" V 8500 3850 50  0000 L CNN
 F 1 "100R" V 8700 3800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 3900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 3900 50  0001 C CNN
 F 3 "~" H 8600 3900 50  0001 C CNN
 	1    8600 3900
 	0    1    1    0   

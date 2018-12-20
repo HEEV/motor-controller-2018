@@ -270,6 +270,7 @@ F 0 "U101" H 6400 1515 50  0000 C CNN
 F 1 "AP7361C-33" H 6400 1424 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 6500 1500 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP7361C.pdf" H 6400 1300 50  0001 C CNN
+F 4 "AP7361C-33E-13DICT-ND" H 6400 1250 50  0001 C CNN "Digi-key#"
 	1    6400 1250
 	1    0    0    -1  
 $EndComp
@@ -312,8 +313,9 @@ U 1 1 5BFA3D9B
 P 5650 1550
 F 0 "C102" H 5700 1650 50  0000 L CNN
 F 1 "100n" H 5700 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 1400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5688 1400 50  0001 C CNN
 F 3 "" H 5650 1550 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 5650 1550 50  0001 C CNN "Digi-key#"
 	1    5650 1550
 	1    0    0    -1  
 $EndComp
@@ -323,8 +325,9 @@ U 1 1 5BFA3DA2
 P 7200 1550
 F 0 "C104" H 7250 1650 50  0000 L CNN
 F 1 "4u7" H 7250 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 1400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7238 1400 50  0001 C CNN
 F 3 "" H 7200 1550 50  0001 C CNN
+F 4 "732-7628-1-ND" H 7200 1550 50  0001 C CNN "Digi-key#"
 	1    7200 1550
 	1    0    0    -1  
 $EndComp
@@ -333,9 +336,10 @@ L MotorControllerParts:C C105
 U 1 1 5BFA3DA9
 P 7600 1550
 F 0 "C105" H 7650 1650 50  0000 L CNN
-F 1 "10u" H 7650 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7638 1400 50  0001 C CNN
+F 1 "4u7" H 7650 1450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7638 1400 50  0001 C CNN
 F 3 "" H 7600 1550 50  0001 C CNN
+F 4 "732-7628-1-ND" H 7600 1550 50  0001 C CNN "Digi-key#"
 	1    7600 1550
 	1    0    0    -1  
 $EndComp
@@ -345,8 +349,9 @@ U 1 1 5BFA3DB0
 P 5250 1550
 F 0 "C101" H 5300 1650 50  0000 L CNN
 F 1 "4u7" H 5300 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 1400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 1400 50  0001 C CNN
 F 3 "" H 5250 1550 50  0001 C CNN
+F 4 "732-7628-1-ND" H 5250 1550 50  0001 C CNN "Digi-key#"
 	1    5250 1550
 	1    0    0    -1  
 $EndComp
@@ -404,7 +409,8 @@ P 3350 2050
 F 0 "C103" H 3400 2150 50  0000 L CNN
 F 1 "33u" H 3400 1950 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3388 1900 50  0001 C CNN
-F 3 "" H 3350 2050 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1J470" H 3350 2050 50  0001 C CNN
+F 4 "P10340-ND " H 3350 2050 50  0001 C CNN "Digi-key#"
 	1    3350 2050
 	-1   0    0    -1  
 $EndComp
@@ -432,7 +438,8 @@ P 2450 1850
 F 0 "Q101" V 2700 1850 50  0000 C CNN
 F 1 "Q_PMOS_GDS" V 2300 2150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2650 1950 50  0001 C CNN
-F 3 "~" H 2450 1850 50  0001 C CNN
+F 3 "http://aosmd.com/res/data_sheets/AOD407.pdf" H 2450 1850 50  0001 C CNN
+F 4 "785-1102-1-ND" H 2450 1850 50  0001 C CNN "Digi-key#"
 	1    2450 1850
 	0    -1   -1   0   
 $EndComp
@@ -441,9 +448,10 @@ L Device:D_Zener_ALT D101
 U 1 1 5BFA3DE9
 P 2850 1950
 F 0 "D101" V 2950 2000 50  0000 L CNN
-F 1 "18V Zener" H 2700 1850 50  0000 L CNN
+F 1 "15V Zener" H 2700 1850 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 2850 1950 50  0001 C CNN
-F 3 "~" H 2850 1950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/BZT52HC2V4WF%20-%20BZT52HC47WF.pdf" H 2850 1950 50  0001 C CNN
+F 4 "BZT52HC15WF-7DICT-ND‎ " H 2850 1950 50  0001 C CNN "Digi-key#"
 	1    2850 1950
 	0    -1   1    0   
 $EndComp
@@ -492,7 +500,8 @@ P 900 1200
 F 0 "J105" H 1050 800 50  0000 C CNN
 F 1 "USB_B_Micro" H 900 1550 50  0000 C CNN
 F 2 "supermileage_footprints:USB_Micro-B" H 1050 1150 50  0001 C CNN
-F 3 "~" H 1050 1150 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1050 1150 50  0001 C CNN
+F 4 "609-4618-1-ND" H 900 1200 50  0001 C CNN "Digi-key#"
 	1    900  1200
 	1    0    0    -1  
 $EndComp
@@ -525,7 +534,8 @@ P 800 2350
 F 0 "J101" H 800 2600 50  0000 C CNN
 F 1 "CAN" H 800 2050 50  0000 C CNN
 F 2 "supermileage_footprints:Molex-duraClick-4conn" H 800 2350 50  0001 C CNN
-F 3 "~" H 800 2350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5023520200_sd.pdf" H 800 2350 50  0001 C CNN
+F 4 "WM7171CT-ND" H 800 2350 50  0001 C CNN "Digi-key#"
 	1    800  2350
 	-1   0    0    1   
 $EndComp
@@ -557,9 +567,10 @@ L MotorControllerParts:Conn_01x02 J103
 U 1 1 5BFEEFEC
 P 800 4300
 F 0 "J103" H 800 4450 50  0000 C CNN
-F 1 "Motor Temp" H 800 4050 50  0000 C CNN
+F 1 "Motor T" H 800 4050 50  0000 C CNN
 F 2 "supermileage_footprints:Molex-duraClick-2conn" H 800 4300 50  0001 C CNN
-F 3 "~" H 800 4300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5023520200_sd.pdf" H 800 4300 50  0001 C CNN
+F 4 "WM7169CT-ND" H 800 4300 50  0001 C CNN "Digi-key#"
 	1    800  4300
 	-1   0    0    1   
 $EndComp
@@ -568,9 +579,10 @@ L MotorControllerParts:Conn_01x02 J104
 U 1 1 5BFF0D92
 P 800 5150
 F 0 "J104" H 800 5300 50  0000 C CNN
-F 1 "Transistor Temp" H 720 4916 50  0000 C CNN
+F 1 "Tran T" H 720 4916 50  0000 C CNN
 F 2 "supermileage_footprints:Molex-duraClick-2conn" H 800 5150 50  0001 C CNN
-F 3 "~" H 800 5150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5023520200_sd.pdf" H 800 5150 50  0001 C CNN
+F 4 "WM7169CT-ND" H 800 5150 50  0001 C CNN "Digi-key#"
 	1    800  5150
 	-1   0    0    1   
 $EndComp
@@ -621,7 +633,8 @@ P 800 3550
 F 0 "J102" H 800 3800 50  0000 C CNN
 F 1 "Throttle" H 800 3200 50  0000 C CNN
 F 2 "supermileage_footprints:Molex-duraClick-4conn" H 800 3550 50  0001 C CNN
-F 3 "~" H 800 3550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5023520200_sd.pdf" H 800 3550 50  0001 C CNN
+F 4 "WM7171CT-ND" H 800 3550 50  0001 C CNN "Digi-key#"
 	1    800  3550
 	-1   0    0    1   
 $EndComp
@@ -660,7 +673,8 @@ P 1400 6200
 F 0 "J106" H 1450 5750 50  0000 C CNN
 F 1 "Extra IO" H 1450 6626 50  0000 C CNN
 F 2 "supermileage_footprints:Molex-UltraFit-14p-vert" H 1400 6200 50  0001 C CNN
-F 3 "~" H 1400 6200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1722981112_sd.pdf" H 1400 6200 50  0001 C CNN
+F 4 "WM11743-ND‎" H 1400 6200 50  0001 C CNN "Digi-key#"
 	1    1400 6200
 	1    0    0    -1  
 $EndComp
@@ -800,7 +814,8 @@ P 1350 3350
 F 0 "F101" V 1250 3300 50  0000 C CNN
 F 1 "50mA PTC" V 1150 3300 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 3150 50  0001 L CNN
-F 3 "~" H 1350 3350 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCM%20Nov2016.pdf" H 1350 3350 50  0001 C CNN
+F 4 "507-1816-1-ND" H 1350 3350 50  0001 C CNN "Digi-key#"
 	1    1350 3350
 	0    1    1    0   
 $EndComp
@@ -818,7 +833,8 @@ P 2000 4950
 F 0 "J107" H 2000 5300 50  0000 C CNN
 F 1 "Hall Sensors" V 2100 4900 50  0000 C CNN
 F 2 "supermileage_footprints:MICRO_JST_6" H 2000 4950 50  0001 C CNN
-F 3 "~" H 2000 4950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2000 4950 50  0001 C CNN
+F 4 "455-1708-ND" H 2000 4950 50  0001 C CNN "Digi-key#"
 	1    2000 4950
 	-1   0    0    1   
 $EndComp
@@ -858,7 +874,7 @@ U 1 1 5BF9BD2E
 P 2650 4550
 F 0 "R101" H 2450 4700 50  0000 L CNN
 F 1 "10K" H 2450 4550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 4550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 4550 50  0001 C CNN
 F 3 "" H 2650 4550 50  0001 C CNN
 	1    2650 4550
 	1    0    0    -1  
@@ -1155,7 +1171,8 @@ P 2950 1450
 F 0 "D102" H 2950 1550 50  0000 C CNN
 F 1 "D_USB" H 2950 1350 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 2950 1450 50  0001 C CNN
-F 3 "~" H 2950 1450 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/MB/MBR1020VL.pdf" H 2950 1450 50  0001 C CNN
+F 4 "MBR1020VLCT-ND‎" H 2950 1450 50  0001 C CNN "Digi-key#"
 	1    2950 1450
 	-1   0    0    1   
 $EndComp
@@ -1165,7 +1182,7 @@ U 1 1 5BFA3DF0
 P 2450 2350
 F 0 "R102" H 2150 2400 50  0000 L CNN
 F 1 "10K" H 2200 2300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2380 2350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2380 2350 50  0001 C CNN
 F 3 "~" H 2450 2350 50  0001 C CNN
 	1    2450 2350
 	-1   0    0    -1  
@@ -1226,7 +1243,8 @@ P 1850 6000
 F 0 "F103" V 1900 5800 50  0000 C CNN
 F 1 "50mA PTC" V 1800 5950 50  0001 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 5800 50  0001 L CNN
-F 3 "~" H 1850 6000 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCM%20Nov2016.pdf" H 1850 6000 50  0001 C CNN
+F 4 "507-1816-1-ND" H 1850 6000 50  0001 C CNN "Digi-key#"
 	1    1850 6000
 	0    -1   -1   0   
 $EndComp
@@ -1237,7 +1255,8 @@ P 1850 5900
 F 0 "F102" V 1900 5700 50  0000 C CNN
 F 1 "50mA PTC" V 2000 5850 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 5700 50  0001 L CNN
-F 3 "~" H 1850 5900 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCM%20Nov2016.pdf" H 1850 5900 50  0001 C CNN
+F 4 "507-1816-1-ND" H 1850 5900 50  0001 C CNN "Digi-key#"
 	1    1850 5900
 	0    -1   -1   0   
 $EndComp
@@ -1388,7 +1407,8 @@ AR Path="/5C16151D" Ref="TP102"  Part="1"
 F 0 "TP102" H 1200 7250 50  0000 L CNN
 F 1 "5v_TP" H 1150 7350 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 7450 50  0001 C CNN
-F 3 "~" H 1250 7450 50  0001 C CNN
+F 3 "N/A" H 1250 7450 50  0001 C CNN
+F 4 "N/A" H 1250 7450 50  0001 C CNN "Digi-key#"
 	1    1250 7450
 	0    1    -1   0   
 $EndComp
@@ -1401,7 +1421,8 @@ AR Path="/5C1717BA" Ref="TP103"  Part="1"
 F 0 "TP103" H 1550 7250 50  0000 L CNN
 F 1 "3v3_TP" H 1500 7350 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 7450 50  0001 C CNN
-F 3 "~" H 1600 7450 50  0001 C CNN
+F 3 "N/A" H 1600 7450 50  0001 C CNN
+F 4 "N/A" H 1600 7450 50  0001 C CNN "Digi-key#"
 	1    1600 7450
 	0    1    -1   0   
 $EndComp
@@ -1412,7 +1433,8 @@ P 1950 7650
 F 0 "TP104" H 2008 7770 50  0000 L CNN
 F 1 "GND_TP" H 1800 7900 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2150 7650 50  0001 C CNN
-F 3 "~" H 2150 7650 50  0001 C CNN
+F 3 "N/A" H 2150 7650 50  0001 C CNN
+F 4 "N/A" H 1950 7650 50  0001 C CNN "Digi-key#"
 	1    1950 7650
 	1    0    0    -1  
 $EndComp
@@ -1423,7 +1445,8 @@ P 2300 7650
 F 0 "TP105" H 2358 7770 50  0000 L CNN
 F 1 "GND_TP" H 2200 7900 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2500 7650 50  0001 C CNN
-F 3 "~" H 2500 7650 50  0001 C CNN
+F 3 "N/A" H 2500 7650 50  0001 C CNN
+F 4 "N/A" H 2300 7650 50  0001 C CNN "Digi-key#"
 	1    2300 7650
 	1    0    0    -1  
 $EndComp
@@ -1512,9 +1535,10 @@ P 900 7450
 AR Path="/5BE2BA11/5C29A226" Ref="TP?"  Part="1" 
 AR Path="/5C29A226" Ref="TP101"  Part="1" 
 F 0 "TP101" H 850 7250 50  0000 L CNN
-F 1 "5v_TP" H 800 7350 50  0000 L CNN
+F 1 "Batt_TP" H 800 7350 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 900 7450 50  0001 C CNN
-F 3 "~" H 900 7450 50  0001 C CNN
+F 3 "N/A" H 900 7450 50  0001 C CNN
+F 4 "N/A" H 900 7450 50  0001 C CNN "Digi-key#"
 	1    900  7450
 	0    1    -1   0   
 $EndComp
@@ -1555,7 +1579,7 @@ Wire Wire Line
 Text Notes 1150 6950 0    50   ~ 0
 Power supply test points
 NoConn ~ 1200 1400
-Text Notes 5050 2700 0    50   ~ 0
+Text Notes 5100 3400 0    50   ~ 0
 PWM_Ax, PWM_Bx, and PWM_Cx correspond to the A, B, and C phases of\na three phase motor. The PWM_Dx lines are for a "extra" fourth phase.\nNote that the A, B, and C lines may be labeled U, V, and W elsewhere \nwhich are their european designation.
 Text Notes 800  650  0    50   ~ 0
 Digital Comm
@@ -1724,4 +1748,183 @@ NoConn ~ 8650 2850
 NoConn ~ 8650 2750
 NoConn ~ 8650 2650
 NoConn ~ 8650 2550
+NoConn ~ 8650 1950
+NoConn ~ 8650 1750
+NoConn ~ 8650 1650
+NoConn ~ 8650 1550
+NoConn ~ 8650 1350
+NoConn ~ 8650 1250
+NoConn ~ 8650 1150
+$Comp
+L MotorControllerParts:LED_ALT D103
+U 1 1 5C15D94C
+P 5800 2700
+F 0 "D103" H 5800 2800 50  0000 C CNN
+F 1 "Vin" H 5792 2536 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 5800 2700 50  0001 C CNN
+F 3 "~" H 5800 2700 50  0001 C CNN
+	1    5800 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L MotorControllerParts:LED_ALT D104
+U 1 1 5C15D953
+P 6700 2700
+F 0 "D104" H 6700 2800 50  0000 C CNN
+F 1 "5V" H 6692 2536 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 6700 2700 50  0001 C CNN
+F 3 "~" H 6700 2700 50  0001 C CNN
+	1    6700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L MotorControllerParts:LED_ALT D105
+U 1 1 5C15D95A
+P 7600 2700
+F 0 "D105" H 7600 2800 50  0000 C CNN
+F 1 "3.3V" H 7592 2536 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 7600 2700 50  0001 C CNN
+F 3 "~" H 7600 2700 50  0001 C CNN
+	1    7600 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L MotorControllerParts:R R105
+U 1 1 5C15D961
+P 7250 2700
+F 0 "R105" V 7350 2700 50  0000 C CNN
+F 1 "510R" V 7134 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7180 2700 50  0001 C CNN
+F 3 "~" H 7250 2700 50  0001 C CNN
+	1    7250 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:R R104
+U 1 1 5C15D968
+P 6350 2700
+F 0 "R104" V 6450 2700 50  0000 C CNN
+F 1 "1K" V 6234 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6280 2700 50  0001 C CNN
+F 3 "~" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:R R103
+U 1 1 5C15D96F
+P 5450 2700
+F 0 "R103" V 5550 2700 50  0000 C CNN
+F 1 "10K" V 5334 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 2700 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:GNDD #PWR0146
+U 1 1 5C15D976
+P 7800 2750
+F 0 "#PWR0146" H 7800 2500 50  0001 C CNN
+F 1 "GNDD" H 7804 2595 50  0000 C CNN
+F 2 "" H 7800 2750 50  0001 C CNN
+F 3 "" H 7800 2750 50  0001 C CNN
+	1    7800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2750 7800 2700
+Wire Wire Line
+	6000 2700 5950 2700
+Wire Wire Line
+	6850 2700 6900 2700
+Wire Wire Line
+	7750 2700 7800 2700
+Wire Wire Line
+	7400 2700 7450 2700
+Wire Wire Line
+	5600 2700 5650 2700
+Wire Wire Line
+	7000 2700 7100 2700
+$Comp
+L power:+5V #PWR0143
+U 1 1 5C172733
+P 6100 2650
+F 0 "#PWR0143" H 6100 2500 50  0001 C CNN
+F 1 "+5V" H 6115 2823 50  0000 C CNN
+F 2 "" H 6100 2650 50  0001 C CNN
+F 3 "" H 6100 2650 50  0001 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:+3.3V #PWR0145
+U 1 1 5C1729BD
+P 7000 2650
+F 0 "#PWR0145" H 7000 2500 50  0001 C CNN
+F 1 "+3.3V" H 7015 2823 50  0000 C CNN
+F 2 "" H 7000 2650 50  0001 C CNN
+F 3 "" H 7000 2650 50  0001 C CNN
+	1    7000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:+BATT #PWR0141
+U 1 1 5C172B3A
+P 5200 2650
+F 0 "#PWR0141" H 5200 2500 50  0001 C CNN
+F 1 "+BATT" H 5215 2823 50  0000 C CNN
+F 2 "" H 5200 2650 50  0001 C CNN
+F 3 "" H 5200 2650 50  0001 C CNN
+	1    5200 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:GNDD #PWR0144
+U 1 1 5C1731FF
+P 6900 2750
+F 0 "#PWR0144" H 6900 2500 50  0001 C CNN
+F 1 "GNDD" H 6904 2595 50  0000 C CNN
+F 2 "" H 6900 2750 50  0001 C CNN
+F 3 "" H 6900 2750 50  0001 C CNN
+	1    6900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:GNDD #PWR0142
+U 1 1 5C173254
+P 6000 2750
+F 0 "#PWR0142" H 6000 2500 50  0001 C CNN
+F 1 "GNDD" H 6004 2595 50  0000 C CNN
+F 2 "" H 6000 2750 50  0001 C CNN
+F 3 "" H 6000 2750 50  0001 C CNN
+	1    6000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2650 7000 2700
+Wire Wire Line
+	5200 2650 5200 2700
+Wire Wire Line
+	5200 2700 5300 2700
+Wire Wire Line
+	6000 2750 6000 2700
+Wire Wire Line
+	6900 2750 6900 2700
+Wire Wire Line
+	6100 2650 6100 2700
+Wire Wire Line
+	6100 2700 6200 2700
+Wire Wire Line
+	6500 2700 6550 2700
+Wire Notes Line
+	5000 2300 8000 2300
+Wire Notes Line
+	8000 2300 8000 3000
+Wire Notes Line
+	8000 3000 5000 3000
+Wire Notes Line
+	5000 3000 5000 2300
+Text Notes 6150 2400 0    50   ~ 0
+Power Status LEDs
 $EndSCHEMATC

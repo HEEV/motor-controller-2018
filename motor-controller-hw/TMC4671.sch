@@ -54,8 +54,9 @@ U 1 1 5C1A8310
 P 850 7350
 F 0 "C401" H 900 7450 50  0000 L CNN
 F 1 "100n" H 900 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 888 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 888 7200 50  0001 C CNN
 F 3 "" H 850 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 850 7350 50  0001 C CNN "Digi-key#"
 	1    850  7350
 	1    0    0    -1  
 $EndComp
@@ -65,8 +66,9 @@ U 1 1 5C1A8969
 P 1200 7350
 F 0 "C403" H 1250 7450 50  0000 L CNN
 F 1 "100n" H 1250 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1238 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1238 7200 50  0001 C CNN
 F 3 "" H 1200 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 1200 7350 50  0001 C CNN "Digi-key#"
 	1    1200 7350
 	1    0    0    -1  
 $EndComp
@@ -76,8 +78,9 @@ U 1 1 5C1A89A9
 P 1550 7350
 F 0 "C404" H 1600 7450 50  0000 L CNN
 F 1 "100n" H 1600 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1588 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1588 7200 50  0001 C CNN
 F 3 "" H 1550 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 1550 7350 50  0001 C CNN "Digi-key#"
 	1    1550 7350
 	1    0    0    -1  
 $EndComp
@@ -87,8 +90,9 @@ U 1 1 5C1A8B47
 P 1900 7350
 F 0 "C406" H 1950 7450 50  0000 L CNN
 F 1 "100n" H 1950 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1938 7200 50  0001 C CNN
 F 3 "" H 1900 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 1900 7350 50  0001 C CNN "Digi-key#"
 	1    1900 7350
 	1    0    0    -1  
 $EndComp
@@ -98,8 +102,9 @@ U 1 1 5C1A8B4E
 P 2300 7350
 F 0 "C408" H 2350 7450 50  0000 L CNN
 F 1 "100n" H 2350 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2338 7200 50  0001 C CNN
 F 3 "" H 2300 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 2300 7350 50  0001 C CNN "Digi-key#"
 	1    2300 7350
 	1    0    0    -1  
 $EndComp
@@ -109,8 +114,9 @@ U 1 1 5C1A8B55
 P 2650 7350
 F 0 "C409" H 2700 7450 50  0000 L CNN
 F 1 "100n" H 2700 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2688 7200 50  0001 C CNN
 F 3 "" H 2650 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 2650 7350 50  0001 C CNN "Digi-key#"
 	1    2650 7350
 	1    0    0    -1  
 $EndComp
@@ -120,8 +126,9 @@ U 1 1 5C1A8CB9
 P 3750 7350
 F 0 "C412" H 3800 7450 50  0000 L CNN
 F 1 "100n" H 3800 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3788 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3788 7200 50  0001 C CNN
 F 3 "" H 3750 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 3750 7350 50  0001 C CNN "Digi-key#"
 	1    3750 7350
 	1    0    0    -1  
 $EndComp
@@ -131,8 +138,9 @@ U 1 1 5C1A8CC0
 P 4100 7350
 F 0 "C413" H 4150 7450 50  0000 L CNN
 F 1 "100n" H 4150 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4138 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4138 7200 50  0001 C CNN
 F 3 "" H 4100 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 4100 7350 50  0001 C CNN "Digi-key#"
 	1    4100 7350
 	1    0    0    -1  
 $EndComp
@@ -142,8 +150,9 @@ U 1 1 5C1A8CC7
 P 4450 7350
 F 0 "C414" H 4500 7450 50  0000 L CNN
 F 1 "100n" H 4500 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4488 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4488 7200 50  0001 C CNN
 F 3 "" H 4450 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 4450 7350 50  0001 C CNN "Digi-key#"
 	1    4450 7350
 	1    0    0    -1  
 $EndComp
@@ -153,8 +162,9 @@ U 1 1 5C1A8D24
 P 4850 7350
 F 0 "C415" H 4900 7450 50  0000 L CNN
 F 1 "100n" H 4900 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4888 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4888 7200 50  0001 C CNN
 F 3 "" H 4850 7350 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 4850 7350 50  0001 C CNN "Digi-key#"
 	1    4850 7350
 	1    0    0    -1  
 $EndComp
@@ -274,8 +284,9 @@ U 1 1 5C1ADD9D
 P 3350 7350
 F 0 "C411" H 3400 7450 50  0000 L CNN
 F 1 "4u7" H 3400 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3388 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3388 7200 50  0001 C CNN
 F 3 "" H 3350 7350 50  0001 C CNN
+F 4 "732-7628-1-ND" H 3350 7350 50  0001 C CNN "Digi-key#"
 	1    3350 7350
 	1    0    0    -1  
 $EndComp
@@ -285,8 +296,9 @@ U 1 1 5C1AE541
 P 3000 7350
 F 0 "C410" H 3050 7450 50  0000 L CNN
 F 1 "470n" H 3050 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3038 7200 50  0001 C CNN
 F 3 "" H 3000 7350 50  0001 C CNN
+F 4 "732-7670-1-ND" H 3000 7350 50  0001 C CNN "Digi-key#"
 	1    3000 7350
 	1    0    0    -1  
 $EndComp
@@ -336,8 +348,9 @@ U 1 1 5C1CBD45
 P 5250 7350
 F 0 "C416" H 5300 7450 50  0000 L CNN
 F 1 "4u7" H 5300 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 7200 50  0001 C CNN
 F 3 "" H 5250 7350 50  0001 C CNN
+F 4 "732-7628-1-ND" H 5250 7350 50  0001 C CNN "Digi-key#"
 	1    5250 7350
 	1    0    0    -1  
 $EndComp
@@ -666,7 +679,7 @@ U 1 1 5C3A0900
 P 1550 4000
 F 0 "R401" H 1620 4046 50  0000 L CNN
 F 1 "10K" H 1620 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1480 4000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 4000 50  0001 C CNN
 F 3 "" H 1550 4000 50  0001 C CNN
 	1    1550 4000
 	-1   0    0    -1  
@@ -677,7 +690,7 @@ U 1 1 5C3A09E6
 P 1550 4700
 F 0 "R402" H 1250 4750 50  0000 L CNN
 F 1 "10K" H 1300 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1480 4700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 4700 50  0001 C CNN
 F 3 "" H 1550 4700 50  0001 C CNN
 	1    1550 4700
 	-1   0    0    -1  
@@ -688,7 +701,7 @@ U 1 1 5C3A0ADF
 P 2500 4700
 F 0 "R404" H 2200 4750 50  0000 L CNN
 F 1 "10K" H 2250 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2430 4700 50  0001 C CNN
 F 3 "" H 2500 4700 50  0001 C CNN
 	1    2500 4700
 	-1   0    0    -1  
@@ -699,7 +712,7 @@ U 1 1 5C3A0B27
 P 2500 4000
 F 0 "R403" H 2570 4046 50  0000 L CNN
 F 1 "10K" H 2570 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2430 4000 50  0001 C CNN
 F 3 "" H 2500 4000 50  0001 C CNN
 	1    2500 4000
 	-1   0    0    -1  
@@ -747,6 +760,7 @@ F 0 "X401" H 2900 3000 50  0000 L CNN
 F 1 "IQXO-50" H 2900 3100 50  0000 L CNN
 F 2 "supermileage_footprints:Clock-FOX924" H 3475 2375 50  0001 C CNN
 F 3 "https://www.foxonline.com/pdfs/fox924.pdf" H 2700 2700 50  0001 C CNN
+F 4 "‎631-1074-1-ND‎" H 2800 2700 50  0001 C CNN "Digi-key#"
 	1    2800 2700
 	1    0    0    -1  
 $EndComp
@@ -777,8 +791,9 @@ U 1 1 5C418FA1
 P 1850 2800
 F 0 "C405" H 1965 2846 50  0000 L CNN
 F 1 "100n" H 1965 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1888 2650 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1888 2650 50  0001 C CNN
 F 3 "" H 1850 2800 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 1850 2800 50  0001 C CNN "Digi-key#"
 	1    1850 2800
 	1    0    0    -1  
 $EndComp
@@ -844,7 +859,7 @@ U 1 1 5C71FD5A
 P 9400 6050
 F 0 "R408" H 9450 6050 50  0000 L CNN
 F 1 "10K" H 9450 5950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9330 6050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9330 6050 50  0001 C CNN
 F 3 "" H 9400 6050 50  0001 C CNN
 	1    9400 6050
 	1    0    0    -1  
@@ -855,7 +870,7 @@ U 1 1 5C71FDAA
 P 9700 5850
 F 0 "R410" V 9800 5750 50  0000 L CNN
 F 1 "110K" V 9600 5750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9630 5850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 5850 50  0001 C CNN
 F 3 "" H 9700 5850 50  0001 C CNN
 	1    9700 5850
 	0    1    1    0   
@@ -902,9 +917,10 @@ L MotorControllerParts:C C417
 U 1 1 5C8F51EE
 P 9000 2950
 F 0 "C417" H 9100 2950 50  0000 L CNN
-F 1 "100n" H 9050 2850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 2800 50  0001 C CNN
+F 1 "10n" H 9050 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9038 2800 50  0001 C CNN
 F 3 "" H 9000 2950 50  0001 C CNN
+F 4 "732-12169-1-ND" H 9000 2950 50  0001 C CNN "Digi-key#"
 	1    9000 2950
 	1    0    0    -1  
 $EndComp
@@ -920,7 +936,7 @@ U 1 1 5C949802
 P 9350 2750
 F 0 "R406" V 9450 2650 50  0000 L CNN
 F 1 "100R" V 9250 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 2750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9280 2750 50  0001 C CNN
 F 3 "" H 9350 2750 50  0001 C CNN
 	1    9350 2750
 	0    1    1    0   
@@ -962,8 +978,9 @@ U 1 1 5C9D9FC5
 P 9050 6050
 F 0 "C419" H 9100 6150 50  0000 L CNN
 F 1 "10n" H 9100 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9088 5900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9088 5900 50  0001 C CNN
 F 3 "" H 9050 6050 50  0001 C CNN
+F 4 "732-12169-1-ND" H 9050 6050 50  0001 C CNN "Digi-key#"
 	1    9050 6050
 	1    0    0    -1  
 $EndComp
@@ -1025,7 +1042,7 @@ U 1 1 5CBDC0FE
 P 3750 1200
 F 0 "R405" H 3820 1246 50  0000 L CNN
 F 1 "10K" H 3820 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3680 1200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3680 1200 50  0001 C CNN
 F 3 "" H 3750 1200 50  0001 C CNN
 	1    3750 1200
 	1    0    0    -1  
@@ -1072,7 +1089,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 1850 9750 1850
 Text Notes 8750 2450 0    50   ~ 0
-Phase current low pass filters\n RC constant set for 15KHz
+Phase current low pass filters\n RC constant set for 159KHz
 Wire Notes Line
 	8150 2250 8150 4400
 Wire Notes Line
@@ -1082,7 +1099,7 @@ Wire Notes Line
 Wire Notes Line
 	10450 2250 8150 2250
 Text Notes 8650 4750 0    50   ~ 0
-Battery Voltage and Current\nCurrent RC filter set for 1.59KHz\nVoltage RC filter set for 1.59KHz
+Battery Voltage and Current\nCurrent RC filter set for 159KHz\nVoltage RC filter set for 1.59KHz
 Wire Notes Line
 	8150 4500 10450 4500
 Wire Notes Line
@@ -1236,7 +1253,8 @@ P 5800 3450
 F 0 "U401" H 5800 3500 50  0000 C CNN
 F 1 "TMC4671" H 5800 3600 50  0000 C CNN
 F 2 "supermileage_footprints:TMC4671" H 5800 3450 50  0001 C CNN
-F 3 "" H 5800 3450 50  0001 C CNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC4671_datasheet_v1.03.pdf" H 5800 3450 50  0001 C CNN
+F 4 "1460-1302-ND" H 5800 3450 50  0001 C CNN "Digi-key#"
 	1    5800 3450
 	1    0    0    -1  
 $EndComp
@@ -1303,9 +1321,10 @@ L MotorControllerParts:C C418
 U 1 1 5D53326D
 P 9000 3800
 F 0 "C418" H 9100 3800 50  0000 L CNN
-F 1 "100n" H 9050 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 3650 50  0001 C CNN
+F 1 "10n" H 9050 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9038 3650 50  0001 C CNN
 F 3 "" H 9000 3800 50  0001 C CNN
+F 4 "732-12169-1-ND" H 9000 3800 50  0001 C CNN "Digi-key#"
 	1    9000 3800
 	1    0    0    -1  
 $EndComp
@@ -1315,7 +1334,7 @@ U 1 1 5D533274
 P 9350 3600
 F 0 "R407" V 9450 3500 50  0000 L CNN
 F 1 "100R" V 9250 3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 3600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9280 3600 50  0001 C CNN
 F 3 "" H 9350 3600 50  0001 C CNN
 	1    9350 3600
 	0    1    1    0   
@@ -1370,9 +1389,10 @@ L MotorControllerParts:C C420
 U 1 1 5D56D895
 P 9200 5150
 F 0 "C420" H 9300 5150 50  0000 L CNN
-F 1 "100n" H 9250 5050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 5000 50  0001 C CNN
+F 1 "10n" H 9250 5050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9238 5000 50  0001 C CNN
 F 3 "" H 9200 5150 50  0001 C CNN
+F 4 "732-12169-1-ND" H 9200 5150 50  0001 C CNN "Digi-key#"
 	1    9200 5150
 	1    0    0    -1  
 $EndComp
@@ -1427,7 +1447,7 @@ U 1 1 5CA92A2E
 P 9550 4950
 F 0 "R409" V 9650 4850 50  0000 L CNN
 F 1 "10K" V 9450 4850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 4950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9480 4950 50  0001 C CNN
 F 3 "" H 9550 4950 50  0001 C CNN
 	1    9550 4950
 	0    1    1    0   
@@ -1477,7 +1497,8 @@ P 1450 6050
 F 0 "J401" H 1500 6467 50  0000 C CNN
 F 1 "Trinamic_TRMI" H 1500 6376 50  0000 C CNN
 F 2 "supermileage_footprints:DF20F-10DP-1V(56)" H 1450 6050 50  0001 C CNN
-F 3 "~" H 1450 6050 50  0001 C CNN
+F 3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=DF20F-10DP-1V(56)" H 1450 6050 50  0001 C CNN
+F 4 "H10726CT-ND" H 1450 6050 50  0001 C CNN "Digi-key#"
 	1    1450 6050
 	1    0    0    -1  
 $EndComp
@@ -1585,8 +1606,9 @@ U 1 1 5C44BA2A
 P 1150 4700
 F 0 "C402" H 950 4800 50  0000 L CNN
 F 1 "100n" H 950 4600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1188 4550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1188 4550 50  0001 C CNN
 F 3 "" H 1150 4700 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 1150 4700 50  0001 C CNN "Digi-key#"
 	1    1150 4700
 	-1   0    0    -1  
 $EndComp
@@ -1619,8 +1641,9 @@ U 1 1 5C5FECF1
 P 2100 4700
 F 0 "C407" H 1900 4800 50  0000 L CNN
 F 1 "100n" H 1900 4600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2138 4550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2138 4550 50  0001 C CNN
 F 3 "" H 2100 4700 50  0001 C CNN
+F 4 "1276-2444-1-ND" H 2100 4700 50  0001 C CNN "Digi-key#"
 	1    2100 4700
 	-1   0    0    -1  
 $EndComp
