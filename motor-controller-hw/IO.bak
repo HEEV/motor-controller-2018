@@ -213,7 +213,8 @@ P 4650 1500
 F 0 "R201" V 4550 1500 50  0000 C CNN
 F 1 "2K" V 4650 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 1500 50  0001 C CNN
-F 3 "~" H 4650 1500 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 4650 1500 50  0001 C CNN
+F 4 "A126358CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4650 1500
 	0    1    1    0   
 $EndComp
@@ -243,7 +244,8 @@ P 4850 1750
 F 0 "R206" V 4750 1750 50  0000 C CNN
 F 1 "3K9" V 4850 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4780 1750 50  0001 C CNN
-F 3 "~" H 4850 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 4850 1750 50  0001 C CNN
+F 4 "311-3.90CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4850 1750
 	-1   0    0    1   
 $EndComp
@@ -400,7 +402,8 @@ P 4650 2500
 F 0 "R202" V 4550 2500 50  0000 C CNN
 F 1 "2K" V 4650 2500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 2500 50  0001 C CNN
-F 3 "~" H 4650 2500 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 4650 2500 50  0001 C CNN
+F 4 "A126358CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4650 2500
 	0    1    1    0   
 $EndComp
@@ -468,7 +471,8 @@ P 4650 3450
 F 0 "R203" V 4550 3450 50  0000 C CNN
 F 1 "2K" V 4650 3450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 3450 50  0001 C CNN
-F 3 "~" H 4650 3450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 4650 3450 50  0001 C CNN
+F 4 "A126358CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4650 3450
 	0    1    1    0   
 $EndComp
@@ -584,7 +588,8 @@ P 4650 4400
 F 0 "R204" V 4550 4400 50  0000 C CNN
 F 1 "2K" V 4650 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 4400 50  0001 C CNN
-F 3 "~" H 4650 4400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 4650 4400 50  0001 C CNN
+F 4 "A126358CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4650 4400
 	0    1    1    0   
 $EndComp
@@ -654,7 +659,8 @@ P 4650 5350
 F 0 "R205" V 4550 5350 50  0000 C CNN
 F 1 "2K" V 4650 5350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 5350 50  0001 C CNN
-F 3 "~" H 4650 5350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 4650 5350 50  0001 C CNN
+F 4 "A126358CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4650 5350
 	0    1    1    0   
 $EndComp
@@ -1332,7 +1338,8 @@ P 12300 2350
 F 0 "R216" V 12200 2350 50  0000 C CNN
 F 1 "120R" V 12400 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12230 2350 50  0001 C CNN
-F 3 "~" H 12300 2350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 12300 2350 50  0001 C CNN
+F 4 "A129738CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12300 2350
 	0    1    1    0   
 $EndComp
@@ -1364,7 +1371,8 @@ P 12000 2350
 F 0 "JP201" H 12000 2450 50  0000 C CNN
 F 1 "CAN Term" H 12000 2250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12000 2350 50  0001 C CNN
-F 3 "~" H 12000 2350 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 12000 2350 50  0001 C CNN
+F 4 "S1212EC-02-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12000 2350
 	1    0    0    -1  
 $EndComp
@@ -1402,7 +1410,8 @@ P 13950 2250
 F 0 "R220" H 13880 2204 50  0000 R CNN
 F 1 "10K" H 13880 2295 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 13880 2250 50  0001 C CNN
-F 3 "~" H 13950 2250 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 13950 2250 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    13950 2250
 	-1   0    0    1   
 $EndComp
@@ -1614,7 +1623,8 @@ P 9000 3700
 F 0 "R210" H 9050 3750 50  0000 L CNN
 F 1 "4K7" H 9050 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 3700 50  0001 C CNN
-F 3 "~" H 9000 3700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9000 3700 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9000 3700
 	1    0    0    -1  
 $EndComp
@@ -1663,7 +1673,8 @@ P 9000 4950
 F 0 "R211" H 9050 5000 50  0000 L CNN
 F 1 "4K7" H 9050 4900 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 4950 50  0001 C CNN
-F 3 "~" H 9000 4950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9000 4950 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9000 4950
 	1    0    0    -1  
 $EndComp
@@ -1712,7 +1723,8 @@ P 9000 6200
 F 0 "R212" H 9050 6250 50  0000 L CNN
 F 1 "4K7" H 9050 6150 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 6200 50  0001 C CNN
-F 3 "~" H 9000 6200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9000 6200 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9000 6200
 	1    0    0    -1  
 $EndComp
@@ -1845,7 +1857,8 @@ P 12200 3900
 F 0 "R213" V 12100 3850 50  0000 L CNN
 F 1 "100R" V 12300 3800 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 3900 50  0001 C CNN
-F 3 "~" H 12200 3900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12200 3900 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12200 3900
 	0    1    1    0   
 $EndComp
@@ -1856,7 +1869,8 @@ P 12600 3700
 F 0 "R217" H 12650 3750 50  0000 L CNN
 F 1 "4K7" H 12650 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12530 3700 50  0001 C CNN
-F 3 "~" H 12600 3700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12600 3700 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12600 3700
 	1    0    0    -1  
 $EndComp
@@ -1905,7 +1919,8 @@ P 12200 5150
 F 0 "R214" V 12100 5100 50  0000 L CNN
 F 1 "100R" V 12300 5050 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 5150 50  0001 C CNN
-F 3 "~" H 12200 5150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12200 5150 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12200 5150
 	0    1    1    0   
 $EndComp
@@ -1916,7 +1931,8 @@ P 12600 4950
 F 0 "R218" H 12650 5000 50  0000 L CNN
 F 1 "4K7" H 12650 4900 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12530 4950 50  0001 C CNN
-F 3 "~" H 12600 4950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12600 4950 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12600 4950
 	1    0    0    -1  
 $EndComp
@@ -1965,7 +1981,8 @@ P 12600 6200
 F 0 "R219" H 12650 6250 50  0000 L CNN
 F 1 "4K7" H 12650 6150 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12530 6200 50  0001 C CNN
-F 3 "~" H 12600 6200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12600 6200 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12600 6200
 	1    0    0    -1  
 $EndComp
@@ -2027,7 +2044,8 @@ P 12200 6400
 F 0 "R215" V 12100 6350 50  0000 L CNN
 F 1 "100R" V 12300 6300 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 6400 50  0001 C CNN
-F 3 "~" H 12200 6400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12200 6400 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    12200 6400
 	0    1    1    0   
 $EndComp
@@ -2038,7 +2056,8 @@ P 8600 6400
 F 0 "R209" V 8500 6350 50  0000 L CNN
 F 1 "100R" V 8700 6300 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 6400 50  0001 C CNN
-F 3 "~" H 8600 6400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8600 6400 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8600 6400
 	0    1    1    0   
 $EndComp
@@ -2049,7 +2068,8 @@ P 8600 5150
 F 0 "R208" V 8500 5100 50  0000 L CNN
 F 1 "100R" V 8700 5050 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 5150 50  0001 C CNN
-F 3 "~" H 8600 5150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8600 5150 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8600 5150
 	0    1    1    0   
 $EndComp
@@ -2060,7 +2080,8 @@ P 8600 3900
 F 0 "R207" V 8500 3850 50  0000 L CNN
 F 1 "100R" V 8700 3800 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 3900 50  0001 C CNN
-F 3 "~" H 8600 3900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8600 3900 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8600 3900
 	0    1    1    0   
 $EndComp

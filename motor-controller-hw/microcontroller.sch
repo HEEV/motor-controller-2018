@@ -401,7 +401,7 @@ $Comp
 L MotorControllerParts:Crystal Y301
 U 1 1 5BF6BC78
 P 7450 6000
-F 0 "Y301" V 7450 5800 50  0000 C CNN
+F 0 "Y301" V 7450 5750 50  0000 C CNN
 F 1 "8Mhz" V 7600 5850 50  0000 C CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 7450 6000 50  0001 C CNN
 F 3 "https://abracon.com/Resonators/abls.pdf" H 7450 6000 50  0001 C CNN
@@ -413,7 +413,7 @@ $Comp
 L MotorControllerParts:C_Small C309
 U 1 1 5BF6BDAE
 P 7250 5750
-F 0 "C309" V 7200 5550 50  0000 L CNN
+F 0 "C309" V 7150 5550 50  0000 L CNN
 F 1 "27pf" V 7350 5650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7250 5750 50  0001 C CNN
 F 3 "~" H 7250 5750 50  0001 C CNN
@@ -425,7 +425,7 @@ $Comp
 L MotorControllerParts:C_Small C310
 U 1 1 5BF6BDEC
 P 7250 6250
-F 0 "C310" V 7200 6050 50  0000 L CNN
+F 0 "C310" V 7150 6050 50  0000 L CNN
 F 1 "27pf" V 7350 6150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7250 6250 50  0001 C CNN
 F 3 "~" H 7250 6250 50  0001 C CNN
@@ -457,21 +457,22 @@ Wire Wire Line
 Wire Wire Line
 	7450 6250 7350 6250
 $Comp
-L MotorControllerParts:R_Small R302
+L MotorControllerParts:R R302
 U 1 1 5BF74546
-P 7750 6250
-F 0 "R302" V 7650 6250 50  0000 C CNN
-F 1 "390R" V 7850 6250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7750 6250 50  0001 C CNN
-F 3 "~" H 7750 6250 50  0001 C CNN
-	1    7750 6250
+P 7800 6250
+F 0 "R302" V 7700 6250 50  0000 C CNN
+F 1 "330R" V 7900 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7800 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7800 6250 50  0001 C CNN
+F 4 "311-330CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
+	1    7800 6250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7850 6250 8100 6250
-Text Label 8100 5750 2    50   ~ 0
+	7950 6250 8200 6250
+Text Label 8200 5750 2    50   ~ 0
 OSC+
-Text Label 8100 6250 2    50   ~ 0
+Text Label 8200 6250 2    50   ~ 0
 OSC-
 Wire Wire Line
 	7050 5750 7050 6250
@@ -482,7 +483,7 @@ Wire Wire Line
 	7650 6250 7450 6250
 Connection ~ 7450 6250
 Wire Wire Line
-	8100 5750 7450 5750
+	8200 5750 7450 5750
 Connection ~ 7450 5750
 Text Label 4300 2600 0    50   ~ 0
 OSC-
@@ -652,7 +653,8 @@ P 2000 5650
 F 0 "R301" H 2070 5696 50  0000 L CNN
 F 1 "10K" H 2070 5605 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 5650 50  0001 C CNN
-F 3 "~" H 2000 5650 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2000 5650 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2000 5650
 	1    0    0    -1  
 $EndComp
@@ -728,7 +730,8 @@ P 9950 5500
 F 0 "D301" H 9900 5600 50  0000 C CNN
 F 1 "CAN_Status" H 9942 5336 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 5500 50  0001 C CNN
-F 3 "~" H 9950 5500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/150060BS55040.pdf" H 9950 5500 50  0001 C CNN
+F 4 "732-12013-1-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9950 5500
 	-1   0    0    1   
 $EndComp
@@ -739,7 +742,8 @@ P 3450 5400
 F 0 "J301" H 3530 5392 50  0000 L CNN
 F 1 "SWD" H 3530 5301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3450 5400 50  0001 C CNN
-F 3 "~" H 3450 5400 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 3450 5400 50  0001 C CNN
+F 4 "S1212EC-06-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    3450 5400
 	1    0    0    -1  
 $EndComp
@@ -793,7 +797,8 @@ P 9950 5900
 F 0 "D302" H 9900 6000 50  0000 C CNN
 F 1 "Heartbeat" H 9942 5736 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 5900 50  0001 C CNN
-F 3 "~" H 9950 5900 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/150060RS55040.pdf" H 9950 5900 50  0001 C CNN
+F 4 "732-12015-1-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9950 5900
 	-1   0    0    1   
 $EndComp
@@ -804,7 +809,8 @@ P 9950 6300
 F 0 "D303" H 9900 6400 50  0000 C CNN
 F 1 "User_LED" H 9942 6136 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 6300 50  0001 C CNN
-F 3 "~" H 9950 6300 50  0001 C CNN
+F 3 "https://katalog.we-online.com/led/datasheet/150060VS55040.pdf" H 9950 6300 50  0001 C CNN
+F 4 "732-12017-1-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9950 6300
 	-1   0    0    1   
 $EndComp
@@ -839,9 +845,10 @@ L MotorControllerParts:R R307
 U 1 1 5C0E197C
 P 9550 6300
 F 0 "R307" V 9650 6300 50  0000 C CNN
-F 1 "510R" V 9434 6300 50  0000 C CNN
+F 1 "330R" V 9434 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9480 6300 50  0001 C CNN
-F 3 "~" H 9550 6300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9550 6300 50  0001 C CNN
+F 4 "311-330CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9550 6300
 	0    1    1    0   
 $EndComp
@@ -850,9 +857,10 @@ L MotorControllerParts:R R306
 U 1 1 5C0E1B65
 P 9550 5900
 F 0 "R306" V 9650 5900 50  0000 C CNN
-F 1 "510R" V 9434 5900 50  0000 C CNN
+F 1 "330R" V 9434 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9480 5900 50  0001 C CNN
-F 3 "~" H 9550 5900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9550 5900 50  0001 C CNN
+F 4 "311-330CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9550 5900
 	0    1    1    0   
 $EndComp
@@ -861,9 +869,10 @@ L MotorControllerParts:R R305
 U 1 1 5C0E1BAD
 P 9550 5500
 F 0 "R305" V 9650 5500 50  0000 C CNN
-F 1 "510R" V 9434 5500 50  0000 C CNN
+F 1 "100R" V 9434 5500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9480 5500 50  0001 C CNN
-F 3 "~" H 9550 5500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9550 5500 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9550 5500
 	0    1    1    0   
 $EndComp
@@ -953,7 +962,8 @@ P 9650 4050
 F 0 "R303" H 9720 4096 50  0000 L CNN
 F 1 "4K7" H 9720 4005 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 4050 50  0001 C CNN
-F 3 "~" H 9650 4050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9650 4050 50  0001 C CNN
+F 4 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9650 4050
 	1    0    0    -1  
 $EndComp
@@ -964,7 +974,8 @@ P 9650 4800
 F 0 "R304" H 9720 4846 50  0000 L CNN
 F 1 "100R" H 9720 4755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 4800 50  0001 C CNN
-F 3 "~" H 9650 4800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9650 4800 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9650 4800
 	1    0    0    -1  
 $EndComp
@@ -1069,7 +1080,8 @@ P 9950 3100
 F 0 "J302" H 9900 3300 50  0000 L CNN
 F 1 "User USART" H 9750 2900 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9950 3100 50  0001 C CNN
-F 3 "~" H 9950 3100 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 9950 3100 50  0001 C CNN
+F 4 "S1212EC-03-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9950 3100
 	1    0    0    -1  
 $EndComp

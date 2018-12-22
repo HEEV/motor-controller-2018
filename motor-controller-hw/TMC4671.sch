@@ -21,7 +21,8 @@ P 3050 6000
 F 0 "J402" H 3000 6200 50  0000 L CNN
 F 1 "TMC4671 USART" V 3200 5700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3050 6000 50  0001 C CNN
-F 3 "~" H 3050 6000 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 3050 6000 50  0001 C CNN
+F 4 "S1212EC-03-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    3050 6000
 	1    0    0    -1  
 $EndComp
@@ -680,7 +681,8 @@ P 1550 4000
 F 0 "R401" H 1620 4046 50  0000 L CNN
 F 1 "10K" H 1620 3955 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 4000 50  0001 C CNN
-F 3 "" H 1550 4000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1550 4000 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    1550 4000
 	-1   0    0    -1  
 $EndComp
@@ -691,7 +693,8 @@ P 1550 4700
 F 0 "R402" H 1250 4750 50  0000 L CNN
 F 1 "10K" H 1300 4650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 4700 50  0001 C CNN
-F 3 "" H 1550 4700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1550 4700 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    1550 4700
 	-1   0    0    -1  
 $EndComp
@@ -702,7 +705,8 @@ P 2500 4700
 F 0 "R404" H 2200 4750 50  0000 L CNN
 F 1 "10K" H 2250 4650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2430 4700 50  0001 C CNN
-F 3 "" H 2500 4700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2500 4700 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2500 4700
 	-1   0    0    -1  
 $EndComp
@@ -713,7 +717,8 @@ P 2500 4000
 F 0 "R403" H 2570 4046 50  0000 L CNN
 F 1 "10K" H 2570 3955 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2430 4000 50  0001 C CNN
-F 3 "" H 2500 4000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2500 4000 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2500 4000
 	-1   0    0    -1  
 $EndComp
@@ -860,7 +865,8 @@ P 9400 6050
 F 0 "R408" H 9450 6050 50  0000 L CNN
 F 1 "10K" H 9450 5950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9330 6050 50  0001 C CNN
-F 3 "" H 9400 6050 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 9400 6050 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9400 6050
 	1    0    0    -1  
 $EndComp
@@ -871,7 +877,8 @@ P 9700 5850
 F 0 "R410" V 9800 5750 50  0000 L CNN
 F 1 "110K" V 9600 5750 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 5850 50  0001 C CNN
-F 3 "" H 9700 5850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9700 5850 50  0001 C CNN
+F 4 "311-110KCRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9700 5850
 	0    1    1    0   
 $EndComp
@@ -937,7 +944,8 @@ P 9350 2750
 F 0 "R406" V 9450 2650 50  0000 L CNN
 F 1 "100R" V 9250 2650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9280 2750 50  0001 C CNN
-F 3 "" H 9350 2750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9350 2750 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9350 2750
 	0    1    1    0   
 $EndComp
@@ -1043,7 +1051,8 @@ P 3750 1200
 F 0 "R405" H 3820 1246 50  0000 L CNN
 F 1 "10K" H 3820 1155 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3680 1200 50  0001 C CNN
-F 3 "" H 3750 1200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3750 1200 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    3750 1200
 	1    0    0    -1  
 $EndComp
@@ -1143,7 +1152,8 @@ P 7400 3800
 F 0 "TP409" V 7400 3988 50  0000 L CNN
 F 1 "TestPoint" V 7445 3988 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 3800 50  0001 C CNN
-F 3 "~" H 7600 3800 50  0001 C CNN
+F 3 "N/A" H 7600 3800 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 3800
 	0    1    1    0   
 $EndComp
@@ -1154,7 +1164,8 @@ P 7400 3900
 F 0 "TP410" V 7400 4088 50  0000 L CNN
 F 1 "TestPoint" V 7445 4088 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 3900 50  0001 C CNN
-F 3 "~" H 7600 3900 50  0001 C CNN
+F 3 "N/A" H 7600 3900 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 3900
 	0    1    1    0   
 $EndComp
@@ -1165,7 +1176,8 @@ P 7400 4000
 F 0 "TP411" V 7400 4188 50  0000 L CNN
 F 1 "TestPoint" V 7445 4188 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4000 50  0001 C CNN
-F 3 "~" H 7600 4000 50  0001 C CNN
+F 3 "N/A" H 7600 4000 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4000
 	0    1    1    0   
 $EndComp
@@ -1176,7 +1188,8 @@ P 7400 4100
 F 0 "TP412" V 7400 4288 50  0000 L CNN
 F 1 "TestPoint" V 7445 4288 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4100 50  0001 C CNN
-F 3 "~" H 7600 4100 50  0001 C CNN
+F 3 "N/A" H 7600 4100 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4100
 	0    1    1    0   
 $EndComp
@@ -1187,7 +1200,8 @@ P 7400 4200
 F 0 "TP413" V 7400 4388 50  0000 L CNN
 F 1 "TestPoint" V 7445 4388 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4200 50  0001 C CNN
-F 3 "~" H 7600 4200 50  0001 C CNN
+F 3 "N/A" H 7600 4200 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4200
 	0    1    1    0   
 $EndComp
@@ -1198,7 +1212,8 @@ P 7400 4300
 F 0 "TP414" V 7400 4488 50  0000 L CNN
 F 1 "TestPoint" V 7445 4488 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4300 50  0001 C CNN
-F 3 "~" H 7600 4300 50  0001 C CNN
+F 3 "N/A" H 7600 4300 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4300
 	0    1    1    0   
 $EndComp
@@ -1209,7 +1224,8 @@ P 7400 4600
 F 0 "TP415" V 7400 4788 50  0000 L CNN
 F 1 "TestPoint" V 7445 4788 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4600 50  0001 C CNN
-F 3 "~" H 7600 4600 50  0001 C CNN
+F 3 "N/A" H 7600 4600 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4600
 	0    1    1    0   
 $EndComp
@@ -1220,7 +1236,8 @@ P 7400 4700
 F 0 "TP416" V 7400 4888 50  0000 L CNN
 F 1 "TestPoint" V 7445 4888 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4700 50  0001 C CNN
-F 3 "~" H 7600 4700 50  0001 C CNN
+F 3 "N/A" H 7600 4700 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4700
 	0    1    1    0   
 $EndComp
@@ -1231,7 +1248,8 @@ P 7400 4800
 F 0 "TP417" V 7400 4988 50  0000 L CNN
 F 1 "TestPoint" V 7445 4988 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4800 50  0001 C CNN
-F 3 "~" H 7600 4800 50  0001 C CNN
+F 3 "N/A" H 7600 4800 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4800
 	0    1    1    0   
 $EndComp
@@ -1242,7 +1260,8 @@ P 7400 4900
 F 0 "TP418" V 7400 5088 50  0000 L CNN
 F 1 "TestPoint" V 7445 5088 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7600 4900 50  0001 C CNN
-F 3 "~" H 7600 4900 50  0001 C CNN
+F 3 "N/A" H 7600 4900 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7400 4900
 	0    1    1    0   
 $EndComp
@@ -1285,7 +1304,8 @@ P 4100 2450
 F 0 "TP405" V 4100 2750 50  0000 C CNN
 F 1 "TestPoint" V 4145 2638 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 2450 50  0001 C CNN
-F 3 "~" H 4300 2450 50  0001 C CNN
+F 3 "N/A" H 4300 2450 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4100 2450
 	0    -1   -1   0   
 $EndComp
@@ -1298,7 +1318,8 @@ P 8700 3000
 F 0 "TP419" H 8600 2800 50  0000 L CNN
 F 1 "A_I_TP" H 8600 2900 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8700 3000 50  0001 C CNN
-F 3 "~" H 8700 3000 50  0001 C CNN
+F 3 "N/A" H 8700 3000 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8700 3000
 	0    1    -1   0   
 $EndComp
@@ -1335,7 +1356,8 @@ P 9350 3600
 F 0 "R407" V 9450 3500 50  0000 L CNN
 F 1 "100R" V 9250 3500 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9280 3600 50  0001 C CNN
-F 3 "" H 9350 3600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9350 3600 50  0001 C CNN
+F 4 "311-100CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9350 3600
 	0    1    1    0   
 $EndComp
@@ -1366,7 +1388,8 @@ P 8700 3850
 F 0 "TP420" H 8600 3650 50  0000 L CNN
 F 1 "B_I_TP" H 8600 3750 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8700 3850 50  0001 C CNN
-F 3 "~" H 8700 3850 50  0001 C CNN
+F 3 "N/A" H 8700 3850 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8700 3850
 	0    1    -1   0   
 $EndComp
@@ -1423,7 +1446,8 @@ P 8900 5200
 F 0 "TP422" H 8800 5000 50  0000 L CNN
 F 1 "Batt_I_TP" H 8700 5100 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8900 5200 50  0001 C CNN
-F 3 "~" H 8900 5200 50  0001 C CNN
+F 3 "N/A" H 8900 5200 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8900 5200
 	0    1    -1   0   
 $EndComp
@@ -1448,7 +1472,8 @@ P 9550 4950
 F 0 "R409" V 9650 4850 50  0000 L CNN
 F 1 "10K" V 9450 4850 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9480 4950 50  0001 C CNN
-F 3 "" H 9550 4950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 9550 4950 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9550 4950
 	0    1    1    0   
 $EndComp
@@ -1470,7 +1495,8 @@ P 8750 6100
 F 0 "TP421" H 8650 5900 50  0000 L CNN
 F 1 "Batt_V_TP" H 8550 6000 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8750 6100 50  0001 C CNN
-F 3 "~" H 8750 6100 50  0001 C CNN
+F 3 "N/A" H 8750 6100 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    8750 6100
 	0    1    -1   0   
 $EndComp
@@ -1718,7 +1744,8 @@ P 4100 2350
 F 0 "TP404" V 4100 2650 50  0000 C CNN
 F 1 "TestPoint" V 4145 2538 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 2350 50  0001 C CNN
-F 3 "~" H 4300 2350 50  0001 C CNN
+F 3 "N/A" H 4300 2350 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4100 2350
 	0    -1   -1   0   
 $EndComp
@@ -1729,7 +1756,8 @@ P 4100 2250
 F 0 "TP403" V 4100 2550 50  0000 C CNN
 F 1 "TestPoint" V 4145 2438 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 2250 50  0001 C CNN
-F 3 "~" H 4300 2250 50  0001 C CNN
+F 3 "N/A" H 4300 2250 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4100 2250
 	0    -1   -1   0   
 $EndComp
@@ -1740,7 +1768,8 @@ P 4100 2600
 F 0 "TP406" V 4100 2900 50  0000 C CNN
 F 1 "TestPoint" V 4145 2788 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 2600 50  0001 C CNN
-F 3 "~" H 4300 2600 50  0001 C CNN
+F 3 "N/A" H 4300 2600 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4100 2600
 	0    -1   -1   0   
 $EndComp
@@ -1751,7 +1780,8 @@ P 4100 2700
 F 0 "TP407" V 4100 3000 50  0000 C CNN
 F 1 "TestPoint" V 4145 2888 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 2700 50  0001 C CNN
-F 3 "~" H 4300 2700 50  0001 C CNN
+F 3 "N/A" H 4300 2700 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4100 2700
 	0    -1   -1   0   
 $EndComp
@@ -1762,7 +1792,8 @@ P 4100 2800
 F 0 "TP408" V 4100 3100 50  0000 C CNN
 F 1 "TestPoint" V 4145 2988 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 2800 50  0001 C CNN
-F 3 "~" H 4300 2800 50  0001 C CNN
+F 3 "N/A" H 4300 2800 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    4100 2800
 	0    -1   -1   0   
 $EndComp
@@ -1783,7 +1814,8 @@ P 1150 4150
 F 0 "TP401" V 1150 4450 50  0000 C CNN
 F 1 "B_Ref" V 1050 4250 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1350 4150 50  0001 C CNN
-F 3 "~" H 1350 4150 50  0001 C CNN
+F 3 "N/A" H 1350 4150 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    1150 4150
 	1    0    0    -1  
 $EndComp
@@ -1794,7 +1826,8 @@ P 2100 4150
 F 0 "TP402" V 2100 4450 50  0000 C CNN
 F 1 "A_Ref" V 2000 4250 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2300 4150 50  0001 C CNN
-F 3 "~" H 2300 4150 50  0001 C CNN
+F 3 "N/A" H 2300 4150 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2100 4150
 	1    0    0    -1  
 $EndComp

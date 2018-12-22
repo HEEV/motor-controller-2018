@@ -875,7 +875,8 @@ P 2650 4550
 F 0 "R101" H 2450 4700 50  0000 L CNN
 F 1 "10K" H 2450 4550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 4550 50  0001 C CNN
-F 3 "" H 2650 4550 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2650 4550 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2650 4550
 	1    0    0    -1  
 $EndComp
@@ -921,7 +922,8 @@ P 9250 2150
 F 0 "J111" H 9275 833 50  0000 C CNN
 F 1 "Trinamic-Bridge" H 9275 924 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x22_P2.54mm_Vertical" H 8750 2150 50  0001 C CNN
-F 3 "" H 8750 2150 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/10492.pdf" H 8750 2150 50  0001 C CNN
+F 4 "S7125-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    9250 2150
 	1    0    0    1   
 $EndComp
@@ -1183,7 +1185,8 @@ P 2450 2350
 F 0 "R102" H 2150 2400 50  0000 L CNN
 F 1 "10K" H 2200 2300 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2380 2350 50  0001 C CNN
-F 3 "~" H 2450 2350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2450 2350 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2450 2350
 	-1   0    0    -1  
 $EndComp
@@ -1301,7 +1304,8 @@ P 5200 3800
 F 0 "J108" V 5200 3550 50  0000 C CNN
 F 1 "CAN_DBG" V 5300 3750 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5200 3800 50  0001 C CNN
-F 3 "~" H 5200 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 5200 3800 50  0001 C CNN
+F 4 "S1212EC-02-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    5200 3800
 	0    -1   -1   0   
 $EndComp
@@ -1312,7 +1316,8 @@ P 7850 3800
 F 0 "J110" V 7850 3450 50  0000 C CNN
 F 1 "SPI_DBG" V 7950 3750 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 3800 50  0001 C CNN
-F 3 "~" H 7850 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 7850 3800 50  0001 C CNN
+F 4 "S1212EC-04-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7850 3800
 	0    -1   -1   0   
 $EndComp
@@ -1329,7 +1334,8 @@ P 2100 3550
 F 0 "J109" H 2100 3900 50  0000 C CNN
 F 1 "ABN Encoder" V 2200 3550 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2100 3550 50  0001 C CNN
-F 3 "~" H 2100 3550 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 2100 3550 50  0001 C CNN
+F 4 "S1212EC-05-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    2100 3550
 	-1   0    0    1   
 $EndComp
@@ -1762,7 +1768,8 @@ P 5800 2700
 F 0 "D103" H 5800 2800 50  0000 C CNN
 F 1 "Vin" H 5792 2536 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 5800 2700 50  0001 C CNN
-F 3 "~" H 5800 2700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/150060RS55040.pdf" H 5800 2700 50  0001 C CNN
+F 4 "732-12015-1-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    5800 2700
 	-1   0    0    1   
 $EndComp
@@ -1773,7 +1780,8 @@ P 6700 2700
 F 0 "D104" H 6700 2800 50  0000 C CNN
 F 1 "5V" H 6692 2536 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 6700 2700 50  0001 C CNN
-F 3 "~" H 6700 2700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/150060RS55040.pdf" H 6700 2700 50  0001 C CNN
+F 4 "732-12015-1-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    6700 2700
 	-1   0    0    1   
 $EndComp
@@ -1784,7 +1792,8 @@ P 7600 2700
 F 0 "D105" H 7600 2800 50  0000 C CNN
 F 1 "3.3V" H 7592 2536 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 7600 2700 50  0001 C CNN
-F 3 "~" H 7600 2700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/150060RS55040.pdf" H 7600 2700 50  0001 C CNN
+F 4 "732-12015-1-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7600 2700
 	-1   0    0    1   
 $EndComp
@@ -1793,9 +1802,10 @@ L MotorControllerParts:R R105
 U 1 1 5C15D961
 P 7250 2700
 F 0 "R105" V 7350 2700 50  0000 C CNN
-F 1 "510R" V 7134 2700 50  0000 C CNN
+F 1 "330R" V 7134 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 7180 2700 50  0001 C CNN
-F 3 "~" H 7250 2700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7250 2700 50  0001 C CNN
+F 4 "311-330CRCT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    7250 2700
 	0    1    1    0   
 $EndComp
@@ -1806,7 +1816,8 @@ P 6350 2700
 F 0 "R104" V 6450 2700 50  0000 C CNN
 F 1 "1K" V 6234 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6280 2700 50  0001 C CNN
-F 3 "~" H 6350 2700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 6350 2700 50  0001 C CNN
+F 4 "A129749CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    6350 2700
 	0    1    1    0   
 $EndComp
@@ -1817,7 +1828,8 @@ P 5450 2700
 F 0 "R103" V 5550 2700 50  0000 C CNN
 F 1 "10K" V 5334 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 2700 50  0001 C CNN
-F 3 "~" H 5450 2700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 5450 2700 50  0001 C CNN
+F 4 "A129761CT-ND" H 0   0   50  0001 C CNN "Digi-key#"
 	1    5450 2700
 	0    1    1    0   
 $EndComp
