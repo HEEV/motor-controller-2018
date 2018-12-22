@@ -45,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 6950 3700 6950
 $Comp
-L power:+5V #PWR0111
+L MotorControllerParts:+5V #PWR0111
 U 1 1 5BBE81EF
 P 3550 3850
 F 0 "#PWR0111" H 3550 3700 50  0001 C CNN
@@ -432,7 +432,7 @@ Text Notes 5050 900  0    50   ~ 0
 Text Notes 1850 1050 0    50   ~ 0
 5V switching regulator, up to 50V input, maximum 600mA output current. \nThe regulator is short circuit protected.\nA P-Channel MOSFET is used as an ideal diode with a 18v zener diode to\nprotect the MOSFET gate. The 10K resistor limits the zener diode current\nto 3mA at 48V input. A Schotty diode is used to protect the USB 5V line\nfrom reverse current. 
 $Comp
-L Device:Q_PMOS_GDS Q101
+L MotorControllerParts:Q_PMOS_GDS Q101
 U 1 1 5BFA3DE2
 P 2450 1850
 F 0 "Q101" V 2700 1850 50  0000 C CNN
@@ -444,7 +444,7 @@ F 4 "785-1102-1-ND" H 2450 1850 50  0001 C CNN "Digi-key#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Zener_ALT D101
+L MotorControllerParts:D_Zener_ALT D101
 U 1 1 5BFA3DE9
 P 2850 1950
 F 0 "D101" V 2950 2000 50  0000 L CNN
@@ -656,7 +656,7 @@ Wire Wire Line
 Text Label 1550 3550 2    50   ~ 0
 Throttle
 $Comp
-L power:+5V #PWR0107
+L MotorControllerParts:+5V #PWR0107
 U 1 1 5C00DC4D
 P 1550 3150
 F 0 "#PWR0107" H 1550 3000 50  0001 C CNN
@@ -757,7 +757,7 @@ F 3 "" H 2450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L MotorControllerParts:+5V #PWR0108
 U 1 1 5C06D333
 P 2200 5850
 F 0 "#PWR0108" H 2200 5700 50  0001 C CNN
@@ -850,7 +850,7 @@ F 3 "" H 2300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0113
+L MotorControllerParts:+5V #PWR0113
 U 1 1 5BF8E00C
 P 2300 4350
 F 0 "#PWR0113" H 2300 4200 50  0001 C CNN
@@ -886,7 +886,7 @@ L MotorControllerParts:+3.3V #PWR0115
 U 1 1 5BFAF9CA
 P 2650 4350
 F 0 "#PWR0115" H 2650 4200 50  0001 C CNN
-F 1 "+3.3V" H 2600 4550 50  0000 C CNN
+F 1 "+3.3V" H 2650 4550 50  0000 C CNN
 F 2 "" H 2650 4350 50  0001 C CNN
 F 3 "" H 2650 4350 50  0001 C CNN
 	1    2650 4350
@@ -1345,7 +1345,7 @@ F 3 "" H 2400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0118
+L MotorControllerParts:+5V #PWR0118
 U 1 1 5E78636F
 P 2400 3250
 F 0 "#PWR0118" H 2400 3100 50  0001 C CNN
@@ -1376,7 +1376,7 @@ ENC_B_in
 Text Label 2700 3450 2    50   ~ 0
 ENC_A_in
 $Comp
-L power:+5V #PWR0140
+L MotorControllerParts:+5V #PWR0140
 U 1 1 5E8886B9
 P 10150 900
 F 0 "#PWR0140" H 10150 750 50  0001 C CNN
@@ -1847,7 +1847,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2700 7100 2700
 $Comp
-L power:+5V #PWR0143
+L MotorControllerParts:+5V #PWR0143
 U 1 1 5C172733
 P 6100 2650
 F 0 "#PWR0143" H 6100 2500 50  0001 C CNN
@@ -1927,4 +1927,5 @@ Wire Notes Line
 	5000 3000 5000 2300
 Text Notes 6150 2400 0    50   ~ 0
 Power Status LEDs
+NoConn ~ 9900 1750
 $EndSCHEMATC

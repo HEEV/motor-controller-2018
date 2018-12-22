@@ -1,114 +1,14 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xx:74HC7014
+# MotorControllerParts_+3.3V
 #
-DEF 74xx:74HC7014 U 0 20 Y Y 7 L N
-F0 "U" 0 50 50 H V C CNN
-F1 "74xx:74HC7014" 0 -50 50 H V C CNN
-F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SOIC*3.9x8.7mm*P1.27mm*
-$ENDFPLIST
-DRAW
-S -200 300 200 -300 7 1 10 f
-P 3 1 1 0 -75 -50 -75 50 -25 50 N
-P 4 1 1 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 1 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 2 1 0 -75 -50 -75 50 -25 50 N
-P 4 2 1 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 2 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 3 1 0 -75 -50 -75 50 -25 50 N
-P 4 3 1 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 3 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 4 1 0 -75 -50 -75 50 -25 50 N
-P 4 4 1 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 4 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 5 1 0 -75 -50 -75 50 -25 50 N
-P 4 5 1 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 5 1 0 -100 -50 -25 -50 -25 50 0 50 N
-P 3 6 1 0 -75 -50 -75 50 -25 50 N
-P 4 6 1 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 6 1 0 -100 -50 -25 -50 -25 50 0 50 N
-X ~ 1 -300 0 150 R 50 50 1 1 I
-X ~ 2 300 0 150 L 50 50 1 1 O
-X ~ 3 -300 0 150 R 50 50 2 1 I
-X ~ 4 300 0 150 L 50 50 2 1 O
-X ~ 5 -300 0 150 R 50 50 3 1 I
-X ~ 6 300 0 150 L 50 50 3 1 O
-X ~ 8 300 0 150 L 50 50 4 1 O
-X ~ 9 -300 0 150 R 50 50 4 1 I
-X ~ 10 300 0 150 L 50 50 5 1 O
-X ~ 11 -300 0 150 R 50 50 5 1 I
-X ~ 12 300 0 150 L 50 50 6 1 O
-X ~ 13 -300 0 150 R 50 50 6 1 I
-X VCC 14 0 500 200 D 50 50 7 1 W
-X GND 7 0 -500 200 U 50 50 7 1 W
-ENDDRAW
-ENDDEF
-#
-# Device:D_Zener_ALT
-#
-DEF Device:D_Zener_ALT D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_Zener_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Q_PMOS_GDS
-#
-DEF Device:Q_PMOS_GDS Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PMOS_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 2 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 90 0 50 -15 50 15 90 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
-P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
-X G 1 -200 0 200 R 50 50 1 1 I
-X D 2 100 200 100 D 50 50 1 1 P
-X S 3 100 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MotorControllerParts:+3.3V
-#
-DEF MotorControllerParts:+3.3V #PWR 0 0 Y Y 1 F P
+DEF MotorControllerParts_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MotorControllerParts:+3.3V" 0 140 50 H V C CNN
+F1 "MotorControllerParts_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -117,11 +17,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:+5V
+# MotorControllerParts_+5V
 #
-DEF MotorControllerParts:+5V #PWR 0 0 Y Y 1 F P
+DEF MotorControllerParts_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MotorControllerParts:+5V" 0 140 50 H V C CNN
+F1 "MotorControllerParts_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -132,11 +32,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:+BATT
+# MotorControllerParts_+BATT
 #
-DEF MotorControllerParts:+BATT #PWR 0 0 Y Y 1 F P
+DEF MotorControllerParts_+BATT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MotorControllerParts:+BATT" 0 140 50 H V C CNN
+F1 "MotorControllerParts_+BATT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -147,11 +47,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:74HC7014
+# MotorControllerParts_74HC7014
 #
-DEF MotorControllerParts:74HC7014 U 0 20 Y Y 7 L N
+DEF MotorControllerParts_74HC7014 U 0 20 Y Y 7 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "MotorControllerParts:74HC7014" 0 -50 50 H V C CNN
+F1 "MotorControllerParts_74HC7014" 0 -50 50 H V C CNN
 F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -194,11 +94,11 @@ X GND 7 0 -500 200 U 50 50 7 1 W
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:AP7361C
+# MotorControllerParts_AP7361C
 #
-DEF MotorControllerParts:AP7361C U 0 40 Y Y 1 F N
+DEF MotorControllerParts_AP7361C U 0 40 Y Y 1 F N
 F0 "U" 200 150 50 H V C CNN
-F1 "MotorControllerParts:AP7361C" -100 150 50 H V C CNN
+F1 "MotorControllerParts_AP7361C" -100 150 50 H V C CNN
 F2 "TO_SOT_Packages_SMD:SOT-223" 100 250 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -209,11 +109,11 @@ X Vout 3 500 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:C
+# MotorControllerParts_C
 #
-DEF MotorControllerParts:C C 0 10 N Y 1 F N
+DEF MotorControllerParts_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "MotorControllerParts:C" 25 -100 50 H V L CNN
+F1 "MotorControllerParts_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -227,11 +127,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:C_Small
+# MotorControllerParts_C_Small
 #
-DEF MotorControllerParts:C_Small C 0 10 N N 1 F N
+DEF MotorControllerParts_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "MotorControllerParts:C_Small" 10 -80 50 H V L CNN
+F1 "MotorControllerParts_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -245,11 +145,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Conn_01x02
+# MotorControllerParts_Conn_01x02
 #
-DEF MotorControllerParts:Conn_01x02 J 0 40 Y N 1 F N
+DEF MotorControllerParts_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "MotorControllerParts:Conn_01x02" 0 -200 50 H V C CNN
+F1 "MotorControllerParts_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -264,11 +164,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Conn_01x03
+# MotorControllerParts_Conn_01x03
 #
-DEF MotorControllerParts:Conn_01x03 J 0 40 Y N 1 F N
+DEF MotorControllerParts_Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "MotorControllerParts:Conn_01x03" 0 -200 50 H V C CNN
+F1 "MotorControllerParts_Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -285,11 +185,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Conn_01x04
+# MotorControllerParts_Conn_01x04
 #
-DEF MotorControllerParts:Conn_01x04 J 0 40 Y N 1 F N
+DEF MotorControllerParts_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "MotorControllerParts:Conn_01x04" 0 -300 50 H V C CNN
+F1 "MotorControllerParts_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -308,11 +208,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Conn_01x05
+# MotorControllerParts_Conn_01x05
 #
-DEF MotorControllerParts:Conn_01x05 J 0 40 Y N 1 F N
+DEF MotorControllerParts_Conn_01x05 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "MotorControllerParts:Conn_01x05" 0 -300 50 H V C CNN
+F1 "MotorControllerParts_Conn_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -333,11 +233,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Conn_01x06
+# MotorControllerParts_Conn_01x06
 #
-DEF MotorControllerParts:Conn_01x06 J 0 40 Y N 1 F N
+DEF MotorControllerParts_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "MotorControllerParts:Conn_01x06" 0 -400 50 H V C CNN
+F1 "MotorControllerParts_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -360,11 +260,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Conn_02x07_Top_Bottom
+# MotorControllerParts_Conn_02x07_Top_Bottom
 #
-DEF MotorControllerParts:Conn_02x07_Top_Bottom J 0 40 Y N 1 F N
+DEF MotorControllerParts_Conn_02x07_Top_Bottom J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "MotorControllerParts:Conn_02x07_Top_Bottom" 50 -400 50 H V C CNN
+F1 "MotorControllerParts_Conn_02x07_Top_Bottom" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -403,11 +303,11 @@ X Pin_9 9 300 200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Crystal
+# MotorControllerParts_Crystal
 #
-DEF MotorControllerParts:Crystal Y 0 40 N N 1 F N
+DEF MotorControllerParts_Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "MotorControllerParts:Crystal" 0 -150 50 H V C CNN
+F1 "MotorControllerParts_Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -424,11 +324,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:D36V6Fx
+# MotorControllerParts_D36V6Fx
 #
-DEF MotorControllerParts:D36V6Fx U 0 40 Y Y 1 F N
+DEF MotorControllerParts_D36V6Fx U 0 40 Y Y 1 F N
 F0 "U" 100 250 50 H V C CNN
-F1 "MotorControllerParts:D36V6Fx" 0 100 50 H V C CNN
+F1 "MotorControllerParts_D36V6Fx" 0 100 50 H V C CNN
 F2 "supermileage_footprints:D36V6Fx" 0 350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -443,11 +343,11 @@ X ~SHDN 4 150 -450 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:D_Schottky_ALT
+# MotorControllerParts_D_Schottky_ALT
 #
-DEF MotorControllerParts:D_Schottky_ALT D 0 40 N N 1 F N
+DEF MotorControllerParts_D_Schottky_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "MotorControllerParts:D_Schottky_ALT" 0 -100 50 H V C CNN
+F1 "MotorControllerParts_D_Schottky_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -465,11 +365,33 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:GNDD
+# MotorControllerParts_D_Zener_ALT
 #
-DEF MotorControllerParts:GNDD #PWR 0 0 Y Y 1 F P
+DEF MotorControllerParts_D_Zener_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MotorControllerParts_D_Zener_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MotorControllerParts_GNDD
+#
+DEF MotorControllerParts_GNDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "MotorControllerParts:GNDD" 0 -125 50 H V C CNN
+F1 "MotorControllerParts_GNDD" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -479,11 +401,11 @@ X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:IQXO-50
+# MotorControllerParts_IQXO-50
 #
-DEF MotorControllerParts:IQXO-50 X 0 10 Y Y 1 F N
+DEF MotorControllerParts_IQXO-50 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
-F1 "MotorControllerParts:IQXO-50" 50 -250 50 H V L CNN
+F1 "MotorControllerParts_IQXO-50" 50 -250 50 H V L CNN
 F2 "Oscillator:Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm" 675 -325 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -496,11 +418,11 @@ X V+ 4 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Jumper_NC_Small
+# MotorControllerParts_Jumper_NC_Small
 #
-DEF MotorControllerParts:Jumper_NC_Small JP 0 30 N N 1 F N
+DEF MotorControllerParts_Jumper_NC_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "MotorControllerParts:Jumper_NC_Small" 10 -60 50 H V C CNN
+F1 "MotorControllerParts_Jumper_NC_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -512,11 +434,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:LED_ALT
+# MotorControllerParts_LED_ALT
 #
-DEF MotorControllerParts:LED_ALT D 0 40 N N 1 F N
+DEF MotorControllerParts_LED_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "MotorControllerParts:LED_ALT" 0 -150 50 H V C CNN
+F1 "MotorControllerParts_LED_ALT" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -535,11 +457,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:MCP6004
+# MotorControllerParts_MCP6004
 #
-DEF MotorControllerParts:MCP6004 U 0 5 Y Y 5 L N
+DEF MotorControllerParts_MCP6004 U 0 5 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "MotorControllerParts:MCP6004" 0 -200 50 H V L CNN
+F1 "MotorControllerParts_MCP6004" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
@@ -571,11 +493,11 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Polyfuse_Small
+# MotorControllerParts_Polyfuse_Small
 #
-DEF MotorControllerParts:Polyfuse_Small F 0 0 N Y 1 F N
+DEF MotorControllerParts_Polyfuse_Small F 0 0 N Y 1 F N
 F0 "F" -75 0 50 V V C CNN
-F1 "MotorControllerParts:Polyfuse_Small" 75 0 50 V V C CNN
+F1 "MotorControllerParts_Polyfuse_Small" 75 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -591,11 +513,43 @@ X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:R
+# MotorControllerParts_Q_PMOS_GDS
 #
-DEF MotorControllerParts:R R 0 0 N Y 1 F N
+DEF MotorControllerParts_Q_PMOS_GDS Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "MotorControllerParts_Q_PMOS_GDS" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MotorControllerParts_R
+#
+DEF MotorControllerParts_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "MotorControllerParts:R" 0 0 50 V V C CNN
+F1 "MotorControllerParts_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -608,11 +562,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:R_Small
+# MotorControllerParts_R_Small
 #
-DEF MotorControllerParts:R_Small R 0 10 N N 1 F N
+DEF MotorControllerParts_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "MotorControllerParts:R_Small" 30 -40 50 H V L CNN
+F1 "MotorControllerParts_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -625,11 +579,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:STM32F303RETx
+# MotorControllerParts_STM32F303RETx
 #
-DEF MotorControllerParts:STM32F303RETx U 0 20 Y Y 1 F N
+DEF MotorControllerParts_STM32F303RETx U 0 20 Y Y 1 F N
 F0 "U" -600 1750 50 H V L CNN
-F1 "MotorControllerParts:STM32F303RETx" 400 1750 50 H V L CNN
+F1 "MotorControllerParts_STM32F303RETx" 400 1750 50 H V L CNN
 F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" -600 -1700 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS STM32F303RETx
@@ -705,11 +659,11 @@ X PC1 9 -700 -200 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:SW_Push_45deg
+# MotorControllerParts_SW_Push_45deg
 #
-DEF MotorControllerParts:SW_Push_45deg SW 0 40 N N 1 F N
+DEF MotorControllerParts_SW_Push_45deg SW 0 40 N N 1 F N
 F0 "SW" 120 40 50 H V L CNN
-F1 "MotorControllerParts:SW_Push_45deg" 0 -150 50 H V C CNN
+F1 "MotorControllerParts_SW_Push_45deg" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -724,11 +678,11 @@ X 2 2 100 -100 0 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:TMC4671
+# MotorControllerParts_TMC4671
 #
-DEF MotorControllerParts:TMC4671 U 0 40 Y Y 1 F N
+DEF MotorControllerParts_TMC4671 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "MotorControllerParts:TMC4671" 0 100 50 H V C CNN
+F1 "MotorControllerParts_TMC4671" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -813,11 +767,11 @@ X SPI_MISO 9 -1400 150 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:TestPoint
+# MotorControllerParts_TestPoint
 #
-DEF MotorControllerParts:TestPoint TP 0 30 N N 1 F N
+DEF MotorControllerParts_TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "MotorControllerParts:TestPoint" 0 200 50 H V C CNN
+F1 "MotorControllerParts_TestPoint" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -830,11 +784,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:TestPoint_2Pole
+# MotorControllerParts_TestPoint_2Pole
 #
-DEF MotorControllerParts:TestPoint_2Pole TP 0 30 Y N 1 F N
+DEF MotorControllerParts_TestPoint_2Pole TP 0 30 Y N 1 F N
 F0 "TP" 0 60 50 H V C CNN
-F1 "MotorControllerParts:TestPoint_2Pole" 0 -70 50 H V C CNN
+F1 "MotorControllerParts_TestPoint_2Pole" 0 -70 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -849,11 +803,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Trinamic-Conntector
+# MotorControllerParts_Trinamic-Conntector
 #
-DEF MotorControllerParts:Trinamic-Conntector J 0 40 Y Y 1 F N
+DEF MotorControllerParts_Trinamic-Conntector J 0 40 Y Y 1 F N
 F0 "J" 0 1100 50 H V C CNN
-F1 "MotorControllerParts:Trinamic-Conntector" 0 -1200 50 H V C CNN
+F1 "MotorControllerParts_Trinamic-Conntector" 0 -1200 50 H V C CNN
 F2 "" -500 0 50 H I C CNN
 F3 "" -500 0 50 H I C CNN
 $FPLIST
@@ -952,11 +906,11 @@ X DIO1 9 -600 600 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:Trinamic_TRMI
+# MotorControllerParts_Trinamic_TRMI
 #
-DEF MotorControllerParts:Trinamic_TRMI J 0 40 Y N 1 F N
+DEF MotorControllerParts_Trinamic_TRMI J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "MotorControllerParts:Trinamic_TRMI" 50 -300 50 H V C CNN
+F1 "MotorControllerParts_Trinamic_TRMI" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -987,11 +941,11 @@ X MISO 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:USB_B_Micro
+# MotorControllerParts_USB_B_Micro
 #
-DEF MotorControllerParts:USB_B_Micro J 0 40 Y Y 1 F N
+DEF MotorControllerParts_USB_B_Micro J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "MotorControllerParts:USB_B_Micro" -200 350 50 H V L CNN
+F1 "MotorControllerParts_USB_B_Micro" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 ALIAS USB_B_Mini
@@ -1023,11 +977,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MotorControllerParts:mcp2562
+# MotorControllerParts_mcp2562
 #
-DEF MotorControllerParts:mcp2562 U 0 40 Y Y 1 F N
+DEF MotorControllerParts_mcp2562 U 0 40 Y Y 1 F N
 F0 "U" 0 -50 60 H V C CNN
-F1 "MotorControllerParts:mcp2562" 0 50 60 H V C CNN
+F1 "MotorControllerParts_mcp2562" 0 50 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1043,48 +997,18 @@ X STBY 8 -650 -100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# motor-controller-hw-cache:+3.3V
+# motor-controller-hw-cache_+3.3V
 #
-DEF motor-controller-hw-cache:+3.3V #PWR 0 0 Y Y 1 F P
+DEF motor-controller-hw-cache_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "motor-controller-hw-cache:+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+5V
-#
-DEF power:+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "motor-controller-hw-cache_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GNDD
-#
-DEF power:GNDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDD" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
