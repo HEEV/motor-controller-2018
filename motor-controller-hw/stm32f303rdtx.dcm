@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F303RDTx
+D ARM Cortex-M4 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F3 STM32F303
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf
+$ENDCMP
+#
+$CMP STM32F303RETx
+D ARM Cortex-M4 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F3 STM32F303
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf
+$ENDCMP
+#
+#End Doc Library
