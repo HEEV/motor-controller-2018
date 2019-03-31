@@ -365,14 +365,12 @@ Wire Wire Line
 	6800 4300 6100 4300
 Wire Wire Line
 	6800 4200 6100 4200
-Text Label 6800 2500 2    50   ~ 0
+Text Label 7550 2500 2    50   ~ 0
 USB_D+
-Text Label 6800 2400 2    50   ~ 0
+Text Label 7550 2400 2    50   ~ 0
 USB_D-
 Wire Wire Line
-	6800 2500 6100 2500
-Wire Wire Line
-	6800 2400 6100 2400
+	7550 2400 6100 2400
 Text Label 6800 1700 2    50   ~ 0
 A_Out1
 Text Label 6800 1800 2    50   ~ 0
@@ -1212,4 +1210,37 @@ NoConn ~ 4700 3000
 NoConn ~ 4700 2800
 NoConn ~ 4700 4400
 NoConn ~ 6100 2300
+$Comp
+L MotorControllerParts:+3V3 #PWR0319
+U 1 1 5C70AB9B
+P 7000 2000
+F 0 "#PWR0319" H 7000 1850 50  0001 C CNN
+F 1 "+3V3" H 7015 2173 50  0000 C CNN
+F 2 "" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    7000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MotorControllerParts:R_Small R308
+U 1 1 5C70AD3D
+P 7000 2150
+F 0 "R308" H 7059 2196 50  0000 L CNN
+F 1 "1K5" H 7059 2105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7000 2150 50  0001 C CNN
+F 3 "" H 7000 2150 50  0001 C CNN
+	1    7000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2050 7000 2000
+Wire Wire Line
+	6100 2500 7000 2500
+Wire Wire Line
+	7000 2250 7000 2500
+Connection ~ 7000 2500
+Wire Wire Line
+	7000 2500 7550 2500
+Text Notes 7300 2200 0    50   ~ 0
+1.5 KOhm pull up: \nenable USB programming
 $EndSCHEMATC

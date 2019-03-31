@@ -1271,7 +1271,7 @@ U 1 1 5C00C3E2
 P 5800 3450
 F 0 "U401" H 5800 3500 50  0000 C CNN
 F 1 "TMC4671" H 5800 3600 50  0000 C CNN
-F 2 "supermileage_footprints:TMC4671" H 5800 3450 50  0001 C CNN
+F 2 "supermileage_footprints:QFN76P" H 5800 3450 50  0001 C CNN
 F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC4671_datasheet_v1.03.pdf" H 5800 3450 50  0001 C CNN
 F 4 "1460-1302-ND" H 5800 3450 50  0001 C CNN "Digi-key#"
 	1    5800 3450

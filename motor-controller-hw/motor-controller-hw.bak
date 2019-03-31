@@ -806,7 +806,6 @@ Wire Wire Line
 	1600 1200 1200 1200
 Wire Wire Line
 	1600 1300 1200 1300
-NoConn ~ 1000 2150
 $Comp
 L MotorControllerParts:Polyfuse_Small F101
 U 1 1 5C1CAD40
@@ -829,14 +828,14 @@ Connection ~ 1150 3350
 $Comp
 L MotorControllerParts:Conn_01x06 J107
 U 1 1 5BF7BB3E
-P 2000 4950
-F 0 "J107" H 2000 5300 50  0000 C CNN
-F 1 "Hall Sensors" V 2100 4900 50  0000 C CNN
-F 2 "supermileage_footprints:MICRO_JST_6" H 2000 4950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2000 4950 50  0001 C CNN
-F 4 "455-1708-ND" H 2000 4950 50  0001 C CNN "Digi-key#"
-	1    2000 4950
-	-1   0    0    1   
+P 2000 4850
+F 0 "J107" H 2000 4450 50  0000 C CNN
+F 1 "Hall Sensors" V 2100 4800 50  0000 C CNN
+F 2 "supermileage_footprints:MICRO_JST_6" H 2000 4850 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2000 4850 50  0001 C CNN
+F 4 "455-1708-ND" H 2000 4850 50  0001 C CNN "Digi-key#"
+	1    2000 4850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L MotorControllerParts:GNDD #PWR0114
@@ -860,8 +859,6 @@ F 3 "" H 2300 4350 50  0001 C CNN
 	1    2300 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 4350 2300 4650
 Wire Wire Line
 	2300 4650 2200 4650
 Wire Wire Line
@@ -1353,18 +1350,14 @@ $EndComp
 $Comp
 L MotorControllerParts:+5V #PWR0118
 U 1 1 5E78636F
-P 2400 3250
-F 0 "#PWR0118" H 2400 3100 50  0001 C CNN
-F 1 "+5V" H 2415 3423 50  0000 C CNN
-F 2 "" H 2400 3250 50  0001 C CNN
-F 3 "" H 2400 3250 50  0001 C CNN
-	1    2400 3250
+P 2650 3150
+F 0 "#PWR0118" H 2650 3000 50  0001 C CNN
+F 1 "+5V" H 2665 3323 50  0000 C CNN
+F 2 "" H 2650 3150 50  0001 C CNN
+F 3 "" H 2650 3150 50  0001 C CNN
+	1    2650 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 3250 2400 3350
-Wire Wire Line
-	2400 3350 2300 3350
 Wire Wire Line
 	2400 3900 2400 3750
 Wire Wire Line
@@ -1940,4 +1933,71 @@ Wire Notes Line
 Text Notes 6150 2400 0    50   ~ 0
 Power Status LEDs
 NoConn ~ 9900 1750
+$Comp
+L MotorControllerParts:Polyfuse_Small F104
+U 1 1 5CA283F1
+P 1400 2000
+F 0 "F104" V 1300 2000 50  0000 C CNN
+F 1 "120mA PTC" V 1500 2050 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 1800 50  0001 L CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCM%20Nov2016.pdf" H 1400 2000 50  0001 C CNN
+F 4 "507-1819-1-ND" H 1400 2000 50  0001 C CNN "Digi-key#"
+	1    1400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L MotorControllerParts:+5V #PWR0147
+U 1 1 5CA3E631
+P 1550 1950
+F 0 "#PWR0147" H 1550 1800 50  0001 C CNN
+F 1 "+5V" H 1565 2123 50  0000 C CNN
+F 2 "" H 1550 1950 50  0001 C CNN
+F 3 "" H 1550 1950 50  0001 C CNN
+	1    1550 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1950 1550 2000
+$Comp
+L MotorControllerParts:Polyfuse_Small F105
+U 1 1 5CA9863C
+P 2300 4500
+F 0 "F105" H 2550 4400 50  0000 C CNN
+F 1 "50mA PTC" H 2550 4500 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2350 4300 50  0001 L CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCM%20Nov2016.pdf" H 2300 4500 50  0001 C CNN
+F 4 "507-1816-1-ND" H 2300 4500 50  0001 C CNN "Digi-key#"
+	1    2300 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 3350 2650 3150
+$Comp
+L MotorControllerParts:Jumper_NC_Small JP?
+U 1 1 5CBA3D24
+P 1150 2000
+AR Path="/5BB2528B/5CBA3D24" Ref="JP?"  Part="1" 
+AR Path="/5CBA3D24" Ref="JP101"  Part="1" 
+F 0 "JP101" H 1100 1900 50  0000 C CNN
+F 1 "5v JP" H 1150 2100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 2000 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 1150 2000 50  0001 C CNN
+F 4 "S1212EC-02-ND" H -10850 -350 50  0001 C CNN "Digi-key#"
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2000 1550 2000
+Wire Wire Line
+	1300 2000 1250 2000
+Wire Wire Line
+	1000 2150 1000 2000
+Wire Wire Line
+	1000 2000 1050 2000
+Wire Wire Line
+	2300 3350 2650 3350
+Wire Wire Line
+	2300 4600 2300 4650
+Wire Wire Line
+	2300 4400 2300 4350
 $EndSCHEMATC
