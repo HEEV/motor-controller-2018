@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name relays_switches)(type Legacy)(uri "C:/Users/sellicott.CEDARFOREST.001/Google Drive/Documents/motor-controller-2018/kicad-parts/relays_switches.lib")(options "")(descr ""))
-  (lib (name supermileage)(type Legacy)(uri "C:/Users/sellicott.CEDARFOREST.001/Google Drive/Documents/motor-controller-2018/kicad-parts/supermileage.lib")(options "")(descr ""))
-  (lib (name supermileage_computers)(type Legacy)(uri "C:/Users/sellicott.CEDARFOREST.001/Google Drive/Documents/motor-controller-2018/kicad-parts/supermileage_computers.lib")(options "")(descr ""))
-  (lib (name supermileage_sensors)(type Legacy)(uri "C:/Users/sellicott.CEDARFOREST.001/Google Drive/Documents/motor-controller-2018/kicad-parts/supermileage_sensors.lib")(options "")(descr ""))
-)
