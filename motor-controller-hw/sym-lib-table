@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name relays_switches)(type Legacy)(uri ${KIPRJMOD}/../kicad-parts/relays_switches.lib)(options "")(descr ""))
+  (lib (name supermileage)(type Legacy)(uri ${KIPRJMOD}/../kicad-parts/supermileage.lib)(options "")(descr ""))
+  (lib (name supermileage_computers)(type Legacy)(uri ${KIPRJMOD}/../kicad-parts/supermileage_computers.lib)(options "")(descr ""))
+  (lib (name supermileage_sensors)(type Legacy)(uri ${KIPRJMOD}/../kicad-parts/supermileage_sensors.lib)(options "")(descr ""))
+  (lib (name MotorControllerParts)(type Legacy)(uri ${KIPRJMOD}/MotorControllerParts.lib)(options "")(descr ""))
+  (lib (name motor-controller-hw-cache)(type Legacy)(uri ${KIPRJMOD}/motor-controller-hw-cache.lib)(options "")(descr ""))
+)

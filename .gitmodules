@@ -1,0 +1,3 @@
+[submodule "kicad-parts"]
+	path = kicad-parts
+	url = https://github.com/HEEV/kicad-parts.git 
