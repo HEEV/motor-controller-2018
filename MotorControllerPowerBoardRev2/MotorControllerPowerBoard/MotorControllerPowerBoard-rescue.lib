@@ -1,0 +1,685 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +5V-MotorControllerParts_Sam
+#
+DEF +5V-MotorControllerParts_Sam #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-MotorControllerParts_Sam" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-power
+#
+DEF +5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +BATT-MotorControllerParts_Sam
+#
+DEF +BATT-MotorControllerParts_Sam #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+BATT-MotorControllerParts_Sam" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ACS723xLCTR-20AB-MotorControllerParts_Sam
+#
+DEF ACS723xLCTR-20AB-MotorControllerParts_Sam U 0 20 Y Y 1 F N
+F0 "U" 100 450 50 H V L CNN
+F1 "ACS723xLCTR-20AB-MotorControllerParts_Sam" 100 350 50 H V L CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 100 -350 50 H I L CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 0 1 10 f
+X IP+ 1 -400 200 100 R 50 50 1 1 P
+X IP+ 2 -400 200 100 R 50 50 1 1 P N
+X IP- 3 -400 -100 100 R 50 50 1 1 P
+X IP- 4 -400 -100 100 R 50 50 1 1 P N
+X GND 5 0 -400 100 U 50 50 1 1 W
+X BW_SEL 6 400 -100 100 L 50 50 1 1 I
+X VIOUT 7 400 200 100 L 50 50 1 1 O
+X VCC 8 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# C-MotorControllerParts_Sam
+#
+DEF C-MotorControllerParts_Sam C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C-MotorControllerParts_Sam" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x02-MotorControllerParts_Sam
+#
+DEF Conn_01x02-MotorControllerParts_Sam J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x02-MotorControllerParts_Sam" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x03-MotorControllerParts_Sam
+#
+DEF Conn_01x03-MotorControllerParts_Sam J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x03-MotorControllerParts_Sam" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 w
+X Pin_2 2 -200 0 150 R 50 50 1 1 w
+X Pin_3 3 -200 -100 150 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# D_Schottky-MotorControllerParts_Sam
+#
+DEF D_Schottky-MotorControllerParts_Sam D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky-MotorControllerParts_Sam" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Schottky_ALT-MotorControllerParts_Sam
+#
+DEF D_Schottky_ALT-MotorControllerParts_Sam D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_ALT-MotorControllerParts_Sam" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_ALT-MotorControllerParts_Sam
+#
+DEF D_Zener_ALT-MotorControllerParts_Sam D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_ALT-MotorControllerParts_Sam" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_Small_ALT-MotorControllerParts_Sam
+#
+DEF D_Zener_Small_ALT-MotorControllerParts_Sam D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "D_Zener_Small_ALT-MotorControllerParts_Sam" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse-Device
+#
+DEF Fuse-Device F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Fuse-Device" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GNDA-MotorControllerParts_Sam
+#
+DEF GNDA-MotorControllerParts_Sam #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GNDA-MotorControllerParts_Sam" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDD-MotorControllerParts_Sam
+#
+DEF GNDD-MotorControllerParts_Sam #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GNDD-MotorControllerParts_Sam" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -60 50 -80 0 1 10 F
+P 2 0 1 0 0 0 0 -60 N
+X GNDD 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDMOS
+#
+DEF GNDMOS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "GNDMOS" 0 -130 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 3 0 1 8 -40 -50 -50 -80 -50 -80 N
+P 3 0 1 8 -20 -50 -30 -80 -30 -80 N
+P 3 0 1 8 0 -50 -10 -80 -10 -80 N
+P 3 0 1 8 20 -50 10 -80 10 -80 N
+P 3 0 1 8 40 -50 -40 -50 -40 -50 N
+P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
+X GNDMOS 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDPWR-MotorControllerParts_Sam_0
+#
+DEF GNDPWR-MotorControllerParts_Sam_0 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "GNDPWR-MotorControllerParts_Sam_0" 0 -130 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 3 0 1 8 -40 -50 -50 -80 -50 -80 N
+P 3 0 1 8 -20 -50 -30 -80 -30 -80 N
+P 3 0 1 8 0 -50 -10 -80 -10 -80 N
+P 3 0 1 8 20 -50 10 -80 10 -80 N
+P 3 0 1 8 40 -50 -40 -50 -40 -50 N
+P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
+X GNDPWR 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# IRFP3306-MotorControllerParts_Sam
+#
+DEF IRFP3306-MotorControllerParts_Sam Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "IRFP3306-MotorControllerParts_Sam" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 2 0 1 0 100 100 200 100 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
+X D 4 200 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_NC_Small-MotorControllerParts_Sam
+#
+DEF Jumper_NC_Small-MotorControllerParts_Sam JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_NC_Small-MotorControllerParts_Sam" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# L-MotorControllerParts_Sam
+#
+DEF L-MotorControllerParts_Sam L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-MotorControllerParts_Sam" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_ALT-MotorControllerParts_Sam
+#
+DEF LED_ALT-MotorControllerParts_Sam D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED_ALT-MotorControllerParts_Sam" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM5109-MotorControllerParts_Sam
+#
+DEF LM5109-MotorControllerParts_Sam U 0 40 Y Y 1 F N
+F0 "U" 0 500 50 H V C CNN
+F1 "LM5109-MotorControllerParts_Sam" 0 400 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -350 250 350 -250 0 1 0 N
+X VDD 1 -500 50 150 R 50 50 1 1 W
+X H_in 2 -500 -50 150 R 50 50 1 1 I
+X L_in 3 -500 -150 150 R 50 50 1 1 I
+X VSS 4 500 -150 150 L 50 50 1 1 W
+X L_out 5 500 -50 150 L 50 50 1 1 O
+X H_source 6 500 50 150 L 50 50 1 1 P
+X H_out 7 500 150 150 L 50 50 1 1 O
+X H_boot 8 -500 150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LMR16020-MotorControllerParts_Sam
+#
+DEF LMR16020-MotorControllerParts_Sam U 0 40 Y Y 1 F N
+F0 "U" 0 400 50 H V C CNN
+F1 "LMR16020-MotorControllerParts_Sam" 0 500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 300 350 -300 0 1 0 N
+X PAD 0 450 50 100 L 50 50 1 1 W N
+X BOOT 1 -500 150 100 R 50 50 1 1 W
+X VIN 2 -500 50 100 R 50 50 1 1 W
+X ENABLE 3 -500 -50 100 R 50 50 1 1 I
+X RT/SYNC 4 -500 -150 100 R 50 50 1 1 I
+X FB 5 450 -150 100 L 50 50 1 1 I
+X PGOOD 6 450 -50 100 L 50 50 1 1 O
+X GND 7 450 50 100 L 50 50 1 1 W
+X SW 8 450 150 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Power_01x02-MotorControllerParts_Sam_0
+#
+DEF Power_01x02-MotorControllerParts_Sam_0 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Power_01x02-MotorControllerParts_Sam_0" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X GND 0 0 -300 150 U 50 50 1 1 W
+X Pin_1 1 -200 0 150 R 50 50 1 1 w
+X Pin_2 2 -200 -100 150 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Power_01x03-MotorControllerParts_Sam
+#
+DEF Power_01x03-MotorControllerParts_Sam J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Power_01x03-MotorControllerParts_Sam" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X GND 0 0 -300 150 U 50 50 1 1 W
+X Pin_1 1 -200 100 150 R 50 50 1 1 w
+X Pin_2 2 -200 0 150 R 50 50 1 1 w
+X Pin_3 3 -200 -100 150 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# R-MotorControllerParts_Sam
+#
+DEF R-MotorControllerParts_Sam R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-MotorControllerParts_Sam" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_Small-MotorControllerParts_Sam
+#
+DEF R_Small-MotorControllerParts_Sam R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_Small-MotorControllerParts_Sam" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SUP90P06-09L-MotorControllerParts_Sam
+#
+DEF SUP90P06-09L-MotorControllerParts_Sam Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "SUP90P06-09L-MotorControllerParts_Sam" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TestPoint-MotorControllerParts_Sam
+#
+DEF TestPoint-MotorControllerParts_Sam TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "TestPoint-MotorControllerParts_Sam" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TestPoint_2Pole-MotorControllerParts_Sam
+#
+DEF TestPoint_2Pole-MotorControllerParts_Sam TP 0 30 Y N 1 F N
+F0 "TP" 0 60 50 H V C CNN
+F1 "TestPoint_2Pole-MotorControllerParts_Sam" 0 -70 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C -70 0 30 0 1 0 N
+C 70 0 30 0 1 0 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Trinamic-Bridge-MotorControllerParts_Sam
+#
+DEF Trinamic-Bridge-MotorControllerParts_Sam J 0 40 Y Y 1 F N
+F0 "J" -450 1100 50 H V C CNN
+F1 "Trinamic-Bridge-MotorControllerParts_Sam" -450 -1200 50 H V C CNN
+F2 "" -500 0 50 H I C CNN
+F3 "" -500 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -450 -1095 -400 -1105 1 1 6 N
+S -450 -995 -400 -1005 1 1 6 N
+S -450 -895 -400 -905 1 1 6 N
+S -450 -795 -400 -805 1 1 6 N
+S -450 -695 -400 -705 1 1 6 N
+S -450 -595 -400 -605 1 1 6 N
+S -450 -495 -400 -505 1 1 6 N
+S -450 -395 -400 -405 1 1 6 N
+S -450 -295 -400 -305 1 1 6 N
+S -450 -195 -400 -205 1 1 6 N
+S -450 -95 -400 -105 1 1 6 N
+S -450 5 -400 -5 1 1 6 N
+S -450 105 -400 95 1 1 6 N
+S -450 205 -400 195 1 1 6 N
+S -450 305 -400 295 1 1 6 N
+S -450 405 -400 395 1 1 6 N
+S -450 505 -400 495 1 1 6 N
+S -450 605 -400 595 1 1 6 N
+S -450 705 -400 695 1 1 6 N
+S -450 805 -400 795 1 1 6 N
+S -450 905 -400 895 1 1 6 N
+S -450 1005 -400 995 1 1 6 N
+S -450 1050 500 -1150 1 1 10 f
+S 500 -1095 450 -1105 1 1 6 N
+S 500 -995 450 -1005 1 1 6 N
+S 500 -895 450 -905 1 1 6 N
+S 500 -795 450 -805 1 1 6 N
+S 500 -695 450 -705 1 1 6 N
+S 500 -595 450 -605 1 1 6 N
+S 500 -495 450 -505 1 1 6 N
+S 500 -395 450 -405 1 1 6 N
+S 500 -295 450 -305 1 1 6 N
+S 500 -195 450 -205 1 1 6 N
+S 500 -95 450 -105 1 1 6 N
+S 500 5 450 -5 1 1 6 N
+S 500 105 450 95 1 1 6 N
+S 500 205 450 195 1 1 6 N
+S 500 305 450 295 1 1 6 N
+S 500 405 450 395 1 1 6 N
+S 500 505 450 495 1 1 6 N
+S 500 605 450 595 1 1 6 N
+S 500 705 450 695 1 1 6 N
+S 500 805 450 795 1 1 6 N
+S 500 905 450 895 1 1 6 N
+S 500 1005 450 995 1 1 6 N
+X V_MOT 1 -600 1000 150 R 50 50 1 1 P
+X DIO2 10 650 600 150 L 50 50 1 1 P
+X DIO3 11 -600 500 150 R 50 50 1 1 P
+X DIO4 12 650 500 150 L 50 50 1 1 P
+X DIO5 13 -600 400 150 R 50 50 1 1 P
+X AIN0 14 650 400 150 L 50 50 1 1 P
+X AIN1 15 -600 300 150 R 50 50 1 1 P
+X AIN2 16 650 300 150 L 50 50 1 1 P
+X DIO6 17 -600 200 150 R 50 50 1 1 P
+X DIO7 18 650 200 150 L 50 50 1 1 P
+X DIO8 19 -600 100 150 R 50 50 1 1 P
+X GND 2 650 1000 150 L 50 50 1 1 P
+X DIO9 20 650 100 150 L 50 50 1 1 P
+X DIO10 21 -600 0 150 R 50 50 1 1 P
+X DIO11 22 650 0 150 L 50 50 1 1 P
+X CLK16 23 -600 -100 150 R 50 50 1 1 P
+X SPI2_CSN0 24 650 -100 150 L 50 50 1 1 P
+X SPI2_CSN1 25 -600 -200 150 R 50 50 1 1 P
+X SPI2_CSN2 26 650 -200 150 L 50 50 1 1 P
+X SPI2_SCK 27 -600 -300 150 R 50 50 1 1 P
+X SPI2_SDO 28 650 -300 150 L 50 50 1 1 P
+X SPI2_SDI 29 -600 -400 150 R 50 50 1 1 P
+X GND 3 -600 900 150 R 50 50 1 1 P
+X SPI1_CSN 30 650 -400 150 L 50 50 1 1 P
+X SPI1_SCK 31 -600 -500 150 R 50 50 1 1 P
+X SPI1_SDI 32 650 -500 150 L 50 50 1 1 P
+X SPI1_SDO 33 -600 -600 150 R 50 50 1 1 P
+X DIO12 34 650 -600 150 L 50 50 1 1 P
+X DIO13 35 -600 -700 150 R 50 50 1 1 P
+X DIO14 36 650 -700 150 L 50 50 1 1 P
+X DIO15 37 -600 -800 150 R 50 50 1 1 P
+X DIO16 38 650 -800 150 L 50 50 1 1 P
+X DIO17 39 -600 -900 150 R 50 50 1 1 P
+X IO_CLK 4 650 900 150 L 50 50 1 1 P
+X DIO18 40 650 -900 150 L 50 50 1 1 P
+X DIO19 41 -600 -1000 150 R 50 50 1 1 P
+X +5V_VM 42 650 -1000 150 L 50 50 1 1 P
+X GND 43 -600 -1100 150 R 50 50 1 1 P
+X GND 44 650 -1100 150 L 50 50 1 1 P
+X +5V_USB 5 -600 800 150 R 50 50 1 1 P
+X CS_CH0 6 650 800 150 L 50 50 1 1 P
+X ID_CH1 7 -600 700 150 R 50 50 1 1 P
+X DIO0 8 650 700 150 L 50 50 1 1 P
+X DIO1 9 -600 600 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

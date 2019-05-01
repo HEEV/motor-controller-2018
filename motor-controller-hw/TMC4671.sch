@@ -1859,4 +1859,6 @@ Wire Wire Line
 Connection ~ 2100 4400
 Wire Wire Line
 	2100 4400 2100 4550
+Text Notes 7800 7050 0    50   ~ 0
+SDE 4-30-19: TMC4671 hardware issue causes R408 to \nbe changed from 10K to 3.3K. The same issue necessitates the \naddition of a 10K resistor "piggiebacked" on C420.
 $EndSCHEMATC

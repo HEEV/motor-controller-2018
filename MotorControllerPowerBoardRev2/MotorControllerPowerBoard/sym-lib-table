@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MotorControllerParts_Sam)(type Legacy)(uri H:/Senior_Design/MotorControllerPowerBoard/MotorControllerParts_Sam.lib)(options "")(descr ""))
+  (lib (name MotorControllerPowerBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/MotorControllerPowerBoard-rescue.lib)(options "")(descr ""))
+)

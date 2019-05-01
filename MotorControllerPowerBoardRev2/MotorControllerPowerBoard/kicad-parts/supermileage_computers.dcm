@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Arduino
+D Arduino development board
+K Arduino
+$ENDCMP
+#
+$CMP CM0711
+D New Eagle CM711 controller (for wiring diagrams)
+K CM711, New Eagle
+$ENDCMP
+#
+$CMP CM0711_b
+D New Eagle CM711 computer for schematics
+K CM711, New Eagle
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4PDT_Relay
+D Four pole double throw relay
+K 4PDT, Relay
+$ENDCMP
+#
+$CMP 4PDT_Relay_b
+D Four pole double throw relay (for wiring diagrams)
+K 4PDT, Relay
+$ENDCMP
+#
+$CMP Flash
+D Light Flasher
+$ENDCMP
+#
+$CMP SPDT_Relay
+D Single pole double throw relay
+K SPDT, Relay
+$ENDCMP
+#
+$CMP SPDT_Relay_b
+D Single pole double throw relay (for wiring diagrams) 
+K SPDT, Relay
+$ENDCMP
+#
+$CMP SW_Push
+D Pushbutton switch
+K SW, NO, NC, Switch, Button
+$ENDCMP
+#
+$CMP SW_SPDT
+D Single pole double throw switch
+K SW, SPDT
+$ENDCMP
+#
+$CMP SW_SPST
+D Single pole single throw switch
+K SW, SPST
+$ENDCMP
+#
+$CMP Starter_Relay
+D SPST relay for starter motor
+K SPST, Starter, Relay
+$ENDCMP
+#
+#End Doc Library

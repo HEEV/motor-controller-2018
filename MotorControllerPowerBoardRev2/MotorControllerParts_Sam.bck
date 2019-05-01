@@ -1,0 +1,167 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP ACS722xLCTR-05AB
+D ±5A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 264mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722xLCTR-10AB
+D ±10A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 132mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722xLCTR-10AU
+D 10A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 264mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722xLCTR-20AB
+D ±20A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 66mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722xLCTR-20AU
+D 20A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 132mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722xLCTR-40AB
+D ±40A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 33mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722xLCTR-40AU
+D 40A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 66mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-05AB
+D ±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 400mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-10AB
+D ±10A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 200mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-10AU
+D 10A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 400mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-20AB
+D ±20A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-20AU
+D 20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 200mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-40AB
+D ±40A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 50mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS723xLCTR-40AU
+D 40A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_ALT
+D Schottky diode, alternativ symbol
+K diode schotty
+F ~
+$ENDCMP
+#
+$CMP D_Zener_ALT
+D Zener Diode, alternativ symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Small
+D Zener Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Small_ALT
+D Zener Diode, small symbol, alternativ symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP GNDA
+D (analog) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP IRFP3306
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS n-mos n-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP LM5109
+D Half-Bridge MOSFET Gate Driver IC
+$ENDCMP
+#
+$CMP SUP90P06-09L
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_2Pole
+D 2-polar test point
+K point tp
+F ~
+$ENDCMP
+#
+#End Doc Library

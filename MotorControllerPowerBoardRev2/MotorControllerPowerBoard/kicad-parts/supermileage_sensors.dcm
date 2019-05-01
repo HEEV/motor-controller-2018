@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS710
+D Analog current sensor with fault output
+K Current, Sensor, ACS710
+$ENDCMP
+#
+$CMP ASDX100A24R
+D Honeywell atmospheric pressure sensor
+K Pressure, Sensor, ASDX
+$ENDCMP
+#
+$CMP G4V-MINI
+D All Sensors relative pressure transducer
+K G4-Mini, Pressure, Sensor
+$ENDCMP
+#
+$CMP HSCDRR004MD
+D Honeywell relative pressure transducer
+K Pressure, Sensor
+$ENDCMP
+#
+$CMP O2_Sensor
+D Oxygen sensor for megasquirt
+K Megasquirt, O2
+$ENDCMP
+#
+$CMP RPM_Sensor
+D RPM sensor for megasqurirt
+K Megasquirt, RPM
+$ENDCMP
+#
+#End Doc Library

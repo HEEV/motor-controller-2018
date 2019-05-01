@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5v_Regulator
+D D24V10F5 Pololu 5v, 1A step down voltage regulator
+$ENDCMP
+#
+#End Doc Library
