@@ -9,7 +9,7 @@
     (nets 95)
   )
 
-  (page A4)
+  (page USLetter)
   (title_block
     (title "Power Board PCB")
     (date 2019-02-26)
