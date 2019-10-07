@@ -64,6 +64,7 @@ projects.
   is soldered to the controller PCB.  
 
 The schematic files and PDF's of the PCB layout can be found in the 
+[pdf](pdf) directory.
 
 ## Software versions
 For this project we used either Kicad version 5.0.1 or 5.0.2 
